@@ -1,3 +1,14 @@
+/* Import url for google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Trirong:wght@300&display=swap');
+
+/* Universal style selector to remove margin, padding and border for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* Style rule to set font for text within the body of the webpage */
 body {
-    color: red;
+    font-family: "Open Sans", sans-serif;
 }
