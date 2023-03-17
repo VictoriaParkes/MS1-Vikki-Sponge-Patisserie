@@ -13,22 +13,24 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
-/* Style rules for headings and logo to set font and text properties */
+/* Style rule to set font family and space letters of logo and cover text*/
 h1,
 h2,
 #cover-text {
     font-family: Trirong, sans-serif;
+    letter-spacing: 3px;
+
 }
 
+/* Style rule to set logo h1 element to uppercase */
 h1 {
     text-transform: uppercase;
-    letter-spacing: 3px;
 }
 
+/* Style rule to set size and weight of font and move text up using line-height */
 h2 {
     font-size: 30px;
     font-weight: 500;
-    letter-spacing: 3px;
     line-height: 30%;
 }
 
@@ -47,31 +49,37 @@ h2 {
     color: black;
 }
 
-/* Navigation */
+/* NAVIGATION */
+/* Style rule to set depth of nav bar with links centered vertically and space letters to match logo */
 #navigation {
     letter-spacing: 3px;
     line-height: 75px;
 }
 
+/* Style rule to position nav links on right of the page */
 nav>ul {
     text-align: right;
 }
 
+/* Style rule to display nav links in a row, remove bullet points and add margin after each link */
 #navigation li {
     display: inline;
     list-style-type: none;
     margin-right: 15px;
 }
 
+/* Style rule to remove underline and inherit default colour from the body */
 #navigation a {
     text-decoration: none;
     color: inherit;
 }
 
+/* Style rule to add border under nav links as cursor hovers over */
 #navigation a:hover {
     border-bottom: 1px solid black;
 }
 
+/* Style rule to add border under the nav link of the current page */
 .active {
     border-bottom: 1px solid black;
 }
@@ -85,12 +93,16 @@ nav>ul {
 }
 
 /* COVER TEXT */
-/* */
+/* Style rule to set font properties, add padding to sides of text, 
+add curved corners to bottom of div, 
+set size of the div, 
+background color 
+and position of div */
 #cover-text {
     font-size: 20px;
-    letter-spacing: 3px;
     text-align: center;
     padding: 0 5px;
+
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
 
