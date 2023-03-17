@@ -90,7 +90,7 @@ nav>ul {
     font-size: 20px;
     letter-spacing: 3px;
     text-align: center;
-    padding: 15px 5px 20px;
+    padding: 0 5px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
 
@@ -99,8 +99,16 @@ nav>ul {
 
     background-color: white;
 
+    position: absolute;
     top: 75px;
     left: 50px;
 
-    position: absolute;
+}
+
+/* Style rule to display decorative element and set size and position */
+.decor {
+    height: 30px;
+    background: url(../images/decor.png) no-repeat center center;
+    background-size: contain;
+    margin: 10px 0;
 }
