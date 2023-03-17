@@ -15,7 +15,8 @@ body {
 
 /* Style rules for headings and logo to set font and text properties */
 h1,
-h2 {
+h2,
+#cover-text {
     font-family: Trirong, sans-serif;
 }
 
@@ -81,4 +82,25 @@ nav>ul {
     width: 100%;
     height: 450px;
     background: url('../images/index-hero.jpg') no-repeat center center;
+}
+
+/* COVER TEXT */
+/* */
+#cover-text {
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 15px 5px 20px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+    width: 400px;
+    height: 150px;
+
+    background-color: white;
+
+    top: 75px;
+    left: 50px;
+
+    position: absolute;
 }
