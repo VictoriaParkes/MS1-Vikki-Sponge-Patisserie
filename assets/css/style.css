@@ -12,3 +12,36 @@
 body {
     font-family: "Open Sans", sans-serif;
 }
+
+/* Style rules for headings and logo to set font and text properties */
+h1,
+h2 {
+    font-family: Trirong, sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    line-height: 30%;
+}
+
+/* LOGO */
+/* Style rule for logo to set element size and position */
+#logo {
+    width: 500px;
+    height: 75px;
+    float: left;
+    text-align: center;
+}
+
+/* Style rule to remove text decoration and set color of logo */
+#logo a {
+    text-decoration: none;
+    color: black;
+}
