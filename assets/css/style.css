@@ -145,6 +145,13 @@ and position of div */
     width: 50%;
 }
 
+/* Style rule to size the images to fit the space in the column and set curved corners */
+img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+}
+
 /* ABOUT */
 .col-50 h3 {
     line-height: 75px;
@@ -153,4 +160,8 @@ and position of div */
 .text-about {
     height: 375px;
     padding: 20px;
+}
+
+.img-about {
+    text-align: center;
 }
