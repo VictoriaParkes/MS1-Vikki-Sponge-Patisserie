@@ -233,3 +233,26 @@ input[type=submit]:hover {
 .invert {
     transform: scaleY(-1);
 }
+
+#social-media {
+    height: 75px;
+    background-color: #111e79;
+}
+
+/* Style rule to */
+.social-media-links {
+    text-align: center;
+}
+
+/* Style rule to */
+.social-media-links>li {
+    display: inline;
+}
+
+/* Style rule to */
+.social-media-links i {
+    font-size: 200%;
+    margin: 0 10%;
+    line-height: 75px;
+    color: white;
+}
