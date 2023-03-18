@@ -124,3 +124,33 @@ and position of div */
     background-size: contain;
     margin: 10px 0;
 }
+
+/* Style rules used by sections containing columns */
+/* Style rule to center container with margin on both sides*/
+.container {
+    Width: 90%;
+    margin: auto;
+}
+
+/* Style rule to clear floats after the columns to display subsequent elements below the row */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style rule to create tow columns next to each other */
+.col-50 {
+    float: left;
+    width: 50%;
+}
+
+/* ABOUT */
+.col-50 h3 {
+    line-height: 75px;
+}
+
+.text-about {
+    height: 375px;
+    padding: 20px;
+}
