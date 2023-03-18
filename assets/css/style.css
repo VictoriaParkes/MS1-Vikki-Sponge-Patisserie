@@ -165,3 +165,23 @@ img {
 .img-about {
     text-align: center;
 }
+
+/* REVIEWS */
+/* Style rule to center reviews text and set height of div*/
+#reviews {
+    text-align: center;
+    height: 300px;
+    padding: 75px 0;
+}
+
+/* Style rule to create three columns that float next to each other for review content*/
+.col-30 {
+    float: left;
+    min-height: 150px;
+    width: 33%;
+}
+
+/* Style rule to set color of stars */
+.star-color {
+    color: #e3b26a;
+}
