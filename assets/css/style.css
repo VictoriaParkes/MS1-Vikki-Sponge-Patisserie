@@ -45,6 +45,7 @@ h2 {
     text-align: center;
 }
 
+/* Style rule to set size, position and color of logo-background */
 .logo-background {
     max-width: 400px;
     height: 75px;
@@ -59,14 +60,14 @@ h2 {
 }
 
 /* NAVIGATION */
-/* Style rule to set depth of nav bar with links centered vertically and space letters to match logo */
+/* Style rule to set depth of nav bar with links centered vertically, space letters to match logo and set background color */
 #navigation {
     letter-spacing: 3px;
     line-height: 75px;
     background-color: #111e79;
 }
 
-/* Style rule to position nav links on right of the page */
+/* Style rule to position nav links on right of the page and set text color */
 nav>ul {
     text-align: right;
     color: white;
@@ -85,12 +86,12 @@ nav>ul {
     color: inherit;
 }
 
-/* Style rule to add border under nav links as cursor hovers over */
+/* Style rule to add border under nav links as cursor hovers over and set border thickness, style and color */
 #navigation a:hover {
     border-bottom: 1px solid #e3b26a;
 }
 
-/* Style rule to add border under the nav link of the current page */
+/* Style rule to add border under the nav link of the current page and set border thickness, style and color */
 .active {
     border-bottom: 1px solid #e3b26a;
 }
@@ -150,7 +151,7 @@ and position of div */
     clear: both;
 }
 
-/* Style rule to create tow columns next to each other */
+/* Style rule to create two equal width columns next to each other */
 .col-50 {
     float: left;
     width: 50%;
@@ -163,7 +164,8 @@ img {
     border-radius: 20px;
 }
 
-/* Universal style rules for form elements */
+/* UNIVERSAL STYLE RULES FOR FORM ELEMENTS */
+/* Style rule to set width, height, top and bottom margins and border thickness, style, color and curved corners */
 input[type=text],
 input[type=email],
 input[type=submit] {
@@ -174,7 +176,7 @@ input[type=submit] {
     border-radius: 10px;
 }
 
-/* Style the submit button */
+/* Style rule to set width, color properties and remove previously set border properties */
 input[type=submit] {
     width: 200px;
     background-color: #111e79;
@@ -188,34 +190,38 @@ input[type=submit]:hover {
 }
 
 /* ABOUT */
+/* Style rule to set line height of heading with text centered vertically */
 .col-50 h3 {
     line-height: 75px;
 }
 
+/* Style rule to set height of text div and add padding around text */
 .text-about {
     height: 375px;
     padding: 20px;
 }
 
+/* Style rule to center image in div */
 .img-about {
     text-align: center;
 }
 
 /* REVIEWS */
-/* Style rule to center reviews text and set height of div*/
+/* Style rule to center reviews text, set height of div and add padding around content */
 #reviews {
     text-align: center;
     height: 300px;
     padding: 75px 0;
 }
 
-/* Style rule to create three columns that float next to each other for review content*/
+/* Style rule to create three equal columns that float next to each other for review content */
 .col-30 {
     float: left;
     /* min-height: 150px; */
     width: 33%;
 }
 
+/* Style rule to add margin around reviews to separate */
 .review-content {
     margin: 5%;
 }
@@ -226,19 +232,19 @@ input[type=submit]:hover {
 }
 
 /* NEWSLETTER SIGN-UP */
-/* Style rule to */
-
+/* Style rule to set height of newsletter section and background color */
 #newsletter {
     height: 300px;
     background-color: #d7dbfe;
 }
 
+/* Style rule to reset width to default and set margins to reduce width to match widest contained element */
 #newsletter .container {
     Width: unset;
     Display: table;
 }
 
-/* Style rule to set size, position and color of newsletter header */
+/* Style rule to set size and position of newsletter header */
 .nl-header {
     text-align: center;
     line-height: 30px;
@@ -249,22 +255,24 @@ input[type=submit]:hover {
     transform: scaleY(-1);
 }
 
+/* SOCIAL MEDIA LINKS */
+/* Style rule to set height and color of section */
 #social-media {
     height: 75px;
     background-color: #111e79;
 }
 
-/* Style rule to */
+/* Style rule to center social media links*/
 .social-media-links {
     text-align: center;
 }
 
-/* Style rule to */
+/* Style rule to display social media links in a row */
 .social-media-links>li {
     display: inline;
 }
 
-/* Style rule to */
+/* Style rule to set size of social media icons, separte icons, center icons vertically and set icon color */
 .social-media-links i {
     font-size: 200%;
     margin: 0 10%;
