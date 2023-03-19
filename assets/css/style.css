@@ -37,10 +37,9 @@ h2 {
     line-height: 30%;
 }
 
-/* Style rule to center headings and set line height to center vertically */
+/* Style rule to center headings */
 h3 {
     text-align: center;
-    line-height: 75px;
 }
 
 /* LOGO */
@@ -198,6 +197,11 @@ input[type=submit]:hover {
 }
 
 /* ABOUT */
+/* Style rule to set line height with text centered vertically */
+#about h3 {
+    line-height: 75px;
+}
+
 /* Style rule to set height of text div and add padding around text */
 .text-about {
     height: 375px;
@@ -308,7 +312,7 @@ input[type=submit]:hover {
     /* Style rule to position navigation links below cover text and add border to separate*/
     #navigation {
         width: 100%;
-        background-color: #111e79;
+        /* background-color: #111e79; */
         position: absolute;
         top: 150px;
     }
