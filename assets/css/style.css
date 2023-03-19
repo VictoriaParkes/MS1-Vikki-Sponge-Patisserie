@@ -203,8 +203,12 @@ input[type=submit]:hover {
 /* Style rule to create three columns that float next to each other for review content*/
 .col-30 {
     float: left;
-    min-height: 150px;
+    /* min-height: 150px; */
     width: 33%;
+}
+
+.review-content {
+    margin: 5%;
 }
 
 /* Style rule to set color of stars */
