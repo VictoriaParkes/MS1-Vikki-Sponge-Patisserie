@@ -42,6 +42,11 @@ h3 {
     text-align: center;
 }
 
+/* Style rule to set line height with text centered vertically for all headings with this class attribute */
+.heading {
+    line-height: 75px;
+}
+
 /* LOGO */
 /* Style rule for logo to set element size and position */
 #logo {
@@ -162,6 +167,7 @@ and position of div */
 .col-50 {
     float: left;
     width: 50%;
+    padding: 20px 10px 20px
 }
 
 /* Style rule to size the images to fit the space in the column and set curved corners */
@@ -175,17 +181,21 @@ img {
 /* Style rule to set width, height, top and bottom margins and border thickness, style, color and curved corners */
 input[type=text],
 input[type=email],
+input[type=tel],
+select,
+input[type=date],
+textarea,
 input[type=submit] {
     width: 100%;
-    height: 40px;
-    margin: 3px 0;
+    height: 44px;
+    margin: 6px 0;
+    padding: 12px;
     border: 1px solid #e3b26a;
     border-radius: 10px;
 }
 
 /* Style rule to set width, color properties and remove previously set border properties */
 input[type=submit] {
-    width: 200px;
     background-color: #111e79;
     color: white;
     border: none;
@@ -197,11 +207,6 @@ input[type=submit]:hover {
 }
 
 /* ABOUT */
-/* Style rule to set line height with text centered vertically */
-#about h3 {
-    line-height: 75px;
-}
-
 /* Style rule to set height of text div and add padding around text */
 .text-about {
     height: 375px;
@@ -238,6 +243,35 @@ input[type=submit]:hover {
 /* Style rule to set color of stars */
 .star-color {
     color: #e3b26a;
+}
+
+/* FIND */
+
+.contact-details {
+    text-align: center;
+}
+
+.contact-details {
+    font-size: 2vw;
+    border: 1px solid #e3b26a;
+    border-radius: 20px;
+}
+
+.contact-details i {
+    margin: 20px 20px 20px 0;
+    color: #e3b26a;
+}
+
+#contact p {
+    text-align: center;
+}
+
+.contact-form {
+    height: 450px;
+}
+
+.contact-form p {
+    text-align: center;
 }
 
 /* NEWSLETTER SIGN-UP */
