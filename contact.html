@@ -47,6 +47,73 @@
         </div>
     </header>
 
+    <section id="contact">
+        <div class="container">
+            <div>
+                <h3 class="heading">
+                    If you require a cake for your celebration or event get in touch, we'd love to chat about your
+                    requirements.
+                </h3>
+            </div>
+            <div class="row">
+                <div class="col-50">
+                    <div class="contact-details">
+                        <div>
+                            <p><i class="fas fa-phone-square-alt"></i>01234 567890</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-50">
+                    <div class="contact-details">
+                        <div>
+                            <p><i class="fas fa-envelope-square"></i>email@vikki-sponge-patisserie.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3 class="heading">
+                    Or get in touch using our Enquiry Form below.
+                </h3>
+                <p>
+                    Please complete the following form, providing as much detail as possible and a member of our
+                    team
+                    will be in touch to discuss your requirements.
+                </p>
+            </div>
+            <form action="https://formdump.codeinstitute.net/" method="post" class="contact-form">
+                <div class="col-50">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter name" class="contact-input" required>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email_address" placeholder="Enter email address"
+                        class="contact-input" required>
+                    <label for="phone">Telephone Number:</label>
+                    <input type="tel" id="phone" name="phone_number" placeholder="00000-000000"
+                        pattern="[0-9]{5}-[0-9]{6}">
+                    <label for="event">Type of Event:</label>
+                    <select name="event" id="name">
+                        <option value="empty"></option>
+                        <option value="anniversary">Anniversary</option>
+                        <option value="baby-shower">Baby Shower</option>
+                        <option value="birthday">Birthday</option>
+                        <option value="christening">Christening</option>
+                        <option value="engagement">Engagement</option>
+                        <option value="wedding">Wedding</option>
+                    </select>
+                    <label for="date">Date Required:</label>
+                    <input type="date" id="date" name="date_required" placeholder="DD/MM/YYYY" class="contact-input">
+                </div>
+                <div class="col-50">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" placeholder="Enter your message here" class="contact-input"
+                        style="height:295px"></textarea>
+                    <input type="submit" value="Submit" class="contact-button">
+                </div>
+            </form>
+        </div>
+    </section>
+
     <footer>
         <section id="newsletter">
             <div class="container">
