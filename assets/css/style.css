@@ -331,6 +331,11 @@ input[type=submit]:hover {
         margin-top: 150px;
     }
 
+    /* Style rule to replace index-hero-image with smaller version */
+    #index-hero-image {
+        background: url('../images/index-hero-max-992.jpg') no-repeat center center;
+    }
+
     /* Style rule to set size and position of cover text, and remove curved bottom corners */
     #cover-text {
         height: 75px;
