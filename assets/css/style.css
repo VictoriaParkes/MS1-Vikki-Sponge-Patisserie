@@ -207,6 +207,7 @@ input[type=submit]:hover {
 /* Style rule to center image in div */
 .img-about {
     text-align: center;
+    padding: 0 20px;
 }
 
 /* REVIEWS */
