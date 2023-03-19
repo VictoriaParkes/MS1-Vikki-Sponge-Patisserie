@@ -18,6 +18,7 @@ body {
 /* Style rule to set font family and space letters of logo and cover text*/
 h1,
 h2,
+h3,
 #cover-text {
     font-family: Trirong, sans-serif;
     letter-spacing: 3px;
@@ -34,6 +35,12 @@ h2 {
     font-size: 30px;
     font-weight: 500;
     line-height: 30%;
+}
+
+/* Style rule to center headings and set line height to center vertically */
+h3 {
+    text-align: center;
+    line-height: 75px;
 }
 
 /* LOGO */
@@ -190,11 +197,6 @@ input[type=submit]:hover {
 }
 
 /* ABOUT */
-/* Style rule to set line height of heading with text centered vertically */
-.col-50 h3 {
-    line-height: 75px;
-}
-
 /* Style rule to set height of text div and add padding around text */
 .text-about {
     height: 375px;
