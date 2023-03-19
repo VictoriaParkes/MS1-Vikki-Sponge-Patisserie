@@ -279,3 +279,75 @@ input[type=submit]:hover {
     line-height: 75px;
     color: white;
 }
+
+/* RESPONSIVENESS */
+
+/* Devices up to 992px */
+@media only screen and (max-width: 992px) {
+
+    /* Style rules to position logo accross the whole width of the page */
+    header {
+        height: 75px;
+    }
+
+    #logo {
+        width: 100%;
+        float: none;
+        margin: auto;
+    }
+
+    .logo-background {
+        margin: auto;
+    }
+
+    /* Style rule to position navigation links below cover text and add border to separate*/
+    #navigation {
+        width: 100%;
+        background-color: #111e79;
+        position: absolute;
+        top: 150px;
+    }
+
+    /* Style rule to center navigation links */
+    nav>ul {
+        text-align: center;
+    }
+
+    /* Style rule to set left and right margins on navigation links */
+    #navigation li {
+        margin: 0 8px 0;
+    }
+
+    #hero {
+        margin-top: 150px;
+    }
+
+    /* Style rule to set size and position of cover text, and remove curved bottom corners */
+    #cover-text {
+        height: 75px;
+        width: 100%;
+        left: 0;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        padding: 0;
+    }
+
+    /* Style rule to set size and position of decorative element */
+    #cover-text .decor {
+        margin: 5px;
+    }
+
+    #cover-text p {
+        margin: auto;
+    }
+
+    #about {
+        margin-top: 600px;
+    }
+
+    .col-50 {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+}
