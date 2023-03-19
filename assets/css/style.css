@@ -112,15 +112,16 @@ nav>ul {
 }
 
 /* COVER TEXT */
-/* Style rule to set font properties, add padding to sides of text, 
+/* Style rule to set font properties, add space between lines, add padding to sides of text, 
 add curved corners to bottom of div, 
 set size of the div, 
 background color 
 and position of div */
 #cover-text {
-    font-size: 20px;
+    font-size: 19px;
     text-align: center;
-    padding: 0 5px;
+    line-height: 40px;
+    padding: 0 14px;
 
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -330,6 +331,7 @@ input[type=submit]:hover {
     #cover-text {
         height: 75px;
         width: 100%;
+        line-height: unset;
         left: 0;
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
