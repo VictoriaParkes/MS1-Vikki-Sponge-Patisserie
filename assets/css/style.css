@@ -345,9 +345,14 @@ input[type=submit]:hover {
         margin-top: 600px;
     }
 
-    .col-50 {
+    .col-50, .col-30 {
         width: 100%;
         height: auto;
         text-align: center;
+    }
+
+    #reviews {
+        height: auto;
+        padding: 0;
     }
 }
