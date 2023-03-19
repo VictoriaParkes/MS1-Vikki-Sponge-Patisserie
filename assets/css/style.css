@@ -200,7 +200,8 @@ input[type=submit]:hover {
 /* Style rule to set height of text div and add padding around text */
 .text-about {
     height: 375px;
-    padding: 20px;
+    padding: 0 20px 20px;
+    text-align: justify;
 }
 
 /* Style rule to center image in div */
