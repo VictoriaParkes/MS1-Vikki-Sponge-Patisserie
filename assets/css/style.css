@@ -110,12 +110,14 @@ nav>ul {
 /* HERO IMAGE */
 #index-hero-image,
 #gallery-hero-image,
-#contact-hero-image {
+#contact-hero-image,
+#find-hero-image {
     width: 100%;
 }
 
 #gallery-hero-image,
-#contact-hero-image {
+#contact-hero-image,
+#find-hero-image {
     height: 300px;
 }
 
@@ -131,6 +133,10 @@ nav>ul {
 
 #contact-hero-image {
     background: url('../images/contact-hero.jpg') no-repeat center center;
+}
+
+#find-hero-image {
+    background: url('../images/find-hero.jpg') no-repeat center center;
 }
 
 /* COVER TEXT */
