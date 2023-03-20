@@ -245,6 +245,20 @@ input[type=submit]:hover {
     color: #e3b26a;
 }
 
+/* GALLERY */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+    background-color: #e3b26a;
+}
+
+#photos>img {
+    width: 100%;
+}
+
 /* FIND */
 
 .contact-details {
