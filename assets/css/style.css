@@ -237,7 +237,7 @@ input[type=submit]:hover {
 /* ABOUT */
 /* Style rule to set height of text div and add padding around text */
 .text-about {
-    height: 375px;
+    height: 225px;
     padding: 0 20px 20px;
     text-align: justify;
 }
@@ -323,7 +323,7 @@ input[type=submit]:hover {
 
 .contact-details {
     font-size: 2vw;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 .contact-details i {
@@ -416,6 +416,20 @@ input[type=submit]:hover {
 
 /* RESPONSIVENESS */
 
+/*  */
+@media only screen and (max-width: 1570px) {
+    .text-about {
+        height: 300px;
+    }
+}
+
+/*  */
+@media only screen and (max-width: 1200px) {
+    .text-about {
+        height: 375px;
+    }
+}
+
 /* Devices up to 992px */
 @media only screen and (max-width: 992px) {
 
@@ -490,6 +504,10 @@ input[type=submit]:hover {
         width: 100%;
         height: auto;
         text-align: center;
+    }
+
+    .text-about {
+        height: unset;
     }
 
     #reviews {
