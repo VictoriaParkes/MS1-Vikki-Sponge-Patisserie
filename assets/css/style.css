@@ -311,7 +311,7 @@ input[type=submit]:hover {
     height: 100%;
 }
 
-/* FIND */
+/* CONTACT */
 
 .contact-details {
     text-align: center;
@@ -338,6 +338,23 @@ input[type=submit]:hover {
 
 .contact-form p {
     text-align: center;
+}
+
+/* FIND */
+.address,
+.times {
+    padding: 20px 0;
+    text-align: center;
+    border: 1px solid #e3b26a;
+    border-radius: 10px;
+}
+
+.address {
+    margin-bottom: 10px;
+}
+
+#find i {
+    color: #e3b26a;
 }
 
 /* NEWSLETTER SIGN-UP */
