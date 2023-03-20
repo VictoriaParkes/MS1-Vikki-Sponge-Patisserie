@@ -565,6 +565,7 @@ input[type=submit]:hover {
     }
 
     #photos {
+        margin-top: 525px;
         column-count: 2;
     }
 
