@@ -109,11 +109,13 @@ nav>ul {
 
 /* HERO IMAGE */
 #index-hero-image,
-#gallery-hero-image {
+#gallery-hero-image,
+#contact-hero-image {
     width: 100%;
 }
 
-#gallery-hero-image {
+#gallery-hero-image,
+#contact-hero-image {
     height: 300px;
 }
 
@@ -125,6 +127,10 @@ nav>ul {
 
 #gallery-hero-image {
     background: url('../images/gallery-hero.jpg') no-repeat center center;
+}
+
+#contact-hero-image {
+    background: url('../images/contact-hero.jpg') no-repeat center center;
 }
 
 /* COVER TEXT */
@@ -455,7 +461,8 @@ input[type=submit]:hover {
         margin-top: 600px;
     }
 
-    .col-50, .col-30 {
+    .col-50,
+    .col-30 {
         width: 100%;
         height: auto;
         text-align: center;
