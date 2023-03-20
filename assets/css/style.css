@@ -287,10 +287,17 @@ input[type=submit]:hover {
     Display: table;
 }
 
+#newsletter .decor {
+    margin: 4.5px 0;
+}
+
 /* Style rule to set size and position of newsletter header */
 .nl-header {
     text-align: center;
-    line-height: 30px;
+}
+
+.sign-up-form .sign-up-button {
+    width: 200px;
 }
 
 /* Style rule to display element upside down */
