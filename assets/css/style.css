@@ -499,7 +499,8 @@ input[type=submit]:hover {
         margin-top: 600px;
     }
 
-    #photos {
+    #photos,
+    #contact {
         margin-top: 450px;
     }
 
@@ -510,13 +511,22 @@ input[type=submit]:hover {
         text-align: center;
     }
 
-    .text-about {
+    .text-about,
+    .contact-form {
         height: unset;
     }
 
     #reviews {
         height: auto;
         padding: 0;
+    }
+
+    .contact-details {
+        font-size: 20px;
+    }
+
+    .contact-form .col-50 {
+        text-align: left;
     }
 }
 
@@ -543,5 +553,9 @@ input[type=submit]:hover {
 
     #navigation li {
         display: block;
+    }
+
+    .contact-details {
+        font-size: 16px;
     }
 }
