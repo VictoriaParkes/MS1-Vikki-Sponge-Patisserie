@@ -499,6 +499,10 @@ input[type=submit]:hover {
         margin-top: 600px;
     }
 
+    #photos {
+        margin-top: 450px;
+    }
+
     .col-50,
     .col-30 {
         width: 100%;
@@ -522,6 +526,10 @@ input[type=submit]:hover {
     /* Style rule to reset cover-text font size to default */
     #cover-text {
         font-size: unset;
+    }
+
+    #photos {
+        column-count: 3;
     }
 }
 
