@@ -524,3 +524,16 @@ input[type=submit]:hover {
         font-size: unset;
     }
 }
+
+/* Devices up to 600px */
+@media screen and (max-width: 600px) {
+
+    nav>ul {
+        text-align: center;
+        line-height: 37.5px;
+    }
+
+    #navigation li {
+        display: block;
+    }
+}
