@@ -108,11 +108,23 @@ nav>ul {
 }
 
 /* HERO IMAGE */
+#index-hero-image,
+#gallery-hero-image {
+    width: 100%;
+}
+
+#gallery-hero-image {
+    height: 300px;
+}
+
 /* Style rule to display the hero image and set size and position */
 #index-hero-image {
-    width: 100%;
     height: 450px;
     background: url('../images/index-hero.jpg') no-repeat center center;
+}
+
+#gallery-hero-image {
+    background: url('../images/gallery-hero.jpg') no-repeat center center;
 }
 
 /* COVER TEXT */
