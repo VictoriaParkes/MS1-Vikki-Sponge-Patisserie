@@ -556,6 +556,14 @@ input[type=submit]:hover {
         display: block;
     }
 
+    #hero {
+        margin-top: 225px;
+    }
+
+    #about {
+        margin-top: 675px;
+    }
+
     #photos {
         column-count: 2;
     }
