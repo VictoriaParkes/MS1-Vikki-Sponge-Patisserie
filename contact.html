@@ -57,14 +57,14 @@
             </div>
             <div class="row">
                 <div class="col-50">
-                    <div class="contact-details">
+                    <div class="contact-details border">
                         <div>
                             <p><i class="fas fa-phone-square-alt"></i>01234 567890</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-50">
-                    <div class="contact-details">
+                    <div class="contact-details border">
                         <div>
                             <p><i class="fas fa-envelope-square"></i>email@vikki-sponge-patisserie.com</p>
                         </div>
@@ -84,15 +84,15 @@
             <form action="https://formdump.codeinstitute.net/" method="post" class="contact-form">
                 <div class="col-50">
                     <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" placeholder="Enter name" class="contact-input" required>
+                    <input type="text" id="name" name="name" placeholder="Enter name" class="contact-input border" required>
                     <label for="email">Email Address:</label>
                     <input type="email" id="email" name="email_address" placeholder="Enter email address"
-                        class="contact-input" required>
+                        class="contact-input border" required>
                     <label for="phone">Telephone Number:</label>
-                    <input type="tel" id="phone" name="phone_number" placeholder="00000-000000"
+                    <input type="tel" id="phone" name="phone_number" placeholder="00000-000000" class="contact-input border"
                         pattern="[0-9]{5}-[0-9]{6}">
                     <label for="event">Type of Event:</label>
-                    <select name="event" id="name">
+                    <select name="event" id="name" class="contact-input border">
                         <option value="empty"></option>
                         <option value="anniversary">Anniversary</option>
                         <option value="baby-shower">Baby Shower</option>
@@ -102,11 +102,11 @@
                         <option value="wedding">Wedding</option>
                     </select>
                     <label for="date">Date Required:</label>
-                    <input type="date" id="date" name="date_required" placeholder="DD/MM/YYYY" class="contact-input">
+                    <input type="date" id="date" name="date_required" placeholder="DD/MM/YYYY" class="contact-input border">
                 </div>
                 <div class="col-50">
                     <label for="message">Your Message:</label>
-                    <textarea id="message" name="message" placeholder="Enter your message here" class="contact-input"
+                    <textarea id="message" name="message" placeholder="Enter your message here" class="contact-input border"
                         style="height:295px"></textarea>
                     <input type="submit" value="Submit" class="contact-button">
                 </div>
@@ -123,9 +123,9 @@
                         <h3>Sign up for our Newsletter</h3>
                         <p>to recieve updates and special offers</p>
                     </div>
-                    <input type="text" id="name" name="name" placeholder="Enter name" class="nl-input" required>
+                    <input type="text" id="name" name="name" placeholder="Enter name" class="nl-input border" required>
                     <input type="email" id="email" name="email_address" placeholder="Enter email address"
-                        class="nl-input" required>
+                        class="nl-input border" required>
                     <div class="container">
                         <input type="submit" value="Sign Up" class="sign-up-button">
                     </div>
