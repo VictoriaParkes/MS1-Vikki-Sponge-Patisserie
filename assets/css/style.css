@@ -572,6 +572,18 @@ input[type=submit]:hover {
         margin-top: 225px;
     }
 
+    #cover-text {
+        font-size: 12px;
+    }
+
+    .decor {
+        height: 20px;
+    }
+
+    #cover-text p {
+        padding: 1vw;
+    }
+
     #about {
         margin-top: 675px;
     }
@@ -589,5 +601,10 @@ input[type=submit]:hover {
 
     .contact-details {
         font-size: 16px;
+    }
+
+    #newsletter {
+        height: unset;
+        padding: 10px;
     }
 }
