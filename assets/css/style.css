@@ -44,7 +44,7 @@ h3 {
 
 /* Style rule to set line height with text centered vertically for all headings with this class attribute */
 .heading {
-    line-height: 75px;
+margin: 30px 0 20px;
 }
 
 .border {
