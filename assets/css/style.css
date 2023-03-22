@@ -448,6 +448,14 @@ input[type=submit]:hover {
     }
 } */
 
+/* Devices up to 1500px */
+@media only screen and (max-width: 1400px) and (min-width: 993px) {
+
+    #find-hero-image {
+        background: url('../images/find-hero-max-1400-min-993.jpg') no-repeat center center;
+    }
+}
+
 /* Devices up to 992px */
 @media only screen and (max-width: 992px) {
 
@@ -576,6 +584,14 @@ input[type=submit]:hover {
 
     #hero {
         margin-top: 225px;
+    }
+
+    #contact-hero-image {
+        background: url('../images/contact-hero-max-600.jpg') no-repeat center center;
+    }
+
+    #find-hero-image {
+        background: url('../images/find-hero-max-600.jpg') no-repeat center center;
     }
 
     #cover-text {
