@@ -598,6 +598,11 @@ input[type=submit]:hover {
         font-size: 20px;
     }
 
+    /* Style rule to add bottom margin to telephone contact details to add space between telephone and email */
+    .telephone {
+        margin-bottom: 12px;
+    }
+
     /* Style rule to set left text alingnment for contact form labels */
     .contact-form .col-50 {
         text-align: left;
