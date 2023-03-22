@@ -47,6 +47,7 @@ h3 {
     margin: 30px 0 20px;
 }
 
+/* Style rule to set border thickness, style, color and rounded corners for all elements with .border class */
 .border {
     border: 1px solid #e3b26a;
     border-radius: 10px;
@@ -78,8 +79,8 @@ h3 {
 /* NAVIGATION */
 /* Style rule to set depth of nav bar with links centered vertically, space letters to match logo and set background color */
 #navigation {
-    letter-spacing: 3px;
     line-height: 75px;
+    letter-spacing: 3px;
     background-color: #111e79;
 }
 
@@ -112,20 +113,22 @@ nav>ul {
     border-bottom: 1px solid #e3b26a;
 }
 
-/* HERO IMAGE */
+/* HERO IMAGES */
+/* Style rule to set width of div containing hero image */
 #index-hero-image,
 #gallery-hero-image,
 #find-hero-image {
     width: 100%;
 }
 
+/* Style rule to set height of div containing hero image */
 #gallery-hero-image,
 #contact-hero-image,
 #find-hero-image {
     height: 300px;
 }
 
-/* Style rule to display the hero image and set size and position */
+/* Style rule to display the index hero image and set height and position */
 #index-hero-image {
     height: 450px;
     background: url('../images/index-hero.jpg') no-repeat center center;
@@ -178,8 +181,8 @@ and position of div */
     margin: 10px 0;
 }
 
-/* Style rules used by sections containing columns */
-/* Style rule to center container with margin on both sides*/
+/* STYLE RULES USED BY SECTIONS CONTAINING COLUMNS */
+/* Style rule to center container */
 .container {
     Width: 90%;
     margin: auto;
@@ -192,7 +195,7 @@ and position of div */
     clear: both;
 }
 
-/* Style rule to create two equal width columns next to each other */
+/* Style rule to create two equal width columns next to each other with padding to position content away from edges */
 .col-50 {
     float: left;
     width: 50%;
@@ -235,7 +238,7 @@ input[type=submit]:hover {
 }
 
 /* ABOUT */
-
+/* Style rules to make columns equal height*/
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -246,14 +249,14 @@ input[type=submit]:hover {
     background-color: #d7dbfe;
 }
 
-/* Style rule to set height of text div and add padding around text */
+/* Style rule to add padding around text and set alignment to justify */
 .text-about {
     /* height: 225px; */
     padding: 0 20px 20px;
     text-align: justify;
 }
 
-/* Style rule to center image in div */
+/* Style rule to set image position at bottom of column to ensure they are both at same height on page and padding to text */
 .img-about {
     align-self: flex-end;
     /* text-align: center; */
@@ -261,7 +264,7 @@ input[type=submit]:hover {
 }
 
 /* REVIEWS */
-/* Style rule to center reviews text, set height of div and add padding around content */
+/* Style rule to center reviews text, set height of section and add padding around content for positioning*/
 #reviews {
     text-align: center;
     height: 300px;
@@ -286,34 +289,37 @@ input[type=submit]:hover {
 }
 
 /* GALLERY */
-
+/* Style rule to create gallery with 4 columns, no gaps between images and a background color */
+/* Code taken from love running project */
 #photos {
     clear: both;
-    line-height: 0;
     column-count: 4;
+    line-height: 0;
     column-gap: 0;
     background-color: #e3b26a;
 }
 
-#photos>img {
+/* #photos>img {
     width: 100%;
-}
+} */
 
 /* VIDEO */
-
+/* Style rule to center video and set background color of container */
 #video {
     text-align: center;
     background-color: #e3b26a;
 }
 
+/* Style rules to set rounded corners, background color, position and width */
+/* Code taken from https://www.w3schools.com/howto/howto_css_responsive_iframes.asp */
 .container-vid {
     border-radius: 20px 20px 0 0;
+    overflow: hidden;
     /* border-top-right-radius: 20px;
     border-top-left-radius: 20px; */
     background-color: white;
     position: relative;
     width: 100%;
-    overflow: hidden;
     padding-top: 56.25%;
 }
 
@@ -328,53 +334,62 @@ input[type=submit]:hover {
 }
 
 /* CONTACT */
-
+/* Style rule to center text */
 .contact-details {
     text-align: center;
 }
 
+/* Style rule to set responsive font-size to 2% viewport width */
 .contact-details {
     font-size: 2vw;
     /* border-radius: 20px; */
 }
 
+/* Style rule to set margins around icons to center vertically in container, separate from proceding text and set icon color */
 .contact-details i {
     margin: 20px 20px 20px 0;
     color: #e3b26a;
 }
 
+/* Style rule to center content of paragraph elements */
 #contact p {
     text-align: center;
 }
 
+/* Style rule to set top and bottom margins for positioning */
 .contact-form {
     margin: 20px 0 6px;
 }
 
+/* 
 .contact-form p {
     text-align: center;
-}
+} */
 
 /* FIND */
-
+/* Style rule to set bottom margin for positioning */
 #find {
     margin-bottom: 12px;
 }
 
+/* Style rule to add top and bottom padding to create space between text and edges of container, and center text */
 .address,
 .times {
     padding: 20px 0;
     text-align: center;
 }
 
+/* Style rule to add margin between address container and open times container */
 .address {
     margin-bottom: 10px;
 }
 
+/* Style rule to set color of icons*/
 #find i {
     color: #e3b26a;
 }
 
+/* Style rule to set size of image responsive to viewport width */
 #find img {
     width: 100%;
     height: 400px;
@@ -394,6 +409,7 @@ input[type=submit]:hover {
     Display: table;
 }
 
+/* Style rule to set top and bottom margins for positioning */
 #newsletter .decor {
     margin: 4.5px 0;
 }
@@ -403,6 +419,7 @@ input[type=submit]:hover {
     text-align: center;
 }
 
+/* Style rule to set width of submit button */
 .sign-up-form .sign-up-button {
     width: 200px;
 }
@@ -453,15 +470,19 @@ input[type=submit]:hover {
     }
 } */
 
-/* Devices up to 1500px */
+/* Devices between 1400px and 993px */
 @media only screen and (max-width: 1400px) and (min-width: 993px) {
 
+    /* Style rule to set alternative hero image for positioning of focal point */
     #find-hero-image {
         background: url('../images/find-hero-max-1400-min-993.jpg') no-repeat center center;
     }
 }
 
+/* Devices between 1200px and 993px */
 @media only screen and (max-width: 1200px) and (min-width: 993px) {
+
+    /* Style rule to set alternative hero image for positioning of focal point */
     #contact-hero-image {
         background: url('../images/contact-hero-max-1200-min-993.jpg') no-repeat right center;
         background-size: auto 300px;
@@ -486,7 +507,7 @@ input[type=submit]:hover {
         margin: auto;
     }
 
-    /* Style rule to position navigation links below cover text and add border to separate*/
+    /* Style rule to position navigation links below cover text */
     #navigation {
         width: 100%;
         /* background-color: #111e79; */
@@ -499,11 +520,12 @@ input[type=submit]:hover {
         text-align: center;
     }
 
-    /* Style rule to set left and right margins on navigation links */
+    /* Style rule to set left and right margins on navigation links for separation */
     #navigation li {
         margin: 0 8px 0;
     }
 
+    /* Style rule to set top margin to push content further down screen */
     #hero {
         margin-top: 150px;
     }
@@ -524,15 +546,17 @@ input[type=submit]:hover {
         padding: 0;
     }
 
-    /* Style rule to set size and position of decorative element */
+    /* Style rule to set margins around decorative element for positioning */
     #cover-text .decor {
         margin: 5px;
     }
 
-    #cover-text p {
+    /* Style rule to  */
+    /* #cover-text p {
         margin: auto;
-    }
+    } */
 
+    /* Style rules to set top margin to push content further down screen */
     #about {
         margin-top: 600px;
     }
@@ -546,6 +570,7 @@ input[type=submit]:hover {
         margin-top: 480px;
     }
 
+    /* Style rule to position columns on top of each other */
     .col-50,
     .col-30 {
         width: 100%;
@@ -554,19 +579,22 @@ input[type=submit]:hover {
     }
 
     /* .text-about, */
-    .contact-form {
+    /* .contact-form {
         height: unset;
-    }
+    } */
 
+    /* Style rule to set height to fit content and remove padding to reduce white space */
     #reviews {
         height: auto;
         padding: 0;
     }
 
+    /* Style rule to set font-size instead of responsive size */
     .contact-details {
         font-size: 20px;
     }
 
+    /* Style rule to set left text alingnment for contact form labels */
     .contact-form .col-50 {
         text-align: left;
     }
@@ -580,6 +608,7 @@ input[type=submit]:hover {
         font-size: unset;
     }
 
+    /* Style rule to reduce number of gallery columns to 3 */
     #photos {
         column-count: 3;
     }
@@ -588,35 +617,43 @@ input[type=submit]:hover {
 /* Devices up to 600px */
 @media screen and (max-width: 600px) {
 
+    /* Style rule to vertically space nav links equally over 150px */
     nav>ul {
-        text-align: center;
+        /* text-align: center; */
         line-height: 37.5px;
     }
 
+    /* Style rule to display nav links on top of each other */
     #navigation li {
         display: block;
     }
 
+    /* Style rule to set top margin to push content further down screen */
     #hero {
         margin-top: 225px;
     }
 
+    /* Style rule to display alternative hero image for postioning of focal point */
     #find-hero-image {
         background: url('../images/find-hero-max-600.jpg') no-repeat center center;
     }
 
+    /* Style rule to set font size of cover text to better fit the space */
     #cover-text {
         font-size: 12px;
     }
 
+    /* Style rule to set size of decorative element to better fit the space */
     .decor {
         height: 20px;
     }
 
+    /* Style rule to set padding of text to better position in the space */
     #cover-text p {
         padding: 1vw;
     }
 
+    /* Style rules to set top margin to push content further down screen */
     #about {
         margin-top: 675px;
     }
@@ -626,15 +663,18 @@ input[type=submit]:hover {
         margin-top: 555px;
     }
 
+    /* Style rule to set top margin to push content further down screen and reduce number of gallery columns to 2 */
     #photos {
         margin-top: 525px;
         column-count: 2;
     }
 
+    /* Style rule to set contact details font size */
     .contact-details {
         font-size: 16px;
     }
 
+    /* Style rule to reset height of newsletter sign up container to fit content and add padding to create space */
     #newsletter {
         height: unset;
         padding: 10px;
