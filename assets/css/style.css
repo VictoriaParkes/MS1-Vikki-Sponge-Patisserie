@@ -196,7 +196,7 @@ and position of div */
 .col-50 {
     float: left;
     width: 50%;
-    padding: 20px 10px 20px
+    padding: 0 10px;
 }
 
 /* Style rule to size the images to fit the space in the column and set curved corners */
@@ -348,7 +348,7 @@ input[type=submit]:hover {
 }
 
 .contact-form {
-    height: 450px;
+    margin: 20px 0 6px;
 }
 
 .contact-form p {
@@ -356,6 +356,11 @@ input[type=submit]:hover {
 }
 
 /* FIND */
+
+#find {
+    margin-bottom: 12px;
+}
+
 .address,
 .times {
     padding: 20px 0;
@@ -532,10 +537,13 @@ input[type=submit]:hover {
         margin-top: 600px;
     }
 
-    #photos,
+    #photos {
+        margin-top: 450px;
+    }
+
     #contact,
     #find {
-        margin-top: 450px;
+        margin-top: 480px;
     }
 
     .col-50,
@@ -613,10 +621,9 @@ input[type=submit]:hover {
         margin-top: 675px;
     }
 
-    #photos,
     #contact,
     #find {
-        margin-top: 525px;
+        margin-top: 555px;
     }
 
     #photos {
