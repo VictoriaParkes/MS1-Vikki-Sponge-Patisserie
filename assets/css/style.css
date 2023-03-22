@@ -44,7 +44,7 @@ h3 {
 
 /* Style rule to set line height with text centered vertically for all headings with this class attribute */
 .heading {
-margin: 30px 0 20px;
+    margin: 30px 0 20px;
 }
 
 .border {
@@ -115,7 +115,6 @@ nav>ul {
 /* HERO IMAGE */
 #index-hero-image,
 #gallery-hero-image,
-#contact-hero-image,
 #find-hero-image {
     width: 100%;
 }
@@ -137,7 +136,8 @@ nav>ul {
 }
 
 #contact-hero-image {
-    background: url('../images/contact-hero.jpg') no-repeat right center;
+    background: url('../images/contact-hero.jpg') no-repeat center center;
+    background-size: auto 300px;
 }
 
 #find-hero-image {
@@ -456,6 +456,13 @@ input[type=submit]:hover {
     }
 }
 
+@media only screen and (max-width: 1200px) and (min-width: 993px) {
+    #contact-hero-image {
+        background: url('../images/contact-hero-max-1200-min-993.jpg') no-repeat right center;
+        background-size: auto 300px;
+    }
+}
+
 /* Devices up to 992px */
 @media only screen and (max-width: 992px) {
 
@@ -584,10 +591,6 @@ input[type=submit]:hover {
 
     #hero {
         margin-top: 225px;
-    }
-
-    #contact-hero-image {
-        background: url('../images/contact-hero-max-600.jpg') no-repeat center center;
     }
 
     #find-hero-image {
