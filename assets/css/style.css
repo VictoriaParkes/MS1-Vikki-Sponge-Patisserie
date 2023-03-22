@@ -103,13 +103,17 @@ nav>ul {
     color: inherit;
 }
 
-/* Style rule to add border under nav links as cursor hovers over and set border thickness, style and color */
+/* Style rule to change font, set to bold and add border under nav links as cursor hovers over and set border thickness, style and color */
 #navigation a:hover {
+    font-family: trirong, sans-serif;
+    font-weight: bold;
     border-bottom: 1px solid #e3b26a;
 }
 
-/* Style rule to add border under the nav link of the current page and set border thickness, style and color */
+/* Style rule to change font, set to bold and add border under the nav link of the current page and set border thickness, style and color */
 .active {
+    font-family: trirong, sans-serif;
+    font-weight: bold;
     border-bottom: 1px solid #e3b26a;
 }
 
