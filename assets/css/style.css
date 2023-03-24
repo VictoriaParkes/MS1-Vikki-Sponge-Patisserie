@@ -236,6 +236,9 @@ input[type=submit] {
     height: 44px;
     margin: 6px 0;
     padding: 12px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
 }
 
 /* Style rule to set width, color properties and remove previously set border properties */
@@ -243,6 +246,26 @@ input[type=submit] {
     background-color: #013944;
     color: white;
     border: none;
+}
+
+input[type=text]:hover,
+input[type=email]:hover,
+input[type=tel]:hover,
+select:hover,
+input[type=date]:hover,
+textarea:hover,
+input[type=submit]:hover {
+    border: 1px solid #013944;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=tel]:focus,
+select:focus,
+input[type=date]:focus,
+textarea:focus,
+input[type=submit]:focus {
+    border: 2px solid #e3b26a;
 }
 
 /* Style rule for responsive action when hovering over submit button */
