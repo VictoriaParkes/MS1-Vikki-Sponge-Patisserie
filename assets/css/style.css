@@ -674,11 +674,6 @@ input[type=submit]:hover {
         column-count: 2;
     }
 
-    /* Style rule to set contact details font size */
-    .contact-details {
-        font-size: 16px;
-    }
-
     /* Style rule to reset height of newsletter sign up container to fit content and add padding to create space */
     #newsletter {
         height: unset;
