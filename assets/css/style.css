@@ -72,6 +72,8 @@ h3 {
     height: 78px;
     margin: 0 50px;
     background-color: white;
+    border-left: 2px solid #e3b26a;
+    border-right: 2px solid #e3b26a;
 }
 
 /* Style rule to remove text decoration and set color of logo */
@@ -174,6 +176,9 @@ and position of div */
     height: 150px;
 
     background-color: white;
+    border-bottom: 2px solid #e3b26a;
+    border-left: 2px solid #e3b26a;
+    border-right: 2px solid #e3b26a;
 
     position: absolute;
     top: 75px;
@@ -506,6 +511,7 @@ input[type=submit]:hover {
 
     .logo-background {
         margin: auto;
+        border: none;
     }
 
     /* Style rule to position navigation links below cover text */
@@ -545,6 +551,8 @@ input[type=submit]:hover {
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
         padding: 0;
+        border-left: none;
+        border-right: none;
     }
 
     /* Style rule to set margins around decorative element for positioning */
