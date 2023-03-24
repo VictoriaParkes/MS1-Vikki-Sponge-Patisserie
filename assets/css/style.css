@@ -603,6 +603,10 @@ input[type=submit]:hover {
     .contact-form .col-50 {
         text-align: left;
     }
+
+    .address {
+        margin: 6px 0 12px;
+    }
 }
 
 /* Devices up to 768px */
