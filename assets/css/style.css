@@ -12,6 +12,8 @@ and using box-border to include padding and border in elements total height and 
 
 /* Style rule to set font for text within the body of the webpage */
 body {
+    max-width: 1920px;
+    margin: auto;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -184,7 +186,7 @@ and position of div */
 
     position: absolute;
     top: 75px;
-    left: 50px;
+    margin-left: 50px;
 
 }
 
