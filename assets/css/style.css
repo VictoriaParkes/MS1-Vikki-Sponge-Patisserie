@@ -52,7 +52,7 @@ h3 {
     border: 1px solid #e3b26a;
 }
 
-/* Style rule to set curved corners for all elements with .border-radius class */
+/* Style rule to set curved corners for all elements with .border and .border-radius class */
 .border, .corners {
     border-radius: 15px;
 }
