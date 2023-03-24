@@ -338,20 +338,16 @@ input[type=submit]:hover {
 }
 
 /* CONTACT */
-/* Style rule to center text */
+/* Style rule to center text set responsive font-size to 2% viewport width and add padding to create space between text and border */
 .contact-details {
     text-align: center;
-}
-
-/* Style rule to set responsive font-size to 2% viewport width */
-.contact-details {
     font-size: 2vw;
-    /* border-radius: 20px; */
+    padding: 20px;
 }
 
 /* Style rule to set margins around icons to center vertically in container, separate from proceding text and set icon color */
 .contact-details i {
-    margin: 20px 20px 20px 0;
+    margin-right: 20px;
     color: #e3b26a;
 }
 
