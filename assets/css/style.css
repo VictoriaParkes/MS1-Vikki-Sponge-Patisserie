@@ -504,6 +504,15 @@ input[type=submit]:hover {
     }
 } */
 
+/**/
+@media only screen and (min-width: 1920px) {
+
+    .contact-details {
+        font-size: 38.4px;
+    }
+}
+
+
 /* Devices between 1400px and 993px */
 @media only screen and (max-width: 1400px) and (min-width: 993px) {
 
