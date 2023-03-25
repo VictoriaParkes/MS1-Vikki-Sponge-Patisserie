@@ -10,7 +10,7 @@ and using box-border to include padding and border in elements total height and 
     box-sizing: border-box;
 }
 
-/* Style rule to set font for text within the body of the webpage */
+/* Style rule to limit width of page to 1920px, center the page on screen and set font for text within the body of the webpage */
 body {
     max-width: 1920px;
     margin: auto;
@@ -54,7 +54,7 @@ h3 {
     border: 1px solid #e3b26a;
 }
 
-/* Style rule to set curved corners for all elements with .border and .border-radius class */
+/* Style rule to set curved corners for all elements with .border and .corners class */
 .border,
 .corners {
     border-radius: 15px;
@@ -69,7 +69,7 @@ h3 {
     text-align: center;
 }
 
-/* Style rule to set size, position and color of logo-background */
+/* Style rule to set size, position and background color of logo-background and set border thickness, style and color */
 .logo-background {
     max-width: 400px;
     height: 78px;
@@ -86,7 +86,8 @@ h3 {
 }
 
 /* NAVIGATION */
-/* Style rule to set depth of nav bar with links centered vertically, space letters to match logo and set background color */
+/* Style rule to set depth of nav bar with links centered vertically, space letters to match logo, 
+set background color gradient and solid background color for when browser does not support background gradient */
 #navigation {
     line-height: 75px;
     letter-spacing: 3px;
@@ -113,7 +114,8 @@ nav>ul {
     color: inherit;
 }
 
-/* Style rule to change font, set to bold and add border under nav links as cursor hovers over and set border thickness, style and color */
+/* Style rule to set font, set to bold and add border under nav links as cursor hovers over 
+and set border thickness, style and color */
 #navigation a:hover {
     font-family: trirong, sans-serif;
     font-weight: bold;
@@ -165,7 +167,7 @@ nav>ul {
 /* Style rule to set font properties, add space between lines, add padding to sides of text, 
 add curved corners to bottom of div, 
 set size of the div, 
-background color 
+background color and border thickness, style and color,
 and position of div */
 #cover-text {
     font-size: 19px;
@@ -226,7 +228,8 @@ img {
 }
 
 /* UNIVERSAL STYLE RULES FOR FORM ELEMENTS */
-/* Style rule to set width, height, top and bottom margins and border thickness, style, color and curved corners */
+/* Style rule to set width, height of inputs, top and bottom margins to separate, padding to set input text away from edges, 
+time taken to transition between styles and remove outline when clicked on*/
 input[type=text],
 input[type=email],
 input[type=tel],
@@ -243,13 +246,14 @@ input[type=submit] {
     outline: none;
 }
 
-/* Style rule to set width, color properties and remove previously set border properties */
+/* Style rule to set background color and text color and remove previously set border properties */
 input[type=submit] {
     background-color: #013944;
     color: white;
     border: none;
 }
 
+/* Style rule to set border thickness, style and color when cursor hovers over input */
 input[type=text]:hover,
 input[type=email]:hover,
 input[type=tel]:hover,
@@ -260,6 +264,7 @@ input[type=submit]:hover {
     border: 1px solid #013944;
 }
 
+/* Style rule to set border thickness, style and color when input is clicked on */
 input[type=text]:focus,
 input[type=email]:focus,
 input[type=tel]:focus,
@@ -293,7 +298,8 @@ input[type=submit]:hover {
     text-align: justify;
 }
 
-/* Style rule to set image position at bottom of column to ensure they are both at same height on page and padding to text */
+/* Style rule to set image position at bottom of column to ensure they are both at same height on page, 
+center images and add padding to match text */
 .img-about {
     align-self: flex-end;
     margin: auto;
@@ -301,7 +307,7 @@ input[type=submit]:hover {
 }
 
 /* REVIEWS */
-/* Style rule to center reviews text, set height of section and add padding around content for positioning*/
+/* Style rule to center reviews text and add padding around content for positioning */
 #reviews {
     text-align: center;
     /* height: 300px; */
@@ -325,6 +331,7 @@ input[type=submit]:hover {
     color: #e3b26a;
 }
 
+/* Style rule to add space between star rating and review text */
 h4 {
     margin-top: 10px;
 }
@@ -375,7 +382,8 @@ h4 {
 }
 
 /* CONTACT */
-/* Style rule to center text set responsive font-size to 2% viewport width and add padding to create space between text and border */
+/* Style rule to center text, set responsive font-size to 2% viewport width 
+and add padding to create space between text and border */
 .contact-details {
     text-align: center;
     font-size: 2vw;
@@ -467,7 +475,8 @@ h4 {
 }
 
 /* SOCIAL MEDIA LINKS */
-/* Style rule to set height and color of section */
+/* Style rule to set height and color of section, set background color gradient and 
+solid background color for when browser does not support background gradient */
 #social-media {
     height: 75px;
     background-color: #127C8F;
@@ -508,7 +517,7 @@ h4 {
     }
 } */
 
-/**/
+/* Style rule to limit limit font-size on screens 1920px and above */
 @media only screen and (min-width: 1920px) {
 
     .contact-details {
@@ -539,17 +548,19 @@ h4 {
 /* Devices up to 992px */
 @media only screen and (max-width: 992px) {
 
-    /* Style rules to position logo accross the whole width of the page */
+    /* Style rule to set height of header */
     header {
         height: 75px;
     }
 
+    /* Style rules to position logo accross the whole width of the page */
     #logo {
         width: 100%;
         float: none;
         margin: auto;
     }
 
+    /* Style rule to center logo and remove border */
     .logo-background {
         margin: auto;
         border: none;
@@ -583,7 +594,7 @@ h4 {
         background: url('../images/index-hero-max-992.jpg') no-repeat center center;
     }
 
-    /* Style rule to set size and position of cover text, and remove curved bottom corners */
+    /* Style rule to set size and position of cover text, and remove curved bottom corners and left and right borders */
     #cover-text {
         margin: unset;
         height: 75px;
@@ -607,19 +618,22 @@ h4 {
         margin: auto;
     } */
 
-    /* Style rules to set top margin to push content further down screen */
+    /* Style rule to set top margin to push content further down screen */
     #about {
         margin-top: 600px;
     }
 
+    /* Style rule to add space above and below reviews section */
     #reviews {
         margin: 10px 0;
     }
 
+    /* Style rule to add space above and below each review to separate and reduce width of content */
     .review-content {
         margin: 10px 10%;
     }
 
+    /* Style rules to set top margin to push content further down screen */
     #photos {
         margin-top: 450px;
     }
