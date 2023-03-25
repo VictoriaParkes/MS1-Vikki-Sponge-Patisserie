@@ -304,7 +304,7 @@ input[type=submit]:hover {
 /* Style rule to center reviews text, set height of section and add padding around content for positioning*/
 #reviews {
     text-align: center;
-    height: 300px;
+    /* height: 300px; */
     padding: 75px 0;
 }
 
@@ -323,6 +323,10 @@ input[type=submit]:hover {
 /* Style rule to set color of stars */
 .star-color {
     color: #e3b26a;
+}
+
+h4 {
+    margin-top: 10px;
 }
 
 /* GALLERY */
@@ -605,6 +609,14 @@ input[type=submit]:hover {
     /* Style rules to set top margin to push content further down screen */
     #about {
         margin-top: 600px;
+    }
+
+    #reviews {
+        margin: 10px 0;
+    }
+
+    .review-content {
+        margin: 10px 10%;
     }
 
     #photos {
