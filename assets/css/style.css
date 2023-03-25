@@ -293,7 +293,6 @@ input[type=submit]:hover {
 
 /* Style rule to add padding around text and set alignment to justify */
 .text-about {
-    /* height: 225px; */
     padding: 0 20px 20px;
     text-align: justify;
 }
@@ -310,14 +309,12 @@ center images and add padding to match text */
 /* Style rule to center reviews text and add padding around content for positioning */
 #reviews {
     text-align: center;
-    /* height: 300px; */
     padding: 75px 0;
 }
 
 /* Style rule to create three equal columns that float next to each other for review content */
 .col-30 {
     float: left;
-    /* min-height: 150px; */
     width: 33%;
 }
 
@@ -348,10 +345,6 @@ center images and add padding to match text */
     background-color: #e3b26a;
 }
 
-/* #photos>img {
-    width: 100%;
-} */
-
 /* VIDEO */
 /* Style rule to center video and set background color of container */
 #video {
@@ -364,8 +357,6 @@ center images and add padding to match text */
 .container-vid {
     border-radius: 15px 15px 0 0;
     overflow: hidden;
-    /* border-top-right-radius: 20px;
-    border-top-left-radius: 20px; */
     background-color: white;
     position: relative;
     width: 100%;
@@ -406,11 +397,6 @@ and add padding to create space between text and border */
 .contact-form {
     margin: 20px 0 6px;
 }
-
-/* 
-.contact-form p {
-    text-align: center;
-} */
 
 /* FIND */
 /* Style rule to set bottom margin for positioning */
@@ -504,20 +490,6 @@ solid background color for when browser does not support background gradient */
 
 /* RESPONSIVENESS */
 
-/*  */
-/* @media only screen and (max-width: 1570px) {
-    .text-about {
-        height: 300px;
-    }
-} */
-
-/*  */
-/* @media only screen and (max-width: 1200px) {
-    .text-about {
-        height: 375px;
-    }
-} */
-
 /* Style rule to limit limit font-size on screens 1920px and above */
 @media only screen and (min-width: 1920px) {
 
@@ -525,7 +497,6 @@ solid background color for when browser does not support background gradient */
         font-size: 38.4px;
     }
 }
-
 
 /* Devices between 1400px and 993px */
 @media only screen and (max-width: 1400px) and (min-width: 993px) {
@@ -565,7 +536,6 @@ solid background color for when browser does not support background gradient */
     /* Style rule to position navigation links below cover text */
     #navigation {
         width: 100%;
-        /* background-color: #111e79; */
         position: absolute;
         top: 150px;
     }
@@ -609,11 +579,6 @@ solid background color for when browser does not support background gradient */
         margin: 5px;
     }
 
-    /* Style rule to  */
-    /* #cover-text p {
-        margin: auto;
-    } */
-
     /* Style rule to add space above and below reviews section */
     #reviews {
         margin: 10px 0;
@@ -631,11 +596,6 @@ solid background color for when browser does not support background gradient */
         height: auto;
         text-align: center;
     }
-
-    /* .text-about, */
-    /* .contact-form {
-        height: unset;
-    } */
 
     /* Style rule to set height to fit content and remove padding to reduce white space */
     #reviews {
@@ -658,6 +618,7 @@ solid background color for when browser does not support background gradient */
         text-align: left;
     }
 
+    /* Style rule to set top and bottom margin for spacing */
     .address {
         margin: 6px 0 12px;
     }
@@ -682,7 +643,6 @@ solid background color for when browser does not support background gradient */
 
     /* Style rule to vertically space nav links equally over 150px */
     nav>ul {
-        /* text-align: center; */
         line-height: 37.5px;
     }
 
