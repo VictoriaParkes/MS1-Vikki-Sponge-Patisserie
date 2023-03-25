@@ -585,6 +585,7 @@ h4 {
 
     /* Style rule to set size and position of cover text, and remove curved bottom corners */
     #cover-text {
+        margin: unset;
         height: 75px;
         width: 100%;
         line-height: unset;
