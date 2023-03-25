@@ -332,7 +332,8 @@ center images and add padding to match text */
 }
 
 /* Style rule to add space between star rating and review text */
-h4 {
+.bold {
+    font-weight: bold;
     margin-top: 10px;
 }
 
