@@ -548,11 +548,6 @@ solid background color for when browser does not support background gradient */
 /* Devices up to 992px */
 @media only screen and (max-width: 992px) {
 
-    /* Style rule to set height of header */
-    header {
-        height: 75px;
-    }
-
     /* Style rules to position logo accross the whole width of the page */
     #logo {
         width: 100%;
@@ -618,11 +613,6 @@ solid background color for when browser does not support background gradient */
         margin: auto;
     } */
 
-    /* Style rule to set top margin to push content further down screen */
-    #about {
-        margin-top: 600px;
-    }
-
     /* Style rule to add space above and below reviews section */
     #reviews {
         margin: 10px 0;
@@ -631,16 +621,6 @@ solid background color for when browser does not support background gradient */
     /* Style rule to add space above and below each review to separate and reduce width of content */
     .review-content {
         margin: 10px 10%;
-    }
-
-    /* Style rules to set top margin to push content further down screen */
-    #photos {
-        margin-top: 450px;
-    }
-
-    #contact,
-    #find {
-        margin-top: 480px;
     }
 
     /* Style rule to position columns on top of each other */
@@ -735,19 +715,8 @@ solid background color for when browser does not support background gradient */
         padding: 1vw;
     }
 
-    /* Style rules to set top margin to push content further down screen */
-    #about {
-        margin-top: 675px;
-    }
-
-    #contact,
-    #find {
-        margin-top: 555px;
-    }
-
-    /* Style rule to set top margin to push content further down screen and reduce number of gallery columns to 2 */
+    /* Style rule to reduce number of gallery columns to 2 */
     #photos {
-        margin-top: 525px;
         column-count: 2;
     }
 
