@@ -302,7 +302,6 @@ input[type=submit]:hover {
 center images and add padding to match text */
 .img-about {
     align-self: flex-end;
-    margin: auto;
     padding: 0 20px;
 }
 
