@@ -296,7 +296,7 @@ input[type=submit]:hover {
 /* Style rule to set image position at bottom of column to ensure they are both at same height on page and padding to text */
 .img-about {
     align-self: flex-end;
-    /* text-align: center; */
+    margin: auto;
     padding: 0 20px;
 }
 
