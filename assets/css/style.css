@@ -348,22 +348,19 @@ center images and add padding to match text */
 /* VIDEO */
 /* Style rule to center video and set background color of container */
 #video {
-    text-align: center;
-    background-color: #e3b26a;
+    margin: 0 25% 12px;
 }
 
 /* Style rules to set rounded corners, background color, position and width */
 /* Code taken from https://www.w3schools.com/howto/howto_css_responsive_iframes.asp */
-.container-vid {
-    border-radius: 15px 15px 0 0;
+.video-container {
     overflow: hidden;
-    background-color: white;
     position: relative;
     width: 100%;
     padding-top: 56.25%;
 }
 
-.cake-vid {
+.video-cake {
     position: absolute;
     top: 0;
     left: 0;
@@ -505,16 +502,11 @@ solid background color for when browser does not support background gradient */
     }
 }
 
-/* Devices larger than 1500px wide */
-@media only screen and (min-width: 1500px) {
+/* Devices smaller than 1500px wide */
+@media only screen and (max-width: 1499px) {
 
     #video {
-        width: 50%;
-        margin-left: 25%;
-    }
-
-    .container-vid {
-        border-radius: 0;
+        margin: 0 10% 12px;
     }
 }
 
