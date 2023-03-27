@@ -371,6 +371,11 @@ center images and add padding to match text */
 }
 
 /* CONTACT */
+
+.contact-text {
+    margin-bottom: 20px;
+}
+
 /* Style rule to center text, set responsive font-size to 2% viewport width 
 and add padding to create space between text and border */
 .contact-details {
@@ -392,7 +397,7 @@ and add padding to create space between text and border */
 
 /* Style rule to set top and bottom margins for positioning */
 .contact-form {
-    margin: 20px 0 6px;
+    margin-bottom: 6px;
 }
 
 /* FIND */
