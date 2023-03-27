@@ -345,20 +345,22 @@ center images and add padding to match text */
 }
 
 /* VIDEO */
-/* Style rule to center video and set background color of container */
+/* Style rule to center video and set width at 50% of page width, and add fixed bottom margin for space below video */
 #video {
     margin: 0 25% 12px;
 }
 
-/* Style rules to set rounded corners, background color, position and width */
+/* Style rule to hide corners of video to display curved corners, set positioning and aspect ratio of the video */
 /* Code taken from https://www.w3schools.com/howto/howto_css_responsive_iframes.asp */
 .video-container {
     overflow: hidden;
     position: relative;
-    width: 100%;
+    /* width: 100%; */
     padding-top: 56.25%;
+    /* 16:9 Aspect Ratio ( 9/16 = 0.5625) */
 }
 
+/* Style rule to set position and make sure the whole video is visible in video-container */
 .video-cake {
     position: absolute;
     top: 0;
@@ -371,12 +373,15 @@ center images and add padding to match text */
 
 /* CONTACT */
 
-.contact-text, .find-text {
+/* Style rule to add margin below text to add space and center text */
+/* Reused for find page */
+.contact-text,
+.find-text {
     margin-bottom: 20px;
     text-align: center;
 }
 
-/* Style rule to center text, set responsive font-size to 2% viewport width 
+/* Style rule to set responsive font-size to 2% viewport width 
 and add padding to create space between text and border */
 .contact-details {
     font-size: 2vw;
@@ -394,13 +399,13 @@ and add padding to create space between text and border */
     text-align: center;
 }
 
-/* Style rule to set top and bottom margins for positioning */
+/* Style rule to add bottom margin to add space below form */
 .contact-form {
     margin-bottom: 6px;
 }
 
 /* FIND */
-/* Style rule to set bottom margin for positioning */
+/* Style rule to add bottom margin to add space below content */
 #find {
     margin-bottom: 12px;
 }
@@ -509,6 +514,7 @@ solid background color for when browser does not support background gradient */
 /* Devices smaller than 1500px wide */
 @media only screen and (max-width: 1499px) {
 
+    /* Style rule to set responsive left and right margins and fixed bottom margin */
     #video {
         margin: 0 10% 12px;
     }
