@@ -24,7 +24,6 @@ h3,
 #cover-text {
     font-family: Trirong, sans-serif;
     letter-spacing: 3px;
-
 }
 
 /* Style rule to set logo h1 element to uppercase */
@@ -372,14 +371,14 @@ center images and add padding to match text */
 
 /* CONTACT */
 
-.contact-text {
+.contact-text, .find-text {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 /* Style rule to center text, set responsive font-size to 2% viewport width 
 and add padding to create space between text and border */
 .contact-details {
-    text-align: center;
     font-size: 2vw;
     padding: 20px;
 }
