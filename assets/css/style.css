@@ -490,15 +490,22 @@ solid background color for when browser does not support background gradient */
 
 /* RESPONSIVENESS */
 
-/* Style rule to limit limit font-size on screens 1920px and above */
-@media only screen and (min-width: 1920px) {
+/* Devices larger than 1920px wide */
+@media only screen and (min-width: 1921px) {
 
+    /* Style rule to add border to left and right of the page */
+    body {
+        border-left: 2px solid #127c8f;
+        border-right: 2px solid #013944;
+    }
+
+    /* Style rule to limit font-size */
     .contact-details {
         font-size: 38.4px;
     }
 }
 
-/* Devices larger than 1500px */
+/* Devices larger than 1500px wide */
 @media only screen and (min-width: 1500px) {
 
     #video {
