@@ -29,13 +29,14 @@ h3,
 /* Style rule to set logo h1 element to uppercase */
 h1 {
     text-transform: uppercase;
+    line-height: 2.5ch;
 }
 
 /* Style rule to set accessability font-size, weight of font and move text up using line-height */
 h2 {
     font-size: 1.875rem;
     font-weight: 500;
-    line-height: 30%;
+    line-height: 2ch;
 }
 
 /* Style rule to center headings */
@@ -63,25 +64,65 @@ h3 {
 /* Style rule for logo to set element size and position */
 #logo {
     width: 500px;
-    height: 75px;
+    /* height: 75px; */
     float: left;
     text-align: center;
 }
 
 /* Style rule to set size, position and background color of logo-background and set border thickness, style and color */
 .logo-background {
-    max-width: 400px;
-    height: 78px;
+    width: 400px;
+    /* height: 78px; */
     margin: 0 50px;
     background-color: white;
+    border-bottom: 2px solid #e3b26a;
     border-left: 2px solid #e3b26a;
     border-right: 2px solid #e3b26a;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 /* Style rule to remove text decoration and set color of logo */
 #logo a {
     text-decoration: none;
     color: black;
+}
+
+/* COVER TEXT */
+/* Style rule to set accessability friendly font-size, center the text, add space between lines, add padding to sides of text, 
+add rounded corners to bottom of div, 
+set size of the div, 
+background color and border thickness, style and color,
+and position of div */
+.cover-text {
+    font-size: 1.1875rem;
+    text-align: center;
+    /* line-height: 40px; */
+    padding: 10px 50px;
+
+    /* border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+    width: 400px;
+    height: 150px; */
+
+    /* background-color: white;
+    border-bottom: 2px solid #e3b26a;
+    border-left: 2px solid #e3b26a;
+    border-right: 2px solid #e3b26a; */
+
+    /* position: absolute;
+    top: 75px;
+    margin-left: 50px; */
+
+}
+
+/* Style rule to display decorative element and set size and position */
+.decor {
+    height: 30px;
+    background: url(../images/decor.png) no-repeat center center;
+    background-size: contain;
+    margin-bottom: 10px;
 }
 
 /* NAVIGATION */
@@ -180,43 +221,6 @@ and set border thickness, style and color */
 
 #find-hero-image {
     background: url('../images/find-hero.jpg') no-repeat center center;
-}
-
-/* COVER TEXT */
-/* Style rule to set accessability friendly font-size, center the text, add space between lines, add padding to sides of text, 
-add rounded corners to bottom of div, 
-set size of the div, 
-background color and border thickness, style and color,
-and position of div */
-#cover-text {
-    font-size: 1.1875rem;
-    text-align: center;
-    line-height: 40px;
-    padding: 0 14px;
-
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-
-    width: 400px;
-    height: 150px;
-
-    background-color: white;
-    border-bottom: 2px solid #e3b26a;
-    border-left: 2px solid #e3b26a;
-    border-right: 2px solid #e3b26a;
-
-    position: absolute;
-    top: 75px;
-    margin-left: 50px;
-
-}
-
-/* Style rule to display decorative element and set size and position */
-.decor {
-    height: 30px;
-    background: url(../images/decor.png) no-repeat center center;
-    background-size: contain;
-    margin: 10px 0;
 }
 
 /* STYLE RULES USED BY SECTIONS CONTAINING COLUMNS */
@@ -596,35 +600,9 @@ solid background color for when browser does not support background gradient */
 
     /* Style rule to center logo and remove border */
     .logo-background {
+        width: 100%;
         margin: auto;
         border: none;
-    }
-
-    /* Style rule to position navigation links below cover text */
-    #navigation {
-        width: 100%;
-        position: absolute;
-        top: 150px;
-    }
-
-    /* Style rule to center navigation links */
-    nav>ul {
-        text-align: center;
-    }
-
-    /* Style rule to center navigation links */
-    #navigation li {
-        margin: auto;
-    }
-
-    /* Style rule to set top margin to push content further down screen */
-    #hero {
-        margin-top: 150px;
-    }
-
-    /* Style rule to replace index-hero-image with smaller version */
-    #index-hero-image {
-        background: url('../images/index-hero-max-992.jpg') no-repeat center center;
     }
 
     /* Style rule to set size and position of cover text, and remove curved bottom corners and left and right borders */
@@ -644,6 +622,33 @@ solid background color for when browser does not support background gradient */
     /* Style rule to set margins around decorative element for positioning */
     #cover-text .decor {
         margin: 5px;
+    }
+
+    /* Style rule to position navigation links below cover text */
+    #navigation {
+        width: 100%;
+        /* position: absolute; */
+        /* top: 150px; */
+    }
+
+    /* Style rule to center navigation links */
+    nav>ul {
+        text-align: center;
+    }
+
+    /* Style rule to center navigation links */
+    #navigation li {
+        margin: auto;
+    }
+
+    /* Style rule to set top margin to push content further down screen */
+    /* #hero {
+        margin-top: 150px;
+    } */
+
+    /* Style rule to replace index-hero-image with smaller version */
+    #index-hero-image {
+        background: url('../images/index-hero-max-992.jpg') no-repeat center center;
     }
 
     /* Style rule to add space above and below reviews section */
@@ -715,7 +720,7 @@ solid background color for when browser does not support background gradient */
 
     /* Style rule to vertically space nav links equally over 150px */
     nav>ul {
-        line-height: 37.5px;
+        line-height: 4ch;
     }
 
     /* Style rule to display nav links on top of each other */
@@ -724,9 +729,9 @@ solid background color for when browser does not support background gradient */
     }
 
     /* Style rule to set top margin to push content further down screen */
-    #hero {
+    /* #hero {
         margin-top: 225px;
-    }
+    } */
 
     /* Style rule to display alternative hero image for postioning of focal point */
     #find-hero-image {
