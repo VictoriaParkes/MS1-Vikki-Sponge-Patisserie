@@ -100,7 +100,7 @@ nav>ul {
     color: white;
 }
 
-/* Style rule to display nav links in a row, remove bullet points and add margin after each link */
+/* Style rule to display nav links in a row, remove bullet points, center the text and set height of links */
 #navigation li {
     display: inline-block;
     list-style-type: none;
@@ -110,6 +110,7 @@ nav>ul {
     height: 100%;
 }
 
+/* Style rules to set width of each navigation link using character width unit */
 .nav-index {
     width: 8ch;
 }
@@ -247,7 +248,7 @@ img {
 
 /* UNIVERSAL STYLE RULES FOR FORM ELEMENTS */
 /* Style rule to set width, height of inputs, top and bottom margins to separate, padding to set input text away from edges, 
-time taken to transition between styles and remove outline when clicked on*/
+time taken to transition between styles, remove outline when clicked on and set font-family and font-size */
 input[type=text],
 input[type=email],
 input[type=tel],
@@ -425,6 +426,7 @@ and add padding to create space between text and border */
     margin-bottom: 6px;
 }
 
+/* Style rule to set height of textarea for even layout of elements in two columns */
 .contact-form textarea {
     height: 295px;
 }
@@ -592,7 +594,7 @@ solid background color for when browser does not support background gradient */
         text-align: center;
     }
 
-    /* Style rule to set left and right margins on navigation links for separation */
+    /* Style rule to center navigation links */
     #navigation li {
         margin: auto;
     }
