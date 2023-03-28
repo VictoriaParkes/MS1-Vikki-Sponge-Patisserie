@@ -423,6 +423,10 @@ and add padding to create space between text and border */
     margin-bottom: 6px;
 }
 
+.contact-form textarea {
+    height: 295px;
+}
+
 /* FIND */
 /* Style rule to add bottom margin to add space below content */
 #find {
