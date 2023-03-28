@@ -318,6 +318,10 @@ input[type=submit]:hover {
     text-align: justify;
 }
 
+.text-about p {
+    margin-bottom: 20px;
+}
+
 /* Style rule to set image position at bottom of column to ensure they are both at same height on page, 
 center images and add padding to match text */
 .img-about {
