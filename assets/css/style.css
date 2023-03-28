@@ -361,7 +361,7 @@ center images and add padding to match text */
 }
 
 /* GALLERY */
-/* Style rule to create gallery with 4 columns, no gaps between images and a background color */
+/* Style rule to add margin to left and right of photos section, create gallery with 4 columns with 12px gap between columns */
 /* Code taken from love running project */
 #photos {
     margin: 0 12px;
@@ -372,6 +372,7 @@ center images and add padding to match text */
     /* background-color: #e3b26a; */
 }
 
+/* Style rule to add margin above images to separate and make images square */
 #photos img {
     margin-top: 12px;
     aspect-ratio: 1;
