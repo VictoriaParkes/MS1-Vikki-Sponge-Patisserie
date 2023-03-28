@@ -102,9 +102,28 @@ nav>ul {
 
 /* Style rule to display nav links in a row, remove bullet points and add margin after each link */
 #navigation li {
-    display: inline;
+    display: inline-block;
     list-style-type: none;
-    margin-right: 30px;
+    /* margin-right: 30px; */
+    /* width: 12ch; */
+    text-align: center;
+    height: 100%;
+}
+
+.nav-index {
+    width: 8ch;
+}
+
+.nav-gallery {
+    width: 11ch;
+}
+
+.nav-contact {
+    width: 14ch;
+}
+
+.nav-find {
+    width: 11ch;
 }
 
 /* Style rule to remove underline and inherit default colour from the body */
@@ -569,7 +588,7 @@ solid background color for when browser does not support background gradient */
 
     /* Style rule to set left and right margins on navigation links for separation */
     #navigation li {
-        margin: 0 8px 0;
+        margin: auto;
     }
 
     /* Style rule to set top margin to push content further down screen */
