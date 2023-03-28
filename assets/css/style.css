@@ -364,11 +364,18 @@ center images and add padding to match text */
 /* Style rule to create gallery with 4 columns, no gaps between images and a background color */
 /* Code taken from love running project */
 #photos {
+    margin: 0 12px;
     clear: both;
     column-count: 4;
     line-height: 0;
-    column-gap: 0;
-    background-color: #e3b26a;
+    column-gap: 12px;
+    /* background-color: #e3b26a; */
+}
+
+#photos img {
+    margin-top: 12px;
+    aspect-ratio: 1;
+    object-fit: cover;
 }
 
 /* VIDEO */
@@ -655,6 +662,11 @@ solid background color for when browser does not support background gradient */
     #reviews {
         height: auto;
         padding: 0;
+    }    
+
+    /* Style rule to reduce number of gallery columns to 3 */
+    #photos {
+        column-count: 3;
     }
 
     /* Style rule to set accessability friendly font-size */
@@ -686,9 +698,9 @@ solid background color for when browser does not support background gradient */
         font-size: unset;
     }
 
-    /* Style rule to reduce number of gallery columns to 3 */
+    /* Style rule to reduce number of gallery columns to 2 */
     #photos {
-        column-count: 3;
+        column-count: 2;
     }
 }
 
@@ -730,9 +742,9 @@ solid background color for when browser does not support background gradient */
         padding: 1vw;
     }
 
-    /* Style rule to reduce number of gallery columns to 2 */
+    /* Style rule to reduce number of gallery columns to 1 */
     #photos {
-        column-count: 2;
+        column-count: 1;
     }
 
     /* Style rule to reset height of newsletter sign up container to fit content and add padding to create space */
