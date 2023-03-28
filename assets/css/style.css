@@ -474,6 +474,11 @@ and add padding to create space between text and border */
     object-fit: cover;
 }
 
+.map {
+    width: 100%;
+    height: 300px;
+}
+
 /* NEWSLETTER SIGN-UP */
 /* Style rule to set height of newsletter section and background color */
 #newsletter {
