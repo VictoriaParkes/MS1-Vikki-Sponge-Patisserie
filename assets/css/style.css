@@ -31,9 +31,9 @@ h1 {
     text-transform: uppercase;
 }
 
-/* Style rule to set size and weight of font and move text up using line-height */
+/* Style rule to set accessability font-size, weight of font and move text up using line-height */
 h2 {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 500;
     line-height: 30%;
 }
@@ -183,13 +183,13 @@ and set border thickness, style and color */
 }
 
 /* COVER TEXT */
-/* Style rule to set font properties, add space between lines, add padding to sides of text, 
-add curved corners to bottom of div, 
+/* Style rule to set accessability friendly font-size, center the text, add space between lines, add padding to sides of text, 
+add rounded corners to bottom of div, 
 set size of the div, 
 background color and border thickness, style and color,
 and position of div */
 #cover-text {
-    font-size: 19px;
+    font-size: 1.1875rem;
     text-align: center;
     line-height: 40px;
     padding: 0 14px;
@@ -248,7 +248,7 @@ img {
 
 /* UNIVERSAL STYLE RULES FOR FORM ELEMENTS */
 /* Style rule to set width, height of inputs, top and bottom margins to separate, padding to set input text away from edges, 
-time taken to transition between styles, remove outline when clicked on and set font-family and font-size */
+time taken to transition between styles, remove outline when clicked on and set font-family and accessability friendly font-size */
 input[type=text],
 input[type=email],
 input[type=tel],
@@ -264,7 +264,7 @@ input[type=submit] {
     transition: 0.5s;
     outline: none;
     font-family: "Open Sans", sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 /* Style rule to set background color and text color and remove previously set border properties */
@@ -538,7 +538,7 @@ solid background color for when browser does not support background gradient */
 
     /* Style rule to limit font-size */
     .contact-details {
-        font-size: 38.4px;
+        font-size: 2.4rem;
     }
 }
 
@@ -656,9 +656,9 @@ solid background color for when browser does not support background gradient */
         padding: 0;
     }
 
-    /* Style rule to set font-size instead of responsive size */
+    /* Style rule to set accessability friendly font-size */
     .contact-details {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     /* Style rule to add bottom margin to telephone contact details to add space between telephone and email */
@@ -716,7 +716,7 @@ solid background color for when browser does not support background gradient */
 
     /* Style rule to set font size of cover text to better fit the space */
     #cover-text {
-        font-size: 12px;
+        font-size: 0.75rem;
     }
 
     /* Style rule to set size of decorative element to better fit the space */
