@@ -318,6 +318,7 @@ input[type=submit]:hover {
     text-align: justify;
 }
 
+/* Style rule to add margin below paragraphs to separate */
 .text-about p {
     margin-bottom: 20px;
 }
