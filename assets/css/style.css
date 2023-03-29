@@ -112,8 +112,9 @@ set background color gradient and solid background color for when browser does n
     background-image: linear-gradient(to right, #127c8f, #013944);
 }
 
-/* Style rule to position nav links on right of the page and set text color */
+/* Style rule to position nav links on right of the page with a 50px margin from the right and set text color of the links */
 nav>ul {
+    margin-right: 50px;
     text-align: right;
     color: #ffffff;
 }
