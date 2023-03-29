@@ -348,6 +348,8 @@ center images and add padding to match text */
     column-count: 4;
     line-height: 0;
     column-gap: 12px;
+    background-color: #e3b26a;
+    border: 8px solid #ffffff;
 }
 
 /* Style rule to add margin above images to separate and make images square */
@@ -355,6 +357,11 @@ center images and add padding to match text */
     margin-top: 12px;
     aspect-ratio: 1;
     object-fit: cover;
+    outline: 8px solid #ffffff;
+}
+
+#photos .top-4 {
+    margin-top: 0;
 }
 
 /* VIDEO */
@@ -630,6 +637,14 @@ solid background color for when browser does not support background gradient */
         column-count: 3;
     }
 
+    #photos .top-4 {
+        margin-top: 12px;
+    }
+
+    #photos .top-3 {
+        margin-top: 0;
+    }
+
     /* Style rule to set accessability friendly font-size */
     .contact-details {
         font-size: 1.25rem;
@@ -658,6 +673,14 @@ solid background color for when browser does not support background gradient */
     #photos {
         column-count: 2;
     }
+
+    #photos .top-3 {
+        margin-top: 12px;
+    }
+
+    #photos .top-2 {
+        margin-top: 0;
+    }
 }
 
 /* Devices up to 600px */
@@ -681,6 +704,14 @@ solid background color for when browser does not support background gradient */
     /* Style rule to reduce number of gallery columns to 1 */
     #photos {
         column-count: 1;
+    }
+
+    #photos .top-2 {
+        margin-top: 12px;
+    }
+
+    #photos .top-1 {
+        margin-top: 0;
     }
 
     /* Style rule to reset height of newsletter sign up container to fit content and add padding to create space */
