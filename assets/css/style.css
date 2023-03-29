@@ -14,7 +14,7 @@ and using box-border to include padding and border in elements total height and 
 body {
     max-width: 1920px;
     margin: auto;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Style rule to set font family and space letters of logo and cover text*/
@@ -64,63 +64,40 @@ h3 {
 /* Style rule for logo to set element size and position */
 #logo {
     width: 500px;
-    /* height: 75px; */
     float: left;
     text-align: center;
 }
 
-/* Style rule to set size, position and background color of logo-background and set border thickness, style and color */
+/* Style rule to set size, position, background color of logo-background 
+and set border thickness, style and color and curved corners*/
 .logo-background {
     width: 400px;
-    /* height: 78px; */
     margin: 0 50px;
-    background-color: white;
+    background-color: #ffffff;
     border-bottom: 2px solid #e3b26a;
     border-left: 2px solid #e3b26a;
     border-right: 2px solid #e3b26a;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-radius: 0 0 50px 50px;
 }
 
 /* Style rule to remove text decoration and set color of logo */
 #logo a {
     text-decoration: none;
-    color: black;
+    color: #000000;
 }
 
 /* COVER TEXT */
-/* Style rule to set accessability friendly font-size, center the text, add space between lines, add padding to sides of text, 
-add rounded corners to bottom of div, 
-set size of the div, 
-background color and border thickness, style and color,
-and position of div */
+/* Style rule to set accessability friendly font-size, center the text and add padding to text to separate from edges */
 .cover-text {
     font-size: 1.1875rem;
     text-align: center;
-    /* line-height: 40px; */
     padding: 10px 50px;
-
-    /* border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-
-    width: 400px;
-    height: 150px; */
-
-    /* background-color: white;
-    border-bottom: 2px solid #e3b26a;
-    border-left: 2px solid #e3b26a;
-    border-right: 2px solid #e3b26a; */
-
-    /* position: absolute;
-    top: 75px;
-    margin-left: 50px; */
-
 }
 
-/* Style rule to display decorative element and set size and position */
+/* Style rule to display decorative element, set size and add space below */
 .decor {
-    height: 30px;
     background: url(../images/decor.png) no-repeat center center;
+    height: 30px;
     background-size: contain;
     margin-bottom: 10px;
 }
@@ -131,22 +108,20 @@ set background color gradient and solid background color for when browser does n
 #navigation {
     line-height: 75px;
     letter-spacing: 3px;
-    background-color: #127C8F;
+    background-color: #127c8f;
     background-image: linear-gradient(to right, #127c8f, #013944);
 }
 
 /* Style rule to position nav links on right of the page and set text color */
 nav>ul {
     text-align: right;
-    color: white;
+    color: #ffffff;
 }
 
 /* Style rule to display nav links in a row, remove bullet points, center the text and set height of links */
 #navigation li {
     display: inline-block;
     list-style-type: none;
-    /* margin-right: 30px; */
-    /* width: 12ch; */
     text-align: center;
     height: 100%;
 }
@@ -232,7 +207,7 @@ and set border thickness, style and color */
 
 /* Style rule to clear floats after the columns to display subsequent elements below the row */
 .row:after {
-    content: "";
+    content: '';
     display: table;
     clear: both;
 }
@@ -267,14 +242,14 @@ input[type=submit] {
     -webkit-transition: 0.5s;
     transition: 0.5s;
     outline: none;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
 }
 
 /* Style rule to set background color and text color and remove previously set border properties */
 input[type=submit] {
     background-color: #013944;
-    color: white;
+    color: #ffffff;
     border: none;
 }
 
@@ -373,7 +348,6 @@ center images and add padding to match text */
     column-count: 4;
     line-height: 0;
     column-gap: 12px;
-    /* background-color: #e3b26a; */
 }
 
 /* Style rule to add margin above images to separate and make images square */
@@ -394,7 +368,6 @@ center images and add padding to match text */
 .video-container {
     overflow: hidden;
     position: relative;
-    /* width: 100%; */
     padding-top: 56.25%;
     /* 16:9 Aspect Ratio ( 9/16 = 0.5625) */
 }
@@ -478,6 +451,7 @@ and add padding to create space between text and border */
     object-fit: cover;
 }
 
+/* Style rule to size of google map */
 .map {
     width: 100%;
     height: 300px;
@@ -521,7 +495,7 @@ and add padding to create space between text and border */
 solid background color for when browser does not support background gradient */
 #social-media {
     height: 75px;
-    background-color: #127C8F;
+    background-color: #127c8f;
     background-image: linear-gradient(to right, #127c8f, #013944);
 }
 
@@ -598,40 +572,21 @@ solid background color for when browser does not support background gradient */
         margin: auto;
     }
 
-    /* Style rule to center logo and remove border */
+    /* Style rule to set logo background to full width of page, center logo and remove border */
     .logo-background {
         width: 100%;
         margin: auto;
         border: none;
     }
 
-    /* Style rule to set size and position of cover text, and remove curved bottom corners and left and right borders */
-    #cover-text {
-        margin: unset;
-        height: 75px;
-        width: 100%;
-        line-height: unset;
-        left: 0;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
-        padding: 0;
-        border-left: none;
-        border-right: none;
-    }
-
-    /* Style rule to set margins around decorative element for positioning */
-    #cover-text .decor {
-        margin: 5px;
-    }
-
-    /* Style rule to position navigation links below cover text */
+    /* Style rule to set navigation menu width to full page width */
     #navigation {
         width: 100%;
         /* position: absolute; */
         /* top: 150px; */
     }
 
-    /* Style rule to center navigation links */
+    /* Style rule to center navigation menu */
     nav>ul {
         text-align: center;
     }
@@ -640,11 +595,6 @@ solid background color for when browser does not support background gradient */
     #navigation li {
         margin: auto;
     }
-
-    /* Style rule to set top margin to push content further down screen */
-    /* #hero {
-        margin-top: 150px;
-    } */
 
     /* Style rule to replace index-hero-image with smaller version */
     #index-hero-image {
@@ -704,11 +654,6 @@ solid background color for when browser does not support background gradient */
 /* Devices up to 768px */
 @media only screen and (max-width: 768px) {
 
-    /* Style rule to reset cover-text font size to default */
-    #cover-text {
-        font-size: unset;
-    }
-
     /* Style rule to reduce number of gallery columns to 2 */
     #photos {
         column-count: 2;
@@ -718,7 +663,7 @@ solid background color for when browser does not support background gradient */
 /* Devices up to 600px */
 @media screen and (max-width: 600px) {
 
-    /* Style rule to vertically space nav links equally over 150px */
+    /* Style rule to vertically space nav links equally */
     nav>ul {
         line-height: 4ch;
     }
@@ -728,29 +673,9 @@ solid background color for when browser does not support background gradient */
         display: block;
     }
 
-    /* Style rule to set top margin to push content further down screen */
-    /* #hero {
-        margin-top: 225px;
-    } */
-
     /* Style rule to display alternative hero image for postioning of focal point */
     #find-hero-image {
         background: url('../images/find-hero-max-600.jpg') no-repeat center center;
-    }
-
-    /* Style rule to set font size of cover text to better fit the space */
-    #cover-text {
-        font-size: 0.75rem;
-    }
-
-    /* Style rule to set size of decorative element to better fit the space */
-    .decor {
-        height: 20px;
-    }
-
-    /* Style rule to set padding of text to better position in the space */
-    #cover-text p {
-        padding: 1vw;
     }
 
     /* Style rule to reduce number of gallery columns to 1 */
