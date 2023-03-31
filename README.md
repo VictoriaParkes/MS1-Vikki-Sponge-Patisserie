@@ -41,9 +41,14 @@ The website has four pages (a 'Home' page, a 'Gallery' page, a 'Contact Us' page
 
 
 All pages feature:
-- A responsive header with a logo which is a link to the home page, the website cover text giving a brief description of what the business offers, a navigation menu with links to each page and a different background image for each page.
-- A footer with a responsive form used to sign up to a newsletter containing text input fields in which the user is required to enter their name and email address in order to submit the form. The user submits this information using the 'sign up' submit button.
-- The footer also features social media icon links to Facebook, Twitter and Instagram which open in a new browser tab.
+- A responsive header with:
+    - A logo which is a link to the home page allowing users to easily navigate to the home page from any other page.
+    - The website cover text giving users a brief description of and promoting what the business offers.
+    - The navigation menu with links to each page which allows users to easily navigate from page to page across all devices without having to navigate backwards to previously visited pages.
+    - A different background image for each page to provide visual interest that is relevent to the page content.
+- A footer with:
+    - A responsive form used to sign up to a newsletter containing text input fields in which the user is required to enter their name and email address in order to submit the form. The user submits this information using the 'sign up' submit button.
+    - Social media icon links to Facebook, Twitter and Instagram which open in a new browser tab.
 
 
 The 'Home' page features:
@@ -59,12 +64,13 @@ The 'Gallery' page features:
 The 'Contact us' page features:
 - Telephone number and email address for the bakery.
 - A contact form containing:
-    - text input fields in which the user is required to enter their name and email address.
-    - a telephone input for the user to enter their telephone number.
-    - a drop down input for the user to select an option for what type of event they require a cake for if applicable.
-    - a date input field for the user to enter a date they would require a cake.
-    - a text area input field for the user to write their message to the bakery.
-    - the user submits the form using the submit button located under the message input field.
+    - A text input fields in which the user is required to enter their name in order to submit the form.
+    - An email input field in which the user is required to enter their email address in order to submit the form.
+    - A telephone input for the user to enter their telephone number.
+    - A drop down input for the user to select an option for what type of event they require a cake for if applicable.
+    - A date input field for the user to enter a date they would require a cake.
+    - A text area input field in which the user is required to enter their message to the bakery in order to submit the form.
+    - The user submits the form using the submit button located under the message input field.
 
 
 The 'Find Us' page features:
