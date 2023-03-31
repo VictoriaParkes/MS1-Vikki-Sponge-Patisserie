@@ -595,6 +595,7 @@ solid background color for when browser does not support background gradient */
 
     /* Style rule to center navigation menu */
     nav>ul {
+        margin: 0;
         text-align: center;
     }
 
