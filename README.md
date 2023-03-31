@@ -131,7 +131,19 @@ bugs encoutered fixed/unfixed
 
 # Deployment
 
-describe process of deployment to hosting platform
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+- Log in (or sign up) to Github.
+- Find the repository for this project ('Vikki Sponge Patisserie').
+- In the GitHub repository, navigate to the 'Settings' tab.
+- From the 'Code and automation' section of the menu on the left, select 'Pages'.
+- In the 'Build and deployment' section, under the heading 'Source' select 'Deploy from a branch' from the drop down menu.
+- Under the heading 'Branch', select 'main' from the branch selection drop down menu and '/root' from the 'Select folder' drop down menu.
+- Click save, the page will be automatically refreshed and a message reading 'GitHub Pages source saved.' will be diplayed to confirm successful deployment.
+- The link to the live site will be displayed at the top of the 'Github Pages' page once deployment has completed and can be used to access the live website.
+
+
+>>>>>>>>>>>>>>>>The live link can be found here - 
+
 
 # Credits
 
