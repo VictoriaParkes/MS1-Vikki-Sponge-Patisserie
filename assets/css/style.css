@@ -95,7 +95,7 @@ and set border thickness, style and color and curved corners*/
 
 /* Style rule to display decorative element, set size and add space below */
 .decor {
-    background: url(../images/decor.png) no-repeat center center;
+    background: url(../images/decor.webp) no-repeat center center;
     height: 30px;
     background-size: contain;
     margin-bottom: 10px;
@@ -182,20 +182,20 @@ and set border thickness, style and color */
 /* Style rule to display the index hero image and set height and position */
 #index-hero-image {
     height: 450px;
-    background: url('../images/index-hero.jpg') no-repeat center center;
+    background: url('../images/index-hero.webp') no-repeat center center;
 }
 
 #gallery-hero-image {
-    background: url('../images/gallery-hero.jpg') no-repeat center center;
+    background: url('../images/gallery-hero.webp') no-repeat center center;
 }
 
 #contact-hero-image {
-    background: url('../images/contact-hero.jpg') no-repeat center center;
+    background: url('../images/contact-hero.webp') no-repeat center center;
     background-size: auto 300px;
 }
 
 #find-hero-image {
-    background: url('../images/find-hero.jpg') no-repeat center center;
+    background: url('../images/find-hero.webp') no-repeat center center;
 }
 
 /* STYLE RULES USED BY SECTIONS CONTAINING COLUMNS */
@@ -555,7 +555,7 @@ solid background color for when browser does not support background gradient */
 
     /* Style rule to set alternative hero image for positioning of focal point */
     #find-hero-image {
-        background: url('../images/find-hero-max-1400-min-993.jpg') no-repeat center center;
+        background: url('../images/find-hero-max-1400-min-993.webp') no-repeat center center;
     }
 }
 
@@ -564,7 +564,7 @@ solid background color for when browser does not support background gradient */
 
     /* Style rule to set alternative hero image for positioning of focal point */
     #contact-hero-image {
-        background: url('../images/contact-hero-max-1200-min-993.jpg') no-repeat right center;
+        background: url('../images/contact-hero-max-1200-min-993.webp') no-repeat right center;
         background-size: auto 300px;
     }
 }
@@ -606,7 +606,7 @@ solid background color for when browser does not support background gradient */
 
     /* Style rule to replace index-hero-image with smaller version */
     #index-hero-image {
-        background: url('../images/index-hero-max-992.jpg') no-repeat center center;
+        background: url('../images/index-hero-max-992.webp') no-repeat center center;
     }
 
     /* Style rule to add space above and below reviews section */
@@ -699,7 +699,7 @@ solid background color for when browser does not support background gradient */
 
     /* Style rule to display alternative hero image for postioning of focal point */
     #find-hero-image {
-        background: url('../images/find-hero-max-600.jpg') no-repeat center center;
+        background: url('../images/find-hero-max-600.webp') no-repeat center center;
     }
 
     /* Style rule to reduce number of gallery columns to 1 */
