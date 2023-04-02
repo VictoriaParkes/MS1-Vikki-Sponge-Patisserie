@@ -43,9 +43,9 @@ The website has four pages (a 'Home' page, a 'Gallery' page, a 'Contact Us' page
 All pages feature:
 - A responsive header with:
     - A logo which is a link to the home page allowing users to easily navigate to the home page from any other page.
-    - The website cover text giving users a brief description of and promoting what the business offers.
+    - The website cover text giving users a brief description of and promoting what the business offers. This is removed on screens up to 600px wide to avoid a cluttered appearance.
     - The navigation menu with links to each page which allows users to easily navigate from page to page across all devices without having to navigate backwards to previously visited pages.
-    - A different background image for each page to provide visual interest that is relevent to the page content.
+    - A different background image for each page to provide visual interest that is relevent to the page content. The background images are responsive to screen width to ensure the focal point is centered and the image fits well on all screen sizes.
 - A footer with:
     - A responsive form used to sign up to a newsletter containing input fields in which the user is required to enter their name and email address in order to submit the form. The user submits this information using the 'sign up' submit button.
     - Social media icon links to Facebook, Twitter and Instagram which open in a new browser tab.
@@ -131,12 +131,12 @@ The colour palette was created using the >>>>>>>>>>Coolors website.
 
 
 ## Typography
-[Google Fonts](https://fonts.google.com) was used to add the following fonts:
+[Google Fonts](https://fonts.google.com/) was used to add the following fonts:
 - 'Trirong' is used for headings and to provide visual contrast for navigation links when in use.
 - 'Open sans' is used for the body text of the site, this is a clean and easy to read font.
 - 'Sans serif' is used as a fallback font in the event the font can not be imported into the site correctly.
 
-[Fontjoy](https://fontjoy.com) was used to choose fonts that have good visual contrast.
+[Fontjoy](https://fontjoy.com/) was used to choose fonts that have good visual contrast.
 
 
 
@@ -155,22 +155,37 @@ The 'Gallery' page images were selected for the close up format and the dark bac
 ## Icons
 Icons were used as visual indicators for the social media links and for contact details.
 
-All icons were sourced from [Font Awesome](https://fontawesome.com)
+All icons were sourced from [Font Awesome](https://fontawesome.com/)
 
 # Technologies Used
 HTML - to create the structure of the website
 
 CSS - to add style to the website
 
-Google Fonts - a fonts library
+[Google Fonts](https://fonts.google.com/) - a fonts library
 
-Font Awesome - for iconography used on the website
+[Font Awesome](https://fontawesome.com/) - for iconography used on the website
 
-Git - for version control
+[Git](https://git-scm.com/) - for version control
 
-GitHub - to create and store the project repository
+[GitHub](https://github.com/) - to create and store the project repository
 
-GitPod - development hosting platform used to create the website
+[GitPod](https://gitpod.io/) - development hosting platform used to create the website
+
+[Balsamiq](https://balsamiq.com/) - used to create Wireframes for the layout of the pages
+
+[Coolors](https://coolors.co/) - used to create the colour palette
+
+[Pexels](https://www.pexels.com/) - used to source images
+
+[Unsplash](https://unsplash.com/) - used to source images
+
+[Rawpixel](https://www.rawpixel.com/) - used to source images
+
+[Microsoft Photos](https://apps.microsoft.com/store/detail/microsoft-photos/9WZDNCRFJBH4) - used to edit images
+
+[CloudConvert](https://cloudconvert.com/) - used to convert images to webp format
+
 
 
 # Testing
