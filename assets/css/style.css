@@ -383,6 +383,7 @@ set background color and set border thickness, style and color */
     position: relative;
     padding-top: 56.25%;
     /* 16:9 Aspect Ratio ( 9/16 = 0.5625) */
+    border: 1px solid #ffffff;
 }
 
 /* Style rule to set position and make sure the whole video is visible in video-container */
