@@ -583,11 +583,14 @@ solid background color for when browser does not support background gradient */
         margin: auto;
     }
 
-    /* Style rule to set logo background to full width of page, center logo and remove border */
+    /* Style rule to set logo background to full width of page, center logo, 
+    remove right and left border and remove curved corners */
     .logo-background {
         width: 100%;
         margin: auto;
         border: none;
+        border-bottom: 1px solid #e3b26a;
+        border-radius: unset;
     }
 
     /* Style rule to set navigation menu width to full page width */
