@@ -695,6 +695,10 @@ solid background color for when browser does not support background gradient */
 /* Devices up to 600px */
 @media screen and (max-width: 600px) {
 
+    .cover-text {
+        display: none;
+    }
+
     /* Style rule to vertically space nav links equally */
     nav>ul {
         line-height: 4ch;
@@ -704,6 +708,12 @@ solid background color for when browser does not support background gradient */
     #navigation li {
         display: block;
         height: 4ch;
+    }
+
+    /* Style rule to reduce the size of the index hero image */
+    #index-hero-image {
+        height: 300px;
+        background-size: auto 300px;
     }
 
     /* Style rule to display alternative hero image for postioning of focal point */
