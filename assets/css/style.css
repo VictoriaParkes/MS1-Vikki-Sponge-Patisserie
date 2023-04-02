@@ -702,6 +702,7 @@ solid background color for when browser does not support background gradient */
     /* Style rule to display nav links on top of each other */
     #navigation li {
         display: block;
+        height: 4ch;
     }
 
     /* Style rule to display alternative hero image for postioning of focal point */
