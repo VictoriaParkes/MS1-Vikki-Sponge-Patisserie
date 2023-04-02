@@ -44,6 +44,11 @@ h3 {
     text-align: center;
 }
 
+/* Style rule to set all paragraph text to consistent accessabilty friendly font-size */
+p {
+    font-size: 1.25rem;
+}
+
 /* Style rule to set line height with text centered vertically for all headings with this class attribute */
 .heading {
     margin: 30px 0 20px;
@@ -87,7 +92,7 @@ and set border thickness, style and color and curved corners*/
 }
 
 /* COVER TEXT */
-/* Style rule to set accessability friendly font-size, center the text and add padding to text to separate from edges */
+/* Style rule to center the text and add padding to text to separate from edges */
 .cover-text {
     text-align: center;
     padding: 10px 50px;
@@ -400,10 +405,8 @@ set background color and set border thickness, style and color */
     text-align: center;
 }
 
-/* Style rule to set accessability friendly font-size 
-and add padding to create space between text and border */
+/* Style rule to add padding to create space between text and border */
 .contact-details {
-    font-size: 1.25rem;
     padding: 20px;
 }
 
@@ -647,9 +650,9 @@ solid background color for when browser does not support background gradient */
     }
 
     /* Style rule to set accessability friendly font-size */
-    .contact-details {
+    /* .contact-details {
         font-size: 1.25rem;
-    }
+    } */
 
     /* Style rule to add bottom margin to telephone contact details to add space between telephone and email */
     .telephone {
