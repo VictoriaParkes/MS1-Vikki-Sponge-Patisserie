@@ -67,7 +67,7 @@ The 'Contact us' page features:
     - A text input fields in which the user is required to enter their name in order to submit the form.
     - An email input field in which the user is required to enter their email address in order to submit the form.
     - A telephone input for the user to enter their telephone number.
-    - A drop down input for the user to select an option for what type of event they require a cake for if applicable.
+    - A dropdown input for the user to select an option for what type of event they require a cake for if applicable.
     - A date input field for the user to enter a date they would require a cake.
     - A text area input field in which the user is required to enter their message to the bakery in order to submit the form.
     - The user submits the form using the submit button located under the message input field.
@@ -153,7 +153,7 @@ The 'Gallery' page images were selected for the close up format and the dark bac
 
 
 ## Icons
-Icons were used as visual indicators for the social media links and for contact details.
+Icons were used as visual indicators for the social media links, star ratings and contact details.
 
 All icons were sourced from [Font Awesome](https://fontawesome.com/)
 
@@ -190,6 +190,10 @@ CSS - to add style to the website
 
 # Testing
 
+| Test Label | Test Action | Expected Outcome | Text Outcome |
+|:----------:|:-----------:|:----------------:|:------------:|
+| Test Label | Test Action | Expected Outcome | Text Outcome |
+
 Details of testing
 chome dev tools
 validator testing
@@ -197,28 +201,64 @@ lighthouse
 browser compatibilty
 bugs encoutered fixed/unfixed
 
-# Deployment
+# Deployment and Local Development
+## Deployment
+The site was deployed to GitHub pages. 
 
-The site was deployed to GitHub pages. The steps to deploy are as follows:
+The steps to deploy are as follows:
 - Log in (or sign up) to Github.
-- Find the repository for this project ('Vikki Sponge Patisserie').
+- Go to the repository for this project (https://github.com/VictoriaParkes/MS1-Vikki-Sponge-Patisserie).
 - In the GitHub repository, navigate to the 'Settings' tab.
 - From the 'Code and automation' section of the menu on the left, select 'Pages'.
-- In the 'Build and deployment' section, under the heading 'Source' select 'Deploy from a branch' from the drop down menu.
-- Under the heading 'Branch', select 'main' from the branch selection drop down menu and '/root' from the 'Select folder' drop down menu.
+- In the 'Build and deployment' section, under the heading 'Source' select 'Deploy from a branch' from the dropdown menu.
+- Under the heading 'Branch', select 'main' from the branch selection dropdown menu and '/root' from the 'Select folder' dropdown menu.
 - Click save, the page will be automatically refreshed and a message reading 'GitHub Pages source saved.' will be diplayed to confirm successful deployment.
 - The link to the live site will be displayed at the top of the 'Github Pages' page once deployment has completed and can be used to access the live website.
 
 
->>>>>>>>>>>>>>>>The live link can be found here - 
+The live link can be found here - [Vikki Sponge Patisserie](https://victoriaparkes.github.io/MS1-Vikki-Sponge-Patisserie/)
+
+## Local Development
+### Forking the Repository
+The steps to fork the repository are as follows:
+- Log in to Github.
+- Go to the repository for this project (https://github.com/VictoriaParkes/MS1-Vikki-Sponge-Patisserie).
+- In the top-right corner of the page, click 'Fork'.
+- Under 'Owner', select an owner for the repository from the dropdown menu.
+- Optionally, in the "Description" field, type a description of your fork.
+- To copy the main branch only, select the 'Copy the main branch only' check box. If you do not select this option, all branches will be copied into the new fork.
+- Click 'Create fork'
+
+### Cloning Your Forked Repository
 
 
 # Credits
-
-reference where content, media and extra help came from.
-## Content
-used w3schools.com and code institute lessons/projects
+## Code
+[W3 Schools](https://www.w3schools.com/) and lessons from [Code Institute's Full Stack Developer Course](https://codeinstitute.net/full-stack-software-development-diploma/) were frequently referred to in the development of this website. Code for the header, footer and gallery was sourced from the 'Love-Running' project.
 ## Media
-photos/images from each section - link websites
+All icons were sourced from [Font Awesome](https://fontawesome.com/).
+
+Photographs were sourced from:
+- [Pexels](https://www.pexels.com/)
+    - [Lisa Fotios](https://www.pexels.com/@fotios-photos/)
+    - [Lina Kivaka](https://www.pexels.com/@lina/)
+    - [Tara Winstead](https://www.pexels.com/@tara-winstead/)
+    - [Mariana Silvestre](https://www.pexels.com/@marianasilvestre/)
+    - [Ruslan Khmelevsky](https://www.pexels.com/@ruslanua/)
+    - [Darko Trajković](https://www.pexels.com/@darkou/)
+    - [Skyler Ewing](https://www.pexels.com/@skyler-ewing-266953/)
+    - [TranStudios Photography & Video](https://www.pexels.com/@transtudios/)
+    - [Kasonya Wilcox](https://www.pexels.com/@kasonya-wilcox-260617/)
+    - [Avonne Stalling](https://www.pexels.com/@avonnephoto/)
+    - [Işıl Agc](https://www.pexels.com/@imagescosy/)
+    - [Jonathan Borba](https://www.pexels.com/@jonathanborba/)
+    - [Ketut Subiyanto](https://www.pexels.com/@ketut-subiyanto/)
+    - [Ion Ceban @ionelceban](https://www.pexels.com/@ionelceban/)
+
+- [Unsplash](https://unsplash.com/)
+    - [Annie Spratt](https://unsplash.com/@anniespratt)
+
+The decorative element was sourced from [Rawpixel](https://www.rawpixel.com/).
 
 ## Acknowledgements
+I would like to thank Brian Macharia, my Code Institute mentor, for his helpful feedback and advice.
