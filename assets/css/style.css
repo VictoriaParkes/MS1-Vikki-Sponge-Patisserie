@@ -68,7 +68,7 @@ p {
 /* LOGO */
 /* Style rule for logo to set element size and position */
 #logo {
-    width: 500px;
+    width: 450px;
     float: left;
     text-align: center;
 }
@@ -77,7 +77,7 @@ p {
 and set border thickness, style and color and curved corners*/
 .logo-background {
     width: 400px;
-    margin: 0 50px;
+    margin: 0 25px;
     background-color: #ffffff;
     border-bottom: 2px solid #e3b26a;
     border-left: 2px solid #e3b26a;
@@ -116,15 +116,16 @@ set background color gradient and solid background color for when browser does n
     background-image: linear-gradient(to right, #127c8f, #013944);
 }
 
-/* Style rule to position nav links on right of the page with a 50px margin from the right and set text color of the links */
+/* Style rule to position nav links on right of the page with a margin from the right and set text color of the links */
 nav>ul {
-    margin-right: 50px;
+    margin-right: 25px;
     text-align: right;
     color: #ffffff;
 }
 
-/* Style rule to display nav links in a row, remove bullet points, center the text and set height of links */
+/* Style rule to set accessablity friendly font-size, display nav links in a row, remove bullet points, center the text and set height of links */
 #navigation li {
+    font-size: 1.25rem;
     display: inline-block;
     list-style-type: none;
     text-align: center;
@@ -133,19 +134,19 @@ nav>ul {
 
 /* Style rules to set width of each navigation link using character width unit */
 .nav-index {
-    width: 8ch;
+    width: 7ch;
 }
 
 .nav-gallery {
-    width: 11ch;
+    width: 10ch;
 }
 
 .nav-contact {
-    width: 14ch;
+    width: 13ch;
 }
 
 .nav-find {
-    width: 11ch;
+    width: 10ch;
 }
 
 /* Style rule to remove underline and inherit default colour from the body */
