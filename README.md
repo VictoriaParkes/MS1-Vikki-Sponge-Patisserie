@@ -1,14 +1,12 @@
 # Vikki Sponge Patisserie
 
->>>>>>>>>Mockup screenshots
-
+![Mockup Screenshots](docs/mockup-screenshots.png)
 Vikki Sponge Patisserie is a bakery and cafe providing fresh cakes and drinks available for purchase to eat in the café or takeaway. The bakery also provides a range of celebration cakes available to order and a custom cake service.
 
 
 The website is designed to be a responsive website that can be accessed and easily viewed on a range of screen sizes. The sites primary audience will be customers interested in learning more about the bakery before visiting or making an enquiry about making an order. It will provide information about the business and the variety of products available for purchase.
 
->>>>>>>>>>>>Link to deployed website
-
+[The deployed website can be found here](https://victoriaparkes.github.io/MS1-Vikki-Sponge-Patisserie/)
 # Contents
 
 Add links to different sections
@@ -46,6 +44,8 @@ All pages feature:
     - The website cover text giving users a brief description of and promoting what the business offers. This is removed on screens up to 600px wide to avoid a cluttered appearance.
     - The navigation menu with links to each page which allows users to easily navigate from page to page across all devices without having to navigate backwards to previously visited pages.
     - A different background image for each page to provide visual interest that is relevent to the page content. The background images are responsive to screen width to ensure the focal point is centered and the image fits well on all screen sizes.
+
+
 - A footer with:
     - A responsive form used to sign up to a newsletter containing input fields in which the user is required to enter their name and email address in order to submit the form. The user submits this information using the 'sign up' submit button. Signing up to a newsletter allows the business to provide it's customers with any news, updates or special offers.
     - Social media icon links to Facebook, Twitter and Instagram which open in a new browser tab, allowing customers to view and participate in any activity on social media platforms.
@@ -88,27 +88,28 @@ The 'Find Us' page features:
 
 ## Structure
 The website comprises four pages, all of which feature the header at the top of the page and the footer at the bottom of the page.
+
+
 - The header is fully responsive, the position of the elements is adjusted depending on screen size.
     - For screens over 992px wide the logo and cover text are displayed on the top left of the screen, the navigation menu is displayed across the whole width at the top of the page with the links displayed horizontally on the right, with the background image also displayed across the whole width of the page below the navigation menu.
-    >>>>>>>>> Image
     - For screens up to 992px wide the logo and cover text container is displayed at the top, across the whole width of the page with the text horizontally centered. The navigation menu is displayed immediately below, across the whole width of the page, with the navigation links horizontally centered. The background image is displayed below the navigation menu, across the whole width of the page.
-    >>>>>>>>>>> Image
     - For screens up to 600px wide the logo and cover text are displayed as for screens up to 992px. The navigation menu displayed below across the whole width of the page with the naigation links stacked and horizontally centered. The background image is displayed below the navigation menu as for screens up to 992px wide.
-    >>>>>>>>> Image
     - For visual feedback, the navigation link for the current page and any link the cursor is positioned over is displayed in a different font with an underline.
-    >>>>>>>>>>>> Image
+
 
 - The footer is fully responsive and includes the newsletter sign up form displayed horizontally centered with the container displayed across the whole width of the page, and the social media links displayed as icons positioned horizontally in a bar below the newsletter sign up form.
     - The height of the newsletter container adjusts to ensure the newsletter form is always displayed within the boundries of the container and the newsletter inputs respond to screen width to remain fully displayed on the page.
     - The social media links remain displayed horizontally in a row with the space between the links adjusting dependant on screen width to maintain balance on the page.
-    >>>>>>>>>> Image
+
 
 -  The content of the 'Home' page is displayed in columns on screens over 992px wide. Information about the business is dispayed in two columns with an accompanying image below each section of text on screens over 992px wide, below this the reviews are displayed in three columns. On screens up to 992px wide the content is displayed stacked vertically.
->>>>>>>> Image
+
 
 - The photos on the 'Gallery' page are displayed in a responsive column format to ensure appropriate image size and pleasing layout. On screens over 992px wide the photos are displayed in four columns, on screens up to 992px wide the photos are displayed in three columns, on screens up to 768px wide the photos are displayed in two columns and on screens up to 600px wide the photos are displayed in one column. The video is positioned centrally below the photo gallery and the size of the video is responsive to screen width to ensure the video is an appropriate size for viewing and is not larger than the viewport.
 
+
 - The content of the 'Contact Us' page is displayed with headings positioned centrally on the page and the contact information and contact form displayed in a responsive column format below for consistency in style. On screens over 992px wide two columns are displayed and screens up to 992px the content is stacked to ensure appropriate sizing of the elements for good usability.
+
 
 - The content of the 'Find Us' page is displayed in the same style as the 'Contact Us' page for consistency in style. The heading is positioned centrally with the image and information displayed below in two columns on screens over 992px wide and stacked on screens up to 992px wide. Below the this a google map is embedded which is diplayed across the whole width of the page.
 
@@ -117,11 +118,10 @@ The website comprises four pages, all of which feature the header at the top of 
 
 
 ## Wireframes
-add wireframes or link to wireframe files
-
-
-
-
+['Home' Page Wireframe](docs/wireframes/home-wireframe.png)
+['Gallery' Page Wireframe](docs/wireframes/gallery-wireframe.png)
+['Contact Us' Page Wireframe](docs/wireframes/contact-wireframe.png)
+['Find Us' Page Wireframe](docs/wireframes/find-wireframe.png)
 
 ## Colour Scheme
 ![colour palette](docs/colour-palette.png)
@@ -189,12 +189,12 @@ CSS - to add style to the website
 
 [CloudConvert](https://cloudconvert.com/) - used to convert images to webp format
 
-
+[Am I Responsive](https://ui.dev/amiresponsive) - To view the website on a range of devices and create the mockup screenshot image.
 
 # Testing
 ## Functionality Testing
 
-[See Functionality Testing Document](docs/functionality-testing.md)
+[See Functionality Testing Document](docs/testing/functionality-testing.md)
 
 
 
