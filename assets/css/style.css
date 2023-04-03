@@ -546,8 +546,8 @@ solid background colour for when browser does not support background gradient */
     }
 }
 
-/* Devices smaller than 1500px wide */
-@media only screen and (max-width: 1499px) {
+/* Devices up to 1500px wide */
+@media only screen and (max-width: 1500px) {
 
     /* Style rule to set responsive left and right margins and fixed bottom margin */
     #video {
