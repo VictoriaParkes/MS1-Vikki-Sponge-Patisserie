@@ -47,8 +47,8 @@ All pages feature:
     - The navigation menu with links to each page which allows users to easily navigate from page to page across all devices without having to navigate backwards to previously visited pages.
     - A different background image for each page to provide visual interest that is relevent to the page content. The background images are responsive to screen width to ensure the focal point is centered and the image fits well on all screen sizes.
 - A footer with:
-    - A responsive form used to sign up to a newsletter containing input fields in which the user is required to enter their name and email address in order to submit the form. The user submits this information using the 'sign up' submit button.
-    - Social media icon links to Facebook, Twitter and Instagram which open in a new browser tab.
+    - A responsive form used to sign up to a newsletter containing input fields in which the user is required to enter their name and email address in order to submit the form. The user submits this information using the 'sign up' submit button. Signing up to a newsletter allows the business to provide it's customers with any news, updates or special offers.
+    - Social media icon links to Facebook, Twitter and Instagram which open in a new browser tab, allowing customers to view and participate in any activity on social media platforms.
 
 
 The 'Home' page features:
@@ -62,15 +62,16 @@ The 'Gallery' page features:
 
 
 The 'Contact us' page features:
-- Telephone number and email address for the bakery.
-- A contact form containing:
-    - A text input fields in which the user is required to enter their name in order to submit the form.
-    - An email input field in which the user is required to enter their email address in order to submit the form.
-    - A telephone input for the user to enter their telephone number.
-    - A dropdown input for the user to select an option for what type of event they require a cake for if applicable.
-    - A date input field for the user to enter a date they would require a cake.
-    - A text area input field in which the user is required to enter their message to the bakery in order to submit the form.
-    - The user submits the form using the submit button located under the message input field.
+- Different means of contacting the bakery giving the users the choice of different options.
+    - Telephone number and email address for the bakery.
+    - A contact form containing:
+        - A text input fields in which the user is required to enter their name in order to submit the form.
+        - An email input field in which the user is required to enter their email address in order to submit the form.
+        - A telephone input for the user to enter their telephone number.
+        - A dropdown input for the user to select an option for what type of event they require a cake for if applicable.
+        - A date input field for the user to enter a date they would require a cake.
+        - A text area input field in which the user is required to enter their message to the bakery in order to submit the form.
+        - The user submits the form using the submit button located under the message input field.
 
 
 The 'Find Us' page features:
@@ -123,9 +124,11 @@ add wireframes or link to wireframe files
 
 
 ## Colour Scheme
->>>>>>>>>>>pic of colour scheme
+![colour palette](docs/colour-palette.png)
+
+
 The colour scheme was chosen to complement the colours in the images, frame the pages of the website and provide contrast for good readability of the information.
-The colour palette was created using the >>>>>>>>>>Coolors website.
+The colour palette was created using [Coolors](https://coolors.co/).
 
 
 
@@ -189,10 +192,11 @@ CSS - to add style to the website
 
 
 # Testing
+## Functionality Testing
 
-| Test Label | Test Action | Expected Outcome | Text Outcome |
-|:----------:|:-----------:|:----------------:|:------------:|
-| Test Label | Test Action | Expected Outcome | Text Outcome |
+[See Functionality Testing Document](docs/functionality-testing.md)
+
+
 
 Details of testing
 chome dev tools
