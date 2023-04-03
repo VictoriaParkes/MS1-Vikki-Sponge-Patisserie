@@ -17,11 +17,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* Style rule to set font family and space letters of logo and cover text*/
+/* Style rule to set font family and space letters of logo and headings*/
 h1,
 h2,
-h3,
-#cover-text {
+h3 {
     font-family: Trirong, sans-serif;
     letter-spacing: 3px;
 }
@@ -54,7 +53,7 @@ p {
     margin: 30px 0 20px;
 }
 
-/* Style rule to set border thickness, style, color for all elements with .border class */
+/* Style rule to set border thickness, style, colour for all elements with .border class */
 .border {
     border: 1px solid #e3b26a;
 }
@@ -66,15 +65,15 @@ p {
 }
 
 /* LOGO */
-/* Style rule for logo to set element size and position */
+/* Style rule for logo to set element size, position and alignment of text */
 #logo {
     width: 450px;
     float: left;
     text-align: center;
 }
 
-/* Style rule to set size, position, background color of logo-background 
-and set border thickness, style and color and curved corners*/
+/* Style rule to set size, position, background colour of logo-background 
+and set border thickness, style and colour and curved corners*/
 .logo-background {
     width: 400px;
     margin: 0 25px;
@@ -85,7 +84,7 @@ and set border thickness, style and color and curved corners*/
     border-radius: 0 0 50px 50px;
 }
 
-/* Style rule to remove text decoration and set color of logo */
+/* Style rule to remove text decoration and set colour of logo */
 #logo a {
     text-decoration: none;
     color: #000000;
@@ -108,22 +107,23 @@ and set border thickness, style and color and curved corners*/
 
 /* NAVIGATION */
 /* Style rule to set depth of nav bar with links centered vertically, space letters to match logo, 
-set background color gradient and solid background color for when browser does not support background gradient */
+set background colour gradient and solid background colour for when browser does not support background gradient */
 #navigation {
     line-height: 75px;
     letter-spacing: 3px;
-    background-color: #127c8f;
+    background-color: #013944;
     background-image: linear-gradient(to right, #127c8f, #013944);
 }
 
-/* Style rule to position nav links on right of the page with a margin from the right and set text color of the links */
+/* Style rule to position nav links on right of the page with a margin from the right and set text colour of the links */
 nav>ul {
     margin-right: 25px;
     text-align: right;
     color: #ffffff;
 }
 
-/* Style rule to set accessablity friendly font-size, display nav links in a row, remove bullet points, center the text and set height of links */
+/* Style rule to set accessablity friendly font-size, display nav links in a row, remove bullet points, 
+center the text and set height of links */
 #navigation li {
     font-size: 1.25rem;
     display: inline-block;
@@ -149,21 +149,22 @@ nav>ul {
     width: 10ch;
 }
 
-/* Style rule to remove underline and inherit default colour from the body */
+/* Style rule to remove underline and set link colour to white */
 #navigation a {
     text-decoration: none;
-    color: inherit;
+    color: #ffffff;
 }
 
 /* Style rule to set font, set to bold and add border under nav links as cursor hovers over 
-and set border thickness, style and color */
+and set border thickness, style and colour */
 #navigation a:hover {
     font-family: trirong, sans-serif;
     font-weight: bold;
     border-bottom: 1px solid #e3b26a;
 }
 
-/* Style rule to change font, set to bold and add border under the nav link of the current page and set border thickness, style and color */
+/* Style rule to change font, set to bold and add border under the nav link of the current page 
+and set border thickness, style and colour */
 .active {
     font-family: trirong, sans-serif;
     font-weight: bold;
@@ -174,6 +175,7 @@ and set border thickness, style and color */
 /* Style rule to set width of div containing hero image */
 #index-hero-image,
 #gallery-hero-image,
+#contact-hero-image,
 #find-hero-image {
     width: 100%;
 }
@@ -191,6 +193,7 @@ and set border thickness, style and color */
     background: url('../images/index-hero.webp') no-repeat center center;
 }
 
+/* Style rules to display the hero images for remaining pages and set position */
 #gallery-hero-image {
     background: url('../images/gallery-hero.webp') no-repeat center center;
 }
@@ -251,14 +254,14 @@ input[type=submit] {
     font-size: 1rem;
 }
 
-/* Style rule to set background color and text color and remove previously set border properties */
+/* Style rule to set background colour and text colour and remove previously set border properties */
 input[type=submit] {
     background-color: #013944;
     color: #ffffff;
     border: none;
 }
 
-/* Style rule to set border thickness, style and color when cursor hovers over input */
+/* Style rule to set border thickness, style and colour when cursor hovers over input */
 input[type=text]:hover,
 input[type=email]:hover,
 input[type=tel]:hover,
@@ -269,7 +272,7 @@ input[type=submit]:hover {
     border: 1px solid #013944;
 }
 
-/* Style rule to set border thickness, style and color when input is clicked on */
+/* Style rule to set border thickness, style and colour when input is clicked on */
 input[type=text]:focus,
 input[type=email]:focus,
 input[type=tel]:focus,
@@ -333,12 +336,12 @@ center images and add padding to match text */
     margin: 5%;
 }
 
-/* Style rule to set color of stars */
+/* Style rule to set colour of stars */
 .star-color {
     color: #e3b26a;
 }
 
-/* Style rule to add space between star rating and review text */
+/* Style rule to set review text to bold and add space between star rating and review text */
 .bold {
     font-weight: bold;
     margin-top: 10px;
@@ -346,7 +349,7 @@ center images and add padding to match text */
 
 /* GALLERY */
 /* Style rule to add margin to left and right of photos section, create gallery with 4 columns with 12px gap between columns, 
-set background color and set border thickness, style and color */
+set background colour and set border thickness, style and colour */
 /* Code taken from love running project */
 #photos {
     margin: 0 12px;
@@ -358,7 +361,7 @@ set background color and set border thickness, style and color */
     border: 8px solid #ffffff;
 }
 
-/* Style rule to add margin above images to separate, make images square and set outline thickness, style and color */
+/* Style rule to add margin above images to separate, make images square and set outline thickness, style and colour */
 #photos img {
     margin-top: 12px;
     aspect-ratio: 1;
@@ -366,6 +369,8 @@ set background color and set border thickness, style and color */
     outline: 8px solid #ffffff;
 }
 
+/* Style rule to remove previously set top margin from the images at the top of the gallery 
+to hide the coloured background at the top */
 #photos .top-4 {
     margin-top: 0;
 }
@@ -387,6 +392,7 @@ set background color and set border thickness, style and color */
 }
 
 /* Style rule to set position and make sure the whole video is visible in video-container */
+/* Code taken from https://www.w3schools.com/howto/howto_css_responsive_iframes.asp */
 .video-cake {
     position: absolute;
     top: 0;
@@ -412,7 +418,7 @@ set background color and set border thickness, style and color */
     padding: 20px;
 }
 
-/* Style rule to set margins around icons to center vertically in container, separate from proceding text and set icon color */
+/* Style rule to set margins around icons to center vertically in container, separate from proceding text and set icon colour */
 .contact-details i {
     margin-right: 20px;
     color: #e3b26a;
@@ -451,7 +457,7 @@ set background color and set border thickness, style and color */
     margin-bottom: 10px;
 }
 
-/* Style rule to set color of icons*/
+/* Style rule to set colour of icons*/
 #find i {
     color: #e3b26a;
 }
@@ -470,7 +476,7 @@ set background color and set border thickness, style and color */
 }
 
 /* NEWSLETTER SIGN-UP */
-/* Style rule to set height of newsletter section and background color */
+/* Style rule to set minimum height of newsletter section and background colour */
 #newsletter {
     min-height: 300px;
     background-color: #e0ecef;
@@ -503,11 +509,10 @@ set background color and set border thickness, style and color */
 }
 
 /* SOCIAL MEDIA LINKS */
-/* Style rule to set height and color of section, set background color gradient and 
-solid background color for when browser does not support background gradient */
+/* Style rule to set height and colour of section, set background colour gradient and 
+solid background colour for when browser does not support background gradient */
 #social-media {
-    height: 75px;
-    background-color: #127c8f;
+    background-color: #013944;
     background-image: linear-gradient(to right, #127c8f, #013944);
 }
 
@@ -521,7 +526,7 @@ solid background color for when browser does not support background gradient */
     display: inline;
 }
 
-/* Style rule to set size of social media icons, separte icons, center icons vertically and set icon color */
+/* Style rule to set size of social media icons, separte icons, center icons vertically and set icon colour */
 .social-media-links i {
     font-size: 200%;
     margin: 0 10%;
@@ -539,11 +544,6 @@ solid background color for when browser does not support background gradient */
         border-left: 2px solid #127c8f;
         border-right: 2px solid #013944;
     }
-
-    /* Style rule to limit font-size */
-    /* .contact-details {
-        font-size: 2.4rem;
-    } */
 }
 
 /* Devices smaller than 1500px wide */
@@ -577,7 +577,7 @@ solid background color for when browser does not support background gradient */
 /* Devices up to 992px */
 @media only screen and (max-width: 992px) {
 
-    /* Style rules to position logo accross the whole width of the page */
+    /* Style rule to position logo accross the whole width of the page */
     #logo {
         width: 100%;
         float: none;
@@ -597,8 +597,6 @@ solid background color for when browser does not support background gradient */
     /* Style rule to set navigation menu width to full page width */
     #navigation {
         width: 100%;
-        /* position: absolute; */
-        /* top: 150px; */
     }
 
     /* Style rule to center navigation menu */
@@ -639,13 +637,14 @@ solid background color for when browser does not support background gradient */
     #reviews {
         height: auto;
         padding: 0;
-    }    
+    }
 
     /* Style rule to reduce number of gallery columns to 3 */
     #photos {
         column-count: 3;
     }
 
+    /* Style rules to change the photos with no top margin to hide background colour at top of gallery */
     #photos .top-4 {
         margin-top: 12px;
     }
@@ -653,12 +652,7 @@ solid background color for when browser does not support background gradient */
     #photos .top-3 {
         margin-top: 0;
     }
-
-    /* Style rule to set accessability friendly font-size */
-    /* .contact-details {
-        font-size: 1.25rem;
-    } */
-
+    
     /* Style rule to add bottom margin to telephone contact details to add space between telephone and email */
     .telephone {
         margin-bottom: 12px;
@@ -683,6 +677,7 @@ solid background color for when browser does not support background gradient */
         column-count: 2;
     }
 
+    /* Style rules to change the photos with no top margin to hide background colour at top of gallery */
     #photos .top-3 {
         margin-top: 12px;
     }
@@ -726,6 +721,7 @@ solid background color for when browser does not support background gradient */
         column-count: 1;
     }
 
+    /* Style rules to change the photos with no top margin to hide background colour at top of gallery */
     #photos .top-2 {
         margin-top: 12px;
     }
