@@ -366,7 +366,7 @@ set background colour and set border thickness, style and colour */
 /* Style rule to add margin above images to separate, make images square and set outline thickness, style and colour */
 #photos img {
     margin-top: 12px;
-    aspect-ratio: 1;
+    aspect-ratio: 1/1;
     object-fit: cover;
     outline: 8px solid #ffffff;
 }
