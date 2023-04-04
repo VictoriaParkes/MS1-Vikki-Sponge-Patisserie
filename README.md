@@ -81,8 +81,8 @@ The 'Find Us' page features:
 
 
 ## Future Features
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Possible additional features
+- Add a thank you page or pop up message to thank user for getting in touch via contact form upon successful submission.
+- Add a custom 404 error page that adds personality that reflects the business, to give users a friendly apology for the error.
 
 # Design
 
@@ -177,6 +177,10 @@ CSS - to add style to the website
 
 [Am I Responsive](https://ui.dev/amiresponsive) - To view the website on a range of devices and create the mockup screenshot image.
 
+[The W3C Markup Validation Service](https://validator.w3.org/) - Used to validate HTML files.
+
+[The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - Used to validate the CSS file. 
+
 # Testing
 [Chrome DevTools](https://developer.chrome.com/docs/devtools/) was frequently utilised in the development of the website to manipulate and test features as they were added to the project, to test responsiveness and for debugging purposes.
 
@@ -195,6 +199,12 @@ The website was tested for functionality on different browsers (Chrome, Firefox 
 
 ## Bugs Encountered
 ### Fixed
+1. When the browser font-size was increased the logo and cover text were overlapping and unable to be read proving an accessability issue. Ths problem was fixed by moving the html cover text elements to the same container as the logo which resulted in a clean and readable display of the text when the browser font-size was increased.
+2. When the browser font-size was increased the newsletter sign up form exceeded the edges of it's container. This issue was fixed by making the height on the container a minimum height value.
+3. When the 'Gallery' page was viewed on a larger desktop screen size, the size if the video exceeded the screen size. This issue was fixed by setting the width of the video to 50% of the page width on larger screens to enable the video fully visible on the page.
+4. When the navigation links were hovered over the changing font caused layout shift to occur. This issue was fixed by setting a definitive height and width for each of the links.
+
+Gave Navigation links definitive height and width to prevent layout shift when cursor hovers or linked clicked
 
 ### Unfixed
 
