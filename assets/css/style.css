@@ -258,7 +258,7 @@ input[type=submit] {
 input[type=submit] {
     background-color: #013944;
     color: #ffffff;
-    border: none;
+    border: 1px solid #013944;
 }
 
 /* Style rule to set border thickness, style and colour when cursor hovers over input */
