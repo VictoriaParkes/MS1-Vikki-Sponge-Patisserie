@@ -41,11 +41,12 @@ h2 {
 /* Style rule to center headings */
 h3 {
     text-align: center;
+    font-size: 1.25rem;
 }
 
 /* Style rule to set all paragraph text to consistent accessabilty friendly font-size */
 p {
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 /* Style rule to set line height with text centered vertically for all headings with this class attribute */
@@ -465,7 +466,7 @@ to hide the coloured background at the top */
 /* Style rule to set size of image responsive to viewport width */
 #find img {
     width: 100%;
-    height: 400px;
+    height: 404.8px;
     object-fit: cover;
 }
 
