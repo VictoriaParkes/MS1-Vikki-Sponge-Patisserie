@@ -1,6 +1,6 @@
 # Vikki Sponge Patisserie
 
-![Mockup Screenshots](docs/mockup-screenshots.png)
+![Mock-up Screenshots](docs/mockup-screenshots.png)
 Vikki Sponge Patisserie is a bakery and cafe providing fresh cakes and drinks available for purchase to eat in the café or takeaway. The bakery also provides a range of celebration cakes available to order and a custom cake service.
 
 
@@ -40,14 +40,14 @@ The website has four pages (a 'Home' page, a 'Gallery' page, a 'Contact Us' page
 
 All pages feature:
 - A responsive header with:
-    - A logo which is a link to the home page allowing users to easily navigate to the home page from any other page.
+    - A logo which is a link to the 'Home' page allowing users to easily navigate to the 'Home' page from any other page.
     - The website cover text giving users a brief description of and promoting what the business offers. This is removed on screens up to 600px wide to avoid a cluttered appearance.
     - The navigation menu with links to each page which allows users to easily navigate from page to page across all devices without having to navigate backwards to previously visited pages.
-    - A different background image for each page to provide visual interest that is relevent to the page content. The background images are responsive to screen width to ensure the focal point is centered and the image fits well on all screen sizes.
+    - A different background image for each page to provide visual interest that is relevant to the page content. The background images are responsive to screen width to ensure the focal point is centred and the image fits well on all screen sizes.
 
 
 - A footer with:
-    - A responsive form used to sign up to a newsletter containing input fields in which the user is required to enter their name and email address in order to submit the form. The user submits this information using the 'sign up' submit button. Signing up to a newsletter allows the business to provide it's customers with any news, updates or special offers.
+    - A responsive form used to sign up to a newsletter containing input fields in which the user is required to enter their name and email address in order to submit the form. The user submits this information using the 'sign up' submit button. Signing up to a newsletter allows the business to provide its customers with any news, updates or special offers.
     - Social media icon links to Facebook, Twitter and Instagram which open in a new browser tab, allowing customers to view and participate in any activity on social media platforms.
 
 
@@ -58,10 +58,10 @@ The 'Home' page features:
 
 The 'Gallery' page features:
 - Images of a selection of products available to purchase at the bakery and examples of custom celebration cakes created for previous customers. These images promote the products available at the bakery and give the user an idea of what is offered.
-- An embedded youtube video of a celebration cake being decorated as a demontration of the skills the bakers at the company possess.
+- An embedded YouTube video of a celebration cake being decorated as a demonstration of the skills the bakers at the company possess.
 
 
-The 'Contact us' page features:
+The 'Contact Us' page features:
 - Different means of contacting the bakery giving the users the choice of different options.
     - Telephone number and email address for the bakery.
     - A contact form containing:
@@ -92,17 +92,17 @@ The website comprises four pages, all of which feature the header at the top of 
 
 - The header is fully responsive, the position of the elements is adjusted depending on screen size.
     - For screens over 992px wide the logo and cover text are displayed on the top left of the screen, the navigation menu is displayed across the whole width at the top of the page with the links displayed horizontally on the right, with the background image also displayed across the whole width of the page below the navigation menu.
-    - For screens up to 992px wide the logo and cover text container is displayed at the top, across the whole width of the page with the text horizontally centered. The navigation menu is displayed immediately below, across the whole width of the page, with the navigation links horizontally centered. The background image is displayed below the navigation menu, across the whole width of the page.
-    - For screens up to 600px wide the logo and cover text are displayed as for screens up to 992px. The navigation menu displayed below across the whole width of the page with the naigation links stacked and horizontally centered. The background image is displayed below the navigation menu as for screens up to 992px wide.
+    - For screens up to 992px wide the logo and cover text container is displayed at the top, across the whole width of the page with the text horizontally centred. The navigation menu is displayed immediately below, across the whole width of the page, with the navigation links horizontally centred. The background image is displayed below the navigation menu, across the whole width of the page.
+    - For screens up to 600px wide the logo and cover text are displayed as for screens up to 992px. The navigation menu displayed below across the whole width of the page with the navigation links stacked and horizontally centred. The background image is displayed below the navigation menu as for screens up to 992px wide.
     - For visual feedback, the navigation link for the current page and any link the cursor is positioned over is displayed in a different font with an underline.
 
 
-- The footer is fully responsive and includes the newsletter sign up form displayed horizontally centered with the container displayed across the whole width of the page, and the social media links displayed as icons positioned horizontally in a bar below the newsletter sign up form.
-    - The height of the newsletter container adjusts to ensure the newsletter form is always displayed within the boundries of the container and the newsletter inputs respond to screen width to remain fully displayed on the page.
+- The footer is fully responsive and includes the newsletter sign up form displayed horizontally centred with the container displayed across the whole width of the page, and the social media links displayed as icons positioned horizontally in a bar below the newsletter sign up form.
+    - The height of the newsletter container adjusts to ensure the newsletter form is always displayed within the boundaries of the container and the newsletter inputs respond to screen width to remain fully displayed on the page.
     - The social media links remain displayed horizontally in a row with the space between the links adjusting dependant on screen width to maintain balance on the page.
 
 
--  The content of the 'Home' page is displayed in columns on screens over 992px wide. Information about the business is dispayed in two columns with an accompanying image below each section of text on screens over 992px wide, below this the reviews are displayed in three columns. On screens up to 992px wide the content is displayed stacked vertically.
+-  The content of the 'Home' page is displayed in columns on screens over 992px wide. Information about the business is displayed in two columns with an accompanying image below each section of text on screens over 992px wide, below this the reviews are displayed in three columns. On screens up to 992px wide the content is displayed stacked vertically.
 
 
 - The photos on the 'Gallery' page are displayed in a responsive column format to ensure appropriate image size and pleasing layout. On screens over 992px wide the photos are displayed in four columns, on screens up to 992px wide the photos are displayed in three columns, on screens up to 768px wide the photos are displayed in two columns and on screens up to 600px wide the photos are displayed in one column. The video is positioned centrally below the photo gallery and the size of the video is responsive to screen width to ensure the video is an appropriate size for viewing and is not larger than the viewport.
@@ -111,7 +111,7 @@ The website comprises four pages, all of which feature the header at the top of 
 - The content of the 'Contact Us' page is displayed with headings positioned centrally on the page and the contact information and contact form displayed in a responsive column format below for consistency in style. On screens over 992px wide two columns are displayed and screens up to 992px the content is stacked to ensure appropriate sizing of the elements for good usability.
 
 
-- The content of the 'Find Us' page is displayed in the same style as the 'Contact Us' page for consistency in style. The heading is positioned centrally with the image and information displayed below in two columns on screens over 992px wide and stacked on screens up to 992px wide. Below the this a google map is embedded which is diplayed across the whole width of the page.
+- The content of the 'Find Us' page is displayed in the same style as the 'Contact Us' page for consistency in style. The heading is positioned centrally with the image and information displayed below in two columns on screens over 992px wide and stacked on screens up to 992px wide. Below the this a google map is embedded which is displayed across the whole width of the page.
 
 ## Wireframes
 - ['Home' Page Wireframe](docs/wireframes/home-wireframe.png)
@@ -129,7 +129,7 @@ The colour palette was created using [Coolors](https://coolors.co/).
 [Google Fonts](https://fonts.google.com/) was used to add the following fonts:
 - 'Trirong' is used for headings and to provide visual contrast for navigation links when in use.
 - 'Open sans' is used for the body text of the site, this is a clean and easy to read font.
-- 'Sans serif' is used as a fallback font in the event the font can not be imported into the site correctly.
+- 'Sans serif' is used as a fallback font in the event the font cannot be imported into the site correctly.
 
 [Fontjoy](https://fontjoy.com/) was used to choose fonts that have good visual contrast.
 
@@ -175,7 +175,7 @@ CSS - to add style to the website
 
 [CloudConvert](https://cloudconvert.com/) - used to convert images to webp format
 
-[Am I Responsive](https://ui.dev/amiresponsive) - To view the website on a range of devices and create the mockup screenshot image.
+[Am I Responsive](https://ui.dev/amiresponsive) - To view the website on a range of devices and create the mock-up screenshot image.
 
 [The W3C Markup Validation Service](https://validator.w3.org/) - Used to validate HTML files.
 
@@ -199,8 +199,8 @@ The website was tested for functionality on different browsers (Chrome, Firefox 
 
 ## Bugs Encountered
 ### Fixed
-1. When the browser font-size was increased the logo and cover text were overlapping and unable to be read proving an accessability issue. Ths problem was fixed by moving the html cover text elements to the same container as the logo which resulted in a clean and readable display of the text when the browser font-size was increased.
-2. When the browser font-size was increased the newsletter sign up form exceeded the edges of it's container. This issue was fixed by making the height on the container a minimum height value.
+1. When the browser font-size was increased the logo and cover text were overlapping and unable to be read proving an accessibility issue. The problem was fixed by moving the html cover text elements to the same container as the logo which resulted in a clean and readable display of the text when the browser font-size was increased.
+2. When the browser font-size was increased the newsletter sign up form exceeded the edges of its container. This issue was fixed by making the height on the container a minimum height value.
 3. When the 'Gallery' page was viewed on a larger desktop screen size, the size if the video exceeded the screen size. This issue was fixed by setting the width of the video to 50% of the page width on larger screens to enable the video fully visible on the page.
 4. When the navigation links were hovered over the changing font caused layout shift to occur. This issue was fixed by setting a definitive height and width for each of the links.
 
@@ -213,21 +213,21 @@ Gave Navigation links definitive height and width to prevent layout shift when c
 The site was deployed to GitHub pages. 
 
 The steps to deploy are as follows:
-1. Log in (or sign up) to Github.
+1. Log in (or sign up) to GitHub.
 2. Go to the repository for this project (https://github.com/VictoriaParkes/MS1-Vikki-Sponge-Patisserie).
 3. In the GitHub repository, navigate to the 'Settings' tab.
 4. From the 'Code and automation' section of the menu on the left, select 'Pages'.
 5. In the 'Build and deployment' section, under the heading 'Source' select 'Deploy from a branch' from the dropdown menu.
 6. Under the heading 'Branch', select 'main' from the branch selection dropdown menu and '/root' from the 'Select folder' dropdown menu.
-7. Click save, the page will be automatically refreshed and a message reading 'GitHub Pages source saved.' will be diplayed to confirm successful deployment.
-8. The link to the live site will be displayed at the top of the 'Github Pages' page once deployment has completed and can be used to access the live website.
+7. Click save, the page will be automatically refreshed and a message reading 'GitHub Pages source saved.' will be displayed to confirm successful deployment.
+8. The link to the live site will be displayed at the top of the 'GitHub Pages' page once deployment has completed and can be used to access the live website.
 
 The live link can be found here - [Vikki Sponge Patisserie](https://victoriaparkes.github.io/MS1-Vikki-Sponge-Patisserie/)
 
 ## Local Development
 ### Forking the Repository
 The steps to fork the repository are as follows:
-1. Log in to Github.
+1. Log in to GitHub.
 2. Go to the repository for this project (https://github.com/VictoriaParkes/MS1-Vikki-Sponge-Patisserie).
 3. In the top-right corner of the page, click 'Fork'.
 4. Under 'Owner', select an owner for the repository from the dropdown menu.
@@ -253,7 +253,7 @@ For more details about forking and cloning a repository, please refer to [GitHub
 ## Code
 [W3 Schools](https://www.w3schools.com/) and lessons from [Code Institute's Full Stack Developer Course](https://codeinstitute.net/full-stack-software-development-diploma/) were frequently referred to in the development of this website. Code for the header, footer and gallery was sourced from the 'Love-Running' project.
 
-The README.md file was created using a [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#t) as reference.
+The README.md file was created using a [markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#t) as reference.
 
 
 ## Content
