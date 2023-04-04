@@ -2,7 +2,7 @@
 
 # Functionality Testing
 
-Details of manual testing of the functions of each feature of the website.
+Details of manual testing of the functions of each feature of the website. Chrome DevTools was used to test the website on different screen sizes.
 
 | Test Label | Test Action | Expected Outcome | Test Outcome |
 |----------|-----------|----------------|------------|

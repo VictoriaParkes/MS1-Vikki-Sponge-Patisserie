@@ -113,25 +113,17 @@ The website comprises four pages, all of which feature the header at the top of 
 
 - The content of the 'Find Us' page is displayed in the same style as the 'Contact Us' page for consistency in style. The heading is positioned centrally with the image and information displayed below in two columns on screens over 992px wide and stacked on screens up to 992px wide. Below the this a google map is embedded which is diplayed across the whole width of the page.
 
-
-
-
-
 ## Wireframes
-['Home' Page Wireframe](docs/wireframes/home-wireframe.png)
-['Gallery' Page Wireframe](docs/wireframes/gallery-wireframe.png)
-['Contact Us' Page Wireframe](docs/wireframes/contact-wireframe.png)
-['Find Us' Page Wireframe](docs/wireframes/find-wireframe.png)
+- ['Home' Page Wireframe](docs/wireframes/home-wireframe.png)
+- ['Gallery' Page Wireframe](docs/wireframes/gallery-wireframe.png)
+- ['Contact Us' Page Wireframe](docs/wireframes/contact-wireframe.png)
+- ['Find Us' Page Wireframe](docs/wireframes/find-wireframe.png)
 
 ## Colour Scheme
 ![colour palette](docs/colour-palette.png)
 
-
 The colour scheme was chosen to complement the colours in the images, frame the pages of the website and provide contrast for good readability of the information.
 The colour palette was created using [Coolors](https://coolors.co/).
-
-
-
 
 ## Typography
 [Google Fonts](https://fonts.google.com/) was used to add the following fonts:
@@ -141,19 +133,11 @@ The colour palette was created using [Coolors](https://coolors.co/).
 
 [Fontjoy](https://fontjoy.com/) was used to choose fonts that have good visual contrast.
 
-
-
-
-
 ## Imagery
 The images used in the website were chosen to reflect the content of the pages and the information they accompany. They are intended to promote the products and services provided by the business and entice users to become customers.
 
 
 The 'Gallery' page images were selected for the close up format and the dark background of the images to ensure the focus is on the products and provide consistent style in the gallery. These images are displayed with a ratio of 1:1 to provide a clean layout across all sizes of device.
-
-
-
-
 
 ## Icons
 Icons were used as visual indicators for the social media links, star ratings and contact details.
@@ -164,6 +148,8 @@ All icons were sourced from [Font Awesome](https://fontawesome.com/)
 HTML - to create the structure of the website
 
 CSS - to add style to the website
+
+[Chrome DevTools](https://developer.chrome.com/docs/devtools/) - used to help test features and for debugging.
 
 [Google Fonts](https://fonts.google.com/) - a fonts library
 
@@ -192,53 +178,79 @@ CSS - to add style to the website
 [Am I Responsive](https://ui.dev/amiresponsive) - To view the website on a range of devices and create the mockup screenshot image.
 
 # Testing
+[Chrome DevTools](https://developer.chrome.com/docs/devtools/) was frequently utilised in the development of the website to manipulate and test features as they were added to the project, to test responsiveness and for debugging purposes.
+
 ## Functionality Testing
 
 [See Functionality Testing Document](docs/testing/functionality-testing.md)
 
+## Browser Compatibility
+The website was tested for functionality on different browsers (Chrome, Firefox and Edge) and found to be fully functional on them all.
 
+## W3C HTML Validator Testing
 
-Details of testing
-chome dev tools
-validator testing
-lighthouse
-browser compatibilty
-bugs encoutered fixed/unfixed
+## W3C CSS Validator Testing
+
+## Lighthouse Reports
+
+## Bugs Encountered
+### Fixed
+
+### Unfixed
 
 # Deployment and Local Development
 ## Deployment
 The site was deployed to GitHub pages. 
 
 The steps to deploy are as follows:
-- Log in (or sign up) to Github.
-- Go to the repository for this project (https://github.com/VictoriaParkes/MS1-Vikki-Sponge-Patisserie).
-- In the GitHub repository, navigate to the 'Settings' tab.
-- From the 'Code and automation' section of the menu on the left, select 'Pages'.
-- In the 'Build and deployment' section, under the heading 'Source' select 'Deploy from a branch' from the dropdown menu.
-- Under the heading 'Branch', select 'main' from the branch selection dropdown menu and '/root' from the 'Select folder' dropdown menu.
-- Click save, the page will be automatically refreshed and a message reading 'GitHub Pages source saved.' will be diplayed to confirm successful deployment.
-- The link to the live site will be displayed at the top of the 'Github Pages' page once deployment has completed and can be used to access the live website.
-
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project (https://github.com/VictoriaParkes/MS1-Vikki-Sponge-Patisserie).
+3. In the GitHub repository, navigate to the 'Settings' tab.
+4. From the 'Code and automation' section of the menu on the left, select 'Pages'.
+5. In the 'Build and deployment' section, under the heading 'Source' select 'Deploy from a branch' from the dropdown menu.
+6. Under the heading 'Branch', select 'main' from the branch selection dropdown menu and '/root' from the 'Select folder' dropdown menu.
+7. Click save, the page will be automatically refreshed and a message reading 'GitHub Pages source saved.' will be diplayed to confirm successful deployment.
+8. The link to the live site will be displayed at the top of the 'Github Pages' page once deployment has completed and can be used to access the live website.
 
 The live link can be found here - [Vikki Sponge Patisserie](https://victoriaparkes.github.io/MS1-Vikki-Sponge-Patisserie/)
 
 ## Local Development
 ### Forking the Repository
 The steps to fork the repository are as follows:
-- Log in to Github.
-- Go to the repository for this project (https://github.com/VictoriaParkes/MS1-Vikki-Sponge-Patisserie).
-- In the top-right corner of the page, click 'Fork'.
-- Under 'Owner', select an owner for the repository from the dropdown menu.
-- Optionally, in the "Description" field, type a description of your fork.
-- To copy the main branch only, select the 'Copy the main branch only' check box. If you do not select this option, all branches will be copied into the new fork.
-- Click 'Create fork'
+1. Log in to Github.
+2. Go to the repository for this project (https://github.com/VictoriaParkes/MS1-Vikki-Sponge-Patisserie).
+3. In the top-right corner of the page, click 'Fork'.
+4. Under 'Owner', select an owner for the repository from the dropdown menu.
+5. Optionally, in the "Description" field, type a description of your fork.
+6. To copy the main branch only, select the 'Copy the main branch only' check box. If you do not select this option, all branches will be copied into the new fork.
+7. Click 'Create fork'
 
 ### Cloning Your Forked Repository
+1. Log-in to GitHub.com, navigate to your fork of the repository.
+2. Above the list of files, click Code.
+3. Copy the URL for the repository.
+    - To clone the repository using HTTPS, under "Clone with HTTPS", click the 'Copy' icon.
+    - To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click SSH, then click the 'Copy' icon.
+    - To clone a repository using GitHub CLI, click Use GitHub CLI, then click the 'Copy' icon.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory.
+6. Type git clone, and then paste the URL you copied earlier.
+7. Press Enter. Your local clone will be created.
 
+For more details about forking and cloning a repository, please refer to [GitHub Docs](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
 
 # Credits
 ## Code
 [W3 Schools](https://www.w3schools.com/) and lessons from [Code Institute's Full Stack Developer Course](https://codeinstitute.net/full-stack-software-development-diploma/) were frequently referred to in the development of this website. Code for the header, footer and gallery was sourced from the 'Love-Running' project.
+
+The README.md file was created using a [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#t) as reference.
+
+
+## Content
+The content of the website was written by Victoria Parkes.
+
+The local development section of this document was written using [GitHub Docs](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
+
 ## Media
 All icons were sourced from [Font Awesome](https://fontawesome.com/).
 
