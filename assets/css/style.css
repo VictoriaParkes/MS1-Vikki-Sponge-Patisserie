@@ -309,7 +309,7 @@ input[type=submit]:hover {
 }
 
 /* Style rule to add margin below paragraphs to separate */
-.text-about p {
+.text-about p, #gallery p {
     margin-bottom: 20px;
 }
 
@@ -428,7 +428,7 @@ to hide the coloured background at the top */
 }
 
 /* Style rule to center content of paragraph elements */
-#contact p {
+#gallery p, #contact p {
     text-align: center;
 }
 
