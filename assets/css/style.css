@@ -444,10 +444,6 @@ to hide the coloured background at the top */
 }
 
 /* FIND */
-/* Style rule to add bottom margin to add space below content */
-#find {
-    margin-bottom: 12px;
-}
 
 /* Style rule to add top and bottom padding to create space between text and edges of container, and center text */
 .address,
@@ -473,10 +469,11 @@ to hide the coloured background at the top */
     object-fit: cover;
 }
 
-/* Style rule to size of google map */
+/* Style rule to size of google map and add margin above to separate from contact details */
 .map {
     width: 100%;
     height: 300px;
+    margin-top: 12px;
 }
 
 /* NEWSLETTER SIGN-UP */
