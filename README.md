@@ -204,6 +204,7 @@ The website was tested for functionality on different browsers (Chrome, Firefox 
 3. When the 'Gallery' page was viewed on a larger desktop screen size, the size if the video exceeded the screen size. This issue was fixed by setting the width of the video to 50% of the page width on larger screens to enable the video fully visible on the page.
 4. When the navigation links were hovered over the changing font caused layout shift to occur. This issue was fixed by setting a definitive height and width for each of the links.
 5. When form input fields were clicked on the focus style rule transition from a 1px border to a 2px border caused layout shift to occur. This issue was fixed by setting a definitive height for the input fields.
+6. Elements in columns that were intended to be displayed next to each other at the same height on the page were displayed at different heights on the page. This issue was fixed by utilising a flex container and aligning elements at the bottom of the container to ensure desired positioning.
 
 ### Unfixed
 
