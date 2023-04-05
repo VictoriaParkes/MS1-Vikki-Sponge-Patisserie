@@ -8,10 +8,42 @@ The website is designed to be a responsive website that can be accessed and easi
 
 [The deployed website can be found here](https://victoriaparkes.github.io/MS1-Vikki-Sponge-Patisserie/)
 # Contents
+1. [User Experience (UX)](#1-user-experience-ux)
+    - [User Stories](#user-stories)
+        - [Customers](#customers)
+        - [Business Owner](#business-owner)
+2. [Features](#2-features)
+    - [Current Features](#current-features)
+    - [Future Features](#future-features)
+3. [Design](#3-design)
+    - [Structure](#structure)
+    - [Wireframes](#wireframes)
+    - [Colour Scheme](#colour-scheme)
+    - [Typography](#typography)
+    - [Imagery](#imagery)
+    - [Icons](#icons)
+4. [Technologies Used](#4-technologies-used)
+5. [Testing](#5-testing)
+    - [Functionality Testing](#functionality-testing)
+    - [Browser Compatibility](#browser-compatibility)
+    - [W3C HTML Validator Testing](#w3c-html-validator-testing)
+    - [W3C CSS Validator Testing](#w3c-css-validator-testing)
+    - [Lighthouse Reports](#lighthouse-reports)
+    - [Bugs Encountered](#bugs-encountered)
+        - [Fixed](#fixed)
+        - [Unfixed](#unfixed)
+6. [Deployment and Local Development](#6-deployment-and-local-development)
+    - [Deployment](#deployment)
+    - [Local Development](#local-development)
+        - [Forking the Repository](#forking-the-repository)
+        - [Cloning Your Forked Repository](#cloning-your-forked-repository)
+7. [Credits](#7-credits)
+    - [Code](#code)
+    - [Content](#content)
+    - [Media](#media)
+    - [Acknowledgements](#acknowledgements)
 
-Add links to different sections
-
-# User Experience (UX)
+# 1. User Experience (UX)
 ## User Stories
 ### Customers
 As a customer I would like:
@@ -33,7 +65,7 @@ As the business owner I would like:
 - To provide links to the businesses social media pages.
 - For the website to be accessible and easily viewed on any device.
 
-# Features
+# 2. Features
 ## Current Features
 The website has four pages (a 'Home' page, a 'Gallery' page, a 'Contact Us' page and a 'Find Us' page) which are all easily accessed via the navigation menu. 
 
@@ -81,10 +113,10 @@ The 'Find Us' page features:
 
 
 ## Future Features
-- Add a thank you page or pop up message to thank user for getting in touch via contact form upon successful submission.
+- Add a thank you page or pop up message to thank the user for getting in touch via contact form upon successful submission.
 - Add a custom 404 error page that adds personality that reflects the business, to give users a friendly apology for the error.
 
-# Design
+# 3. Design
 
 ## Structure
 The website comprises four pages, all of which feature the header at the top of the page and the footer at the bottom of the page.
@@ -144,7 +176,7 @@ Icons were used as visual indicators for the social media links, star ratings an
 
 All icons were sourced from [Font Awesome](https://fontawesome.com/)
 
-# Technologies Used
+# 4. Technologies Used
 HTML - to create the structure of the website
 
 CSS - to add style to the website
@@ -181,7 +213,7 @@ CSS - to add style to the website
 
 [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - Used to validate the CSS file. 
 
-# Testing
+# 5. Testing
 [Chrome DevTools](https://developer.chrome.com/docs/devtools/) was frequently utilised in the development of the website to manipulate and test features as they were added to the project, to test responsiveness and for debugging purposes.
 
 ## Functionality Testing
@@ -208,7 +240,7 @@ The website was tested for functionality on different browsers (Chrome, Firefox 
 
 ### Unfixed
 
-# Deployment and Local Development
+# 6. Deployment and Local Development
 ## Deployment
 The site was deployed to GitHub pages. 
 
@@ -249,7 +281,7 @@ The steps to fork the repository are as follows:
 
 For more details about forking and cloning a repository, please refer to [GitHub Docs](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
 
-# Credits
+# 7. Credits
 ## Code
 [W3 Schools](https://www.w3schools.com/) and lessons from [Code Institute's Full Stack Developer Course](https://codeinstitute.net/full-stack-software-development-diploma/) were frequently referred to in the development of this website. Code for the header, footer and gallery was sourced from the 'Love-Running' project.
 
