@@ -203,8 +203,7 @@ The website was tested for functionality on different browsers (Chrome, Firefox 
 2. When the browser font-size was increased the newsletter sign up form exceeded the edges of its container. This issue was fixed by making the height on the container a minimum height value.
 3. When the 'Gallery' page was viewed on a larger desktop screen size, the size if the video exceeded the screen size. This issue was fixed by setting the width of the video to 50% of the page width on larger screens to enable the video fully visible on the page.
 4. When the navigation links were hovered over the changing font caused layout shift to occur. This issue was fixed by setting a definitive height and width for each of the links.
-
-Gave Navigation links definitive height and width to prevent layout shift when cursor hovers or linked clicked
+5. When form input fields were clicked on the focus style rule transition from a 1px border to a 2px border caused layout shift to occur. This issue was fixed by setting a definitive height for the input fields.
 
 ### Unfixed
 
