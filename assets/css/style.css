@@ -258,6 +258,7 @@ input[type=submit] {
 
 /* Style rule to set background colour and text colour and remove previously set border properties */
 input[type=submit] {
+    align-self: flex-end;
     background-color: #013944;
     color: #ffffff;
 }
