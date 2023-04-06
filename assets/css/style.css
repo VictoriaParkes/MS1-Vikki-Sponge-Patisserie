@@ -616,6 +616,12 @@ solid background colour for when browser does not support background gradient */
         background: url('../images/index-hero-max-992.webp') no-repeat center center;
     }
 
+    /* Style rule to replace contact-hero-image with smaller version */
+    #contact-hero-image {
+        background: url('../images/contact-hero-max-992.webp') no-repeat center center;
+        background-size: auto 300px;
+    }
+
     /* Style rule to add space above and below reviews section */
     #reviews {
         margin: 10px 0;
