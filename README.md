@@ -269,6 +269,22 @@ I frequently used Lighthouse in the Chrome Developer Tools to allow me to test t
 
 Final Lighthouse reports are as follows:
 
+### 'Home' Page - Mobile
+![index.html lighthouse report desktop](docs/testing/lighthouse-reports/lighthouse-report-index-mobile.png)
+### 'Home' Page - Desktop
+![index.html lighthouse report desktop](docs/testing/lighthouse-reports/lighthouse-report-index-desktop.png)
+### 'Gallery' Page - Mobile
+![gallery.html lighthouse report desktop](docs/testing/lighthouse-reports/lighthouse-report-gallery-mobile.png)
+### 'Gallery' Page - Desktop
+![galley.html lighthouse report desktop](docs/testing/lighthouse-reports/lighthouse-report-gallery-desktop.png)
+### 'Contact Us' Page - Mobile
+![contact.html lighthouse report desktop](docs/testing/lighthouse-reports/lighthouse-report-contact-mobile.png)
+### 'Contact Us' Page - Desktop
+![contact.html lighthouse report desktop](docs/testing/lighthouse-reports/lighthouse-report-contact-desktop.png)
+### 'Find Us' Page - Mobile
+![find.html lighthouse report desktop](docs/testing/lighthouse-reports/lighthouse-report-find-mobile.png)
+### 'Find Us' Page - Desktop
+![find.html lighthouse report desktop](docs/testing/lighthouse-reports/lighthouse-report-find-desktop.png)
 
 
 
