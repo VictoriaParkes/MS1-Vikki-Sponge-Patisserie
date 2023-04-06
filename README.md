@@ -43,6 +43,8 @@ The website is designed to be a responsive website that can be accessed and easi
     - [Media](#media)
     - [Acknowledgements](#acknowledgements)
 
+---
+
 # 1. User Experience (UX)
 ## User Stories
 ### Customers
@@ -64,6 +66,8 @@ As the business owner I would like:
 - To provide means of contact for customers to make enquiries.
 - To provide links to the businesses social media pages.
 - For the website to be accessible and easily viewed on any device.
+
+---
 
 # 2. Features
 ## Current Features
@@ -115,6 +119,8 @@ The 'Find Us' page features:
 ## Future Features
 - Add a thank you page or pop up message to thank the user for getting in touch via contact form upon successful submission.
 - Add a custom 404 error page that adds personality that reflects the business, to give users a friendly apology for the error.
+
+---
 
 # 3. Design
 
@@ -176,42 +182,48 @@ Icons were used as visual indicators for the social media links, star ratings an
 
 All icons were sourced from [Font Awesome](https://fontawesome.com/)
 
-# 4. Technologies Used
-HTML - to create the structure of the website
+---
 
-CSS - to add style to the website
+# 4. Technologies Used
+HTML - to create the structure of the website.
+
+CSS - to add style to the website.
 
 [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - used to help test features and for debugging.
 
-[Google Fonts](https://fonts.google.com/) - a fonts library
+[Google Fonts](https://fonts.google.com/) - a fonts library.
 
-[Font Awesome](https://fontawesome.com/) - for iconography used on the website
+[Font Awesome](https://fontawesome.com/) - for iconography used on the website.
 
-[Git](https://git-scm.com/) - for version control
+[Git](https://git-scm.com/) - for version control.
 
-[GitHub](https://github.com/) - to create and store the project repository
+[GitHub](https://github.com/) - to create and store the project repository.
 
-[GitPod](https://gitpod.io/) - development hosting platform used to create the website
+[GitPod](https://gitpod.io/) - development hosting platform used to create the website.
 
-[Balsamiq](https://balsamiq.com/) - used to create Wireframes for the layout of the pages
+[Balsamiq](https://balsamiq.com/) - used to create Wireframes for the layout of the pages.
 
-[Coolors](https://coolors.co/) - used to create the colour palette
+[Coolors](https://coolors.co/) - used to create the colour palette.
 
-[Pexels](https://www.pexels.com/) - used to source images
+[Pexels](https://www.pexels.com/) - used to source images.
 
-[Unsplash](https://unsplash.com/) - used to source images
+[Unsplash](https://unsplash.com/) - used to source images.
 
-[Rawpixel](https://www.rawpixel.com/) - used to source images
+[Rawpixel](https://www.rawpixel.com/) - used to source images.
 
-[Microsoft Photos](https://apps.microsoft.com/store/detail/microsoft-photos/9WZDNCRFJBH4) - used to edit images
+[Microsoft Photos](https://apps.microsoft.com/store/detail/microsoft-photos/9WZDNCRFJBH4) - used to edit images.
 
-[CloudConvert](https://cloudconvert.com/) - used to convert images to webp format
+[CloudConvert](https://cloudconvert.com/) - used to convert images to webp format.
+
+[Tiny PNG](https://tinypng.com/) - used to compress images.
 
 [Am I Responsive](https://ui.dev/amiresponsive) - To view the website on a range of devices and create the mock-up screenshot image.
 
 [The W3C Markup Validation Service](https://validator.w3.org/) - Used to validate HTML files.
 
 [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - Used to validate the CSS file. 
+
+---
 
 # 5. Testing
 [Chrome DevTools](https://developer.chrome.com/docs/devtools/) was frequently utilised in the development of the website to manipulate and test features as they were added to the project, to test responsiveness and for debugging purposes.
@@ -253,6 +265,15 @@ The W3C validator service was used to validate the CSS in the stylesheet. All er
 [CSS final validation report](docs/testing/validator-screenshots/css-validator-passed.png)
 
 ## Lighthouse Reports
+I frequently used Lighthouse in the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website during the development of the website. Images were converted to webp format as suggested in a Lightouse report performed after implementing the photo gallery feature and compressed to improve performance.
+
+Final Lighthouse reports are as follows:
+
+
+
+
+
+
 
 ## Bugs Encountered
 ### Fixed
@@ -265,6 +286,9 @@ The W3C validator service was used to validate the CSS in the stylesheet. All er
 7. Form input fields were given a white background colour to ensure consistency as the select 'event type' input displayed with a grey background when viewed using Firefox.
 
 ### Unfixed
+1. Generating Lighthouse reports to test the performance, accessibility, best practices and SEO of the website highlighted that the images served could be more appropriatly sized to save cellular data and improve loading times on mobile devices.
+
+---
 
 # 6. Deployment and Local Development
 ## Deployment
@@ -306,6 +330,8 @@ The steps to fork the repository are as follows:
 7. Press Enter. Your local clone will be created.
 
 For more details about forking and cloning a repository, please refer to [GitHub Docs](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
+
+---
 
 # 7. Credits
 ## Code
