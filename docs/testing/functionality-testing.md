@@ -1,4 +1,4 @@
-[Back to README.md](../README.md)
+[Back to README.md](../../README.md#functionality-testing)
 
 # Functionality Testing
 
@@ -76,4 +76,4 @@ Details of manual testing of the functions of each feature of the website. Chrom
 
 
 
-[Back to README.md](../README.md)
+[Back to README.md](../../README.md#functionality-testing)
