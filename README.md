@@ -224,8 +224,33 @@ CSS - to add style to the website
 The website was tested for functionality on different browsers (Chrome, Firefox and Edge) and found to be fully functional on them all.
 
 ## W3C HTML Validator Testing
+The W3C validator service was used to validate the HTML on all pages of the website. All errors and warnings flagged by the validator service were addressed and the pages were resubmitted for validation.
 
+## 'Home' Page
+['Home' page initial validation report](docs/testing/validator-screenshots/index-html-validator-warning.png)
+
+['Home' page final validation report](docs/testing/validator-screenshots/index-html-validator-passed.png)
+
+## 'Gallery' Page
+['Gallery' page initial validation report](docs/testing/validator-screenshots/gallery-html-validator-error-warning.png)
+
+['Gallery' page final validation report](docs/testing/validator-screenshots/gallery-html-validator-passed.png)
+
+## 'Contact Us' Page
+['Contact Us' page initial validation report](docs/testing/validator-screenshots/contact-html-validator-error-warning.png)
+
+['Contact Us' page final validation report](docs/testing/validator-screenshots/contact-html-validator-passed.png)
+
+## 'Find Us' Page
+['Find Us' page initial validation report](docs/testing/validator-screenshots/find-html-validator-error-warning.png)
+
+['Find Us' page final validation report](docs/testing/validator-screenshots/find-html-validator-passed.png)
 ## W3C CSS Validator Testing
+
+The W3C validator service was used to validate the CSS in the stylesheet. All errors and warnings flagged by the validator service were addressed and the file was resubmitted for validation.
+
+[CSS initial validation report](docs/testing/validator-screenshots/css-validator-ratio-value-error.png)
+[CSS final validation report](docs/testing/validator-screenshots/css-validator-passed.png)
 
 ## Lighthouse Reports
 
