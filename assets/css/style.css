@@ -208,6 +208,12 @@ and set border thickness, style and colour */
     background: url('../images/find-hero.webp') no-repeat center center;
 }
 
+/* Style rule to display the error hero image and set height and position */
+#error-hero-image {
+    height: 450px;
+    background: url('../images/404-hero.webp') no-repeat left center;
+}
+
 /* STYLE RULES USED BY SECTIONS CONTAINING COLUMNS */
 /* Style rule to center container */
 .container {
@@ -535,6 +541,14 @@ solid background colour for when browser does not support background gradient */
     color: #e3b26a;
 }
 
+/* 404 error page */
+/* Style rule to set text alignment to centred, add bottom margin to add space under content and set line height to separate lines of text */
+.error-text {
+    text-align: center;
+    margin-bottom: 12px;
+    line-height: 4ch;
+}
+
 /* RESPONSIVENESS */
 
 /* Devices larger than 1920px wide */
@@ -562,6 +576,15 @@ solid background colour for when browser does not support background gradient */
     /* Style rule to set alternative hero image for positioning of focal point */
     #find-hero-image {
         background: url('../images/find-hero-max-1400-min-993.webp') no-repeat center center;
+    }
+}
+
+/* Devices up to 1300px wide */
+@media only screen and (max-width: 1300px) {
+
+    /* Style rule to replace error-hero-image with smaller version with focal point centred */
+    #error-hero-image {
+        background: url('../images/404-hero-max-1300.webp') no-repeat left center;
     }
 }
 
@@ -620,6 +643,11 @@ solid background colour for when browser does not support background gradient */
     #contact-hero-image {
         background: url('../images/contact-hero-max-992.webp') no-repeat center center;
         background-size: auto 300px;
+    }
+
+    /* Style rule to centre focal point of error-hero-image */
+    #error-hero-image {
+        background-position: center;
     }
 
     /* Style rule to add space above and below reviews section */
@@ -721,6 +749,13 @@ solid background colour for when browser does not support background gradient */
     /* Style rule to display alternative hero image for postioning of focal point */
     #find-hero-image {
         background: url('../images/find-hero-max-600.webp') no-repeat center center;
+    }
+
+    /* Style rule to reduce height of error-hero-image and re-use orginal error-hero-image */
+    #error-hero-image {
+        height: 300px;
+        background: url('../images/404-hero.webp') no-repeat center center;
+        background-size: auto 300px;
     }
 
     /* Style rule to reduce number of gallery columns to 1 */
