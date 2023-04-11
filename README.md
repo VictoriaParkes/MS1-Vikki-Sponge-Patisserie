@@ -213,6 +213,8 @@ CSS - to add style to the website.
 
 [PageSpeed Insights](https://pagespeed.web.dev/) - Used to generate lighthouse report for 404 error page as lighthouse was unable to load the page when used in Chrome Developer Tools.
 
+[Prettier.io](https://prettier.io/) - Used to format code.
+
 ---
 
 # 5. Testing
