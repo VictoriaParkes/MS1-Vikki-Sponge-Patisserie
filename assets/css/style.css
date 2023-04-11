@@ -1,8 +1,9 @@
 /* Import url for google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Trirong:wght@300&display=swap');
 
-/* Universal style selector to remove margin, padding and border for all elements 
-and using box-border to include padding and border in elements total height and width */
+/* Universal style selector to remove margin, padding and border for all 
+elements and using box-border to include padding and border in elements total 
+height and width */
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +11,8 @@ and using box-border to include padding and border in elements total height and 
     box-sizing: border-box;
 }
 
-/* Style rule to limit width of page to 1920px, center the page on screen and set font for text within the body of the webpage */
+/* Style rule to limit width of page to 1920px, center the page on screen and 
+set font for text within the body of the webpage */
 body {
     max-width: 1920px;
     margin: auto;
@@ -31,7 +33,8 @@ h1 {
     line-height: 2.5ch;
 }
 
-/* Style rule to set accessability font-size, weight of font and move text up using line-height */
+/* Style rule to set accessability font-size, weight of font and move text up 
+using line-height */
 h2 {
     font-size: 1.875rem;
     font-weight: 500;
@@ -44,22 +47,26 @@ h3 {
     font-size: 1.25rem;
 }
 
-/* Style rule to set all paragraph text to consistent accessabilty friendly font-size */
+/* Style rule to set all paragraph text to consistent accessabilty friendly 
+font-size */
 p {
     font-size: 1rem;
 }
 
-/* Style rule to set line height with text centered vertically for all headings with this class attribute */
+/* Style rule to set line height with text centered vertically for all headings 
+with this class attribute */
 .heading {
     margin: 30px 0 20px;
 }
 
-/* Style rule to set border thickness, style, colour for all elements with .border class */
+/* Style rule to set border thickness, style, colour for all elements with 
+.border class */
 .border {
     border: 1px solid #e3b26a;
 }
 
-/* Style rule to set curved corners for all elements with .border and .corners class */
+/* Style rule to set curved corners for all elements with .border and .corners 
+class */
 .border,
 .corners {
     border-radius: 15px;
@@ -92,7 +99,8 @@ and set border thickness, style and colour and curved corners*/
 }
 
 /* COVER TEXT */
-/* Style rule to center the text and add padding to text to separate from edges */
+/* Style rule to center the text and add padding to text to separate from 
+edges */
 .cover-text {
     text-align: center;
     padding: 10px 50px;
@@ -107,8 +115,9 @@ and set border thickness, style and colour and curved corners*/
 }
 
 /* NAVIGATION */
-/* Style rule to set depth of nav bar with links centered vertically, space letters to match logo, 
-set background colour gradient and solid background colour for when browser does not support background gradient */
+/* Style rule to set depth of nav bar with links centered vertically, space 
+letters to match logo, set background colour gradient and solid background 
+colour for when browser does not support background gradient */
 #navigation {
     line-height: 75px;
     letter-spacing: 3px;
@@ -116,15 +125,16 @@ set background colour gradient and solid background colour for when browser does
     background-image: linear-gradient(to right, #127c8f, #013944);
 }
 
-/* Style rule to position nav links on right of the page with a margin from the right and set text colour of the links */
+/* Style rule to position nav links on right of the page with a margin from the 
+right and set text colour of the links */
 nav>ul {
     margin-right: 25px;
     text-align: right;
     color: #ffffff;
 }
 
-/* Style rule to set accessablity friendly font-size, display nav links in a row, remove bullet points, 
-center the text and set height of links */
+/* Style rule to set accessablity friendly font-size, display nav links in a 
+row, remove bullet points, center the text and set height of links */
 #navigation li {
     font-size: 1.25rem;
     display: inline-block;
@@ -133,7 +143,8 @@ center the text and set height of links */
     height: 100%;
 }
 
-/* Style rules to set width of each navigation link using character width unit */
+/* Style rules to set width of each navigation link using character width 
+unit */
 .nav-index {
     width: 7ch;
 }
@@ -156,16 +167,16 @@ center the text and set height of links */
     color: #ffffff;
 }
 
-/* Style rule to set font, set to bold and add border under nav links as cursor hovers over 
-and set border thickness, style and colour */
+/* Style rule to set font, set to bold and add border under nav links as cursor 
+hovers over and set border thickness, style and colour */
 #navigation a:hover {
     font-family: trirong, sans-serif;
     font-weight: bold;
     border-bottom: 1px solid #e3b26a;
 }
 
-/* Style rule to change font, set to bold and add border under the nav link of the current page 
-and set border thickness, style and colour */
+/* Style rule to change font, set to bold and add border under the nav link of 
+the current page and set border thickness, style and colour */
 .active {
     font-family: trirong, sans-serif;
     font-weight: bold;
@@ -194,7 +205,8 @@ and set border thickness, style and colour */
     background: url('../images/index-hero.webp') no-repeat center center;
 }
 
-/* Style rules to display the hero images for remaining pages and set position */
+/* Style rules to display the hero images for remaining pages and set 
+position */
 #gallery-hero-image {
     background: url('../images/gallery-hero.webp') no-repeat center center;
 }
@@ -221,29 +233,34 @@ and set border thickness, style and colour */
     margin: auto;
 }
 
-/* Style rule to clear floats after the columns to display subsequent elements below the row */
+/* Style rule to clear floats after the columns to display subsequent elements 
+below the row */
 .row:after {
     content: '';
     display: table;
     clear: both;
 }
 
-/* Style rule to create two equal width columns next to each other with padding to position content away from edges */
+/* Style rule to create two equal width columns next to each other with padding 
+to position content away from edges */
 .col-50 {
     float: left;
     width: 50%;
     padding: 0 10px;
 }
 
-/* Style rule to size the images to fit the space in the column and set curved corners */
+/* Style rule to size the images to fit the space in the column and set curved 
+corners */
 img {
     max-width: 100%;
     max-height: 100%;
 }
 
 /* UNIVERSAL STYLE RULES FOR FORM ELEMENTS */
-/* Style rule to set width, top and bottom margins to separate, padding to set input text away from edges, 
-time taken to transition between styles, remove outline when clicked on and set font-family and accessability friendly font-size */
+/* Style rule to set width, top and bottom margins to separate, padding to set 
+input text away from edges, time taken to transition between styles, remove 
+outline when clicked on and set font-family and accessability friendly 
+font-size */
 input[type=text],
 input[type=email],
 input[type=tel],
@@ -262,14 +279,16 @@ input[type=submit] {
     transition: 0.5s;
 }
 
-/* Style rule to set background colour and text colour and remove previously set border properties */
+/* Style rule to set background colour and text colour and remove previously 
+set border properties */
 input[type=submit] {
     align-self: flex-end;
     background-color: #013944;
     color: #ffffff;
 }
 
-/* Style rule to set border thickness, style and colour when cursor hovers over input */
+/* Style rule to set border thickness, style and colour when cursor hovers over 
+input */
 input[type=text]:hover,
 input[type=email]:hover,
 input[type=tel]:hover,
@@ -280,7 +299,8 @@ input[type=submit]:hover {
     border: 1px solid #013944;
 }
 
-/* Style rule to set border thickness, style and colour when input is clicked on */
+/* Style rule to set border thickness, style and colour when input is clicked 
+on */
 input[type=text]:focus,
 input[type=email]:focus,
 input[type=tel]:focus,
@@ -319,8 +339,8 @@ input[type=submit]:hover {
     margin-bottom: 20px;
 }
 
-/* Style rule to set image position at bottom of column to ensure they are both at same height on page, 
-center images and add padding to match text */
+/* Style rule to set image position at bottom of column to ensure they are both 
+at same height on page, center images and add padding to match text */
 .img-about {
     align-self: flex-end;
     margin: 0 auto;
@@ -328,13 +348,15 @@ center images and add padding to match text */
 }
 
 /* REVIEWS */
-/* Style rule to center reviews text and add padding around content for positioning */
+/* Style rule to center reviews text and add padding around content for 
+positioning */
 #reviews {
     text-align: center;
     padding: 75px 0;
 }
 
-/* Style rule to create three equal columns that float next to each other for review content */
+/* Style rule to create three equal columns that float next to each other for 
+review content */
 .col-30 {
     float: left;
     width: 33%;
@@ -350,16 +372,18 @@ center images and add padding to match text */
     color: #e3b26a;
 }
 
-/* Style rule to set review text to bold and add space between star rating and review text */
+/* Style rule to set review text to bold and add space between star rating and 
+review text */
 .bold {
     font-weight: bold;
     margin-top: 10px;
 }
 
 /* GALLERY */
-/* Style rule to add margin to left and right of photos section, create gallery with 4 columns with 12px gap between columns, 
-set background colour and set border thickness, style and colour */
-/* Code taken from love running project */
+/* Style rule to add margin to left and right of photos section, create gallery 
+with 4 columns with 12px gap between columns, set background colour and set 
+border thickness, style and colour */
+/* Code taken from love running project and modified */
 #photos {
     margin: 0 12px;
     clear: both;
@@ -370,7 +394,8 @@ set background colour and set border thickness, style and colour */
     border: 8px solid #ffffff;
 }
 
-/* Style rule to add margin above images to separate, make images square and set outline thickness, style and colour */
+/* Style rule to add margin above images to separate, make images square and 
+set outline thickness, style and colour */
 #photos img {
     margin-top: 12px;
     aspect-ratio: 1/1;
@@ -378,20 +403,23 @@ set background colour and set border thickness, style and colour */
     outline: 8px solid #ffffff;
 }
 
-/* Style rule to remove previously set top margin from the images at the top of the gallery 
-to hide the coloured background at the top */
+/* Style rule to remove previously set top margin from the images at the top of 
+the gallery to hide the coloured background at the top */
 #photos .top-4 {
     margin-top: 0;
 }
 
 /* VIDEO */
-/* Style rule to center video and set width at 50% of page width, and add fixed bottom margin for space below video */
+/* Style rule to center video and set width at 50% of page width, and add fixed 
+bottom margin for space below video */
 #video {
     margin: 0 25% 12px;
 }
 
-/* Style rule to hide corners of video to display curved corners, set positioning and aspect ratio of the video */
-/* Code taken from https://www.w3schools.com/howto/howto_css_responsive_iframes.asp */
+/* Style rule to hide corners of video to display curved corners, set 
+positioning and aspect ratio of the video */
+/* Code taken from 
+https://www.w3schools.com/howto/howto_css_responsive_iframes.asp */
 .video-container {
     overflow: hidden;
     position: relative;
@@ -400,8 +428,10 @@ to hide the coloured background at the top */
     border: 1px solid #ffffff;
 }
 
-/* Style rule to set position and make sure the whole video is visible in video-container */
-/* Code taken from https://www.w3schools.com/howto/howto_css_responsive_iframes.asp */
+/* Style rule to set position and make sure the whole video is visible in 
+video-container */
+/* Code taken from 
+https://www.w3schools.com/howto/howto_css_responsive_iframes.asp */
 .video-cake {
     position: absolute;
     top: 0;
@@ -427,7 +457,8 @@ to hide the coloured background at the top */
     padding: 20px;
 }
 
-/* Style rule to set margins around icons to center vertically in container, separate from proceding text and set icon colour */
+/* Style rule to set margins around icons to center vertically in container, 
+separate from proceding text and set icon colour */
 .contact-details i {
     margin-right: 20px;
     color: #e3b26a;
@@ -443,7 +474,8 @@ to hide the coloured background at the top */
     margin-bottom: 6px;
 }
 
-/* Style rule to set height of textarea for even layout of elements in two columns */
+/* Style rule to set height of textarea for even layout of elements in two 
+columns */
 .contact-form textarea {
     height: 295px;
     padding: 10px;
@@ -451,14 +483,16 @@ to hide the coloured background at the top */
 
 /* FIND */
 
-/* Style rule to add top and bottom padding to create space between text and edges of container, and center text */
+/* Style rule to add top and bottom padding to create space between text and 
+edges of container, and center text */
 .address,
 .times {
     padding: 20px 0;
     text-align: center;
 }
 
-/* Style rule to add margin between address container and open times container */
+/* Style rule to add margin between address container and open times 
+container */
 .address {
     margin-bottom: 10px;
 }
@@ -475,7 +509,8 @@ to hide the coloured background at the top */
     object-fit: cover;
 }
 
-/* Style rule to size of google map and add margin above to separate from contact details */
+/* Style rule to size of google map and add margin above to separate from 
+contact details */
 .map {
     width: 100%;
     height: 300px;
@@ -483,13 +518,15 @@ to hide the coloured background at the top */
 }
 
 /* NEWSLETTER SIGN-UP */
-/* Style rule to set minimum height of newsletter section and background colour */
+/* Style rule to set minimum height of newsletter section and background 
+colour */
 #newsletter {
     min-height: 300px;
     background-color: #e0ecef;
 }
 
-/* Style rule to reset width to default and set margins to reduce width to match widest contained element */
+/* Style rule to reset width to default and set margins to reduce width to 
+match widest contained element */
 #newsletter .container {
     Width: unset;
     Display: table;
@@ -516,8 +553,9 @@ to hide the coloured background at the top */
 }
 
 /* SOCIAL MEDIA LINKS */
-/* Style rule to set height and colour of section, set background colour gradient and 
-solid background colour for when browser does not support background gradient */
+/* Style rule to set height and colour of section, set background colour 
+gradient and solid background colour for when browser does not support 
+background gradient */
 #social-media {
     background-color: #013944;
     background-image: linear-gradient(to right, #127c8f, #013944);
@@ -533,7 +571,8 @@ solid background colour for when browser does not support background gradient */
     display: inline;
 }
 
-/* Style rule to set size of social media icons, separte icons, center icons vertically and set icon colour */
+/* Style rule to set size of social media icons, separte icons, center icons 
+vertically and set icon colour */
 .social-media-links i {
     font-size: 200%;
     margin: 0 10%;
@@ -542,7 +581,8 @@ solid background colour for when browser does not support background gradient */
 }
 
 /* 404 error page */
-/* Style rule to set text alignment to centred, add bottom margin to add space under content and set line height to separate lines of text */
+/* Style rule to set text alignment to centred, add bottom margin to add space 
+under content and set line height to separate lines of text */
 .error-text {
     text-align: center;
     margin-bottom: 12px;
@@ -564,7 +604,8 @@ solid background colour for when browser does not support background gradient */
 /* Devices up to 1500px wide */
 @media only screen and (max-width: 1500px) {
 
-    /* Style rule to set responsive left and right margins and fixed bottom margin */
+    /* Style rule to set responsive left and right margins and fixed bottom 
+    margin */
     #video {
         margin: 0 10% 12px;
     }
@@ -582,7 +623,8 @@ solid background colour for when browser does not support background gradient */
 /* Devices up to 1300px wide */
 @media only screen and (max-width: 1300px) {
 
-    /* Style rule to replace error-hero-image with smaller version with focal point centred */
+    /* Style rule to replace error-hero-image with smaller version with focal 
+    point centred */
     #error-hero-image {
         background: url('../images/404-hero-max-1300.webp') no-repeat left center;
     }
@@ -591,7 +633,8 @@ solid background colour for when browser does not support background gradient */
 /* Devices between 1200px and 993px */
 @media only screen and (max-width: 1200px) and (min-width: 993px) {
 
-    /* Style rule to set alternative hero image for positioning of focal point */
+    /* Style rule to set alternative hero image for positioning of focal 
+    point */
     #contact-hero-image {
         background: url('../images/contact-hero-max-1200-min-993.webp') no-repeat right center;
         background-size: auto 300px;
@@ -650,12 +693,16 @@ solid background colour for when browser does not support background gradient */
         background-position: center;
     }
 
-    /* Style rule to add space above and below reviews section */
+    /* Style rule to add space above and below reviews section, set height to 
+    fit content and remove padding to reduce white space */
     #reviews {
         margin: 10px 0;
+        height: auto;
+        padding: 0;
     }
 
-    /* Style rule to add space above and below each review to separate and reduce width of content */
+    /* Style rule to add space above and below each review to separate and 
+    reduce width of content */
     .review-content {
         margin: 10px 10%;
     }
@@ -668,18 +715,13 @@ solid background colour for when browser does not support background gradient */
         text-align: center;
     }
 
-    /* Style rule to set height to fit content and remove padding to reduce white space */
-    #reviews {
-        height: auto;
-        padding: 0;
-    }
-
     /* Style rule to reduce number of gallery columns to 3 */
     #photos {
         column-count: 3;
     }
 
-    /* Style rules to change the photos with no top margin to hide background colour at top of gallery */
+    /* Style rules to change the photos with no top margin to hide background 
+    colour at top of gallery */
     #photos .top-4 {
         margin-top: 12px;
     }
@@ -688,7 +730,8 @@ solid background colour for when browser does not support background gradient */
         margin-top: 0;
     }
     
-    /* Style rule to add bottom margin to telephone contact details to add space between telephone and email */
+    /* Style rule to add bottom margin to telephone contact details to add 
+    space between telephone and email */
     .telephone {
         margin-bottom: 12px;
     }
@@ -712,7 +755,8 @@ solid background colour for when browser does not support background gradient */
         column-count: 2;
     }
 
-    /* Style rules to change the photos with no top margin to hide background colour at top of gallery */
+    /* Style rules to change the photos with no top margin to hide background 
+    colour at top of gallery */
     #photos .top-3 {
         margin-top: 12px;
     }
@@ -746,12 +790,14 @@ solid background colour for when browser does not support background gradient */
         background-size: auto 300px;
     }
 
-    /* Style rule to display alternative hero image for postioning of focal point */
+    /* Style rule to display alternative hero image for postioning of focal 
+    point */
     #find-hero-image {
         background: url('../images/find-hero-max-600.webp') no-repeat center center;
     }
 
-    /* Style rule to reduce height of error-hero-image and re-use orginal error-hero-image */
+    /* Style rule to reduce height of error-hero-image and re-use orginal 
+    error-hero-image */
     #error-hero-image {
         height: 300px;
         background: url('../images/404-hero.webp') no-repeat center center;
@@ -763,7 +809,8 @@ solid background colour for when browser does not support background gradient */
         column-count: 1;
     }
 
-    /* Style rules to change the photos with no top margin to hide background colour at top of gallery */
+    /* Style rules to change the photos with no top margin to hide background 
+    colour at top of gallery */
     #photos .top-2 {
         margin-top: 12px;
     }
@@ -772,7 +819,8 @@ solid background colour for when browser does not support background gradient */
         margin-top: 0;
     }
 
-    /* Style rule to reset height of newsletter sign up container to fit content and add padding to create space */
+    /* Style rule to reset height of newsletter sign up container to fit 
+    content and add padding to create space */
     #newsletter {
         height: unset;
         padding: 10px;
