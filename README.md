@@ -247,7 +247,7 @@ The W3C validator service was used to validate the HTML on all pages of the webs
 ['Find Us' page final validation report](docs/testing/validator-screenshots/find-html-validator-passed.png)
 
 ## 404 Error Page
-['Find Us' page final validation report](docs/testing/validator-screenshots/404-html-validator-passed.png)
+[404 Error page validation report](docs/testing/validator-screenshots/404-html-validator-passed.png)
 
 ## W3C CSS Validator Testing
 
@@ -262,21 +262,25 @@ I frequently used Lighthouse in the Chrome Developer Tools to allow me to test t
 Final Lighthouse reports are as follows:
 
 ### 'Home' Page - Mobile
-![index.html lighthouse report desktop](docs/testing/lighthouse-reports/lighthouse-report-index-mobile.png)
+![index.html lighthouse report mobile](docs/testing/lighthouse-reports/lighthouse-report-index-mobile.png)
 ### 'Home' Page - Desktop
 ![index.html lighthouse report desktop](docs/testing/lighthouse-reports/lighthouse-report-index-desktop.png)
 ### 'Gallery' Page - Mobile
-![gallery.html lighthouse report desktop](docs/testing/lighthouse-reports/lighthouse-report-gallery-mobile.png)
+![gallery.html lighthouse report mobile](docs/testing/lighthouse-reports/lighthouse-report-gallery-mobile.png)
 ### 'Gallery' Page - Desktop
 ![galley.html lighthouse report desktop](docs/testing/lighthouse-reports/lighthouse-report-gallery-desktop.png)
 ### 'Contact Us' Page - Mobile
-![contact.html lighthouse report desktop](docs/testing/lighthouse-reports/lighthouse-report-contact-mobile.png)
+![contact.html lighthouse report mobile](docs/testing/lighthouse-reports/lighthouse-report-contact-mobile.png)
 ### 'Contact Us' Page - Desktop
 ![contact.html lighthouse report desktop](docs/testing/lighthouse-reports/lighthouse-report-contact-desktop.png)
 ### 'Find Us' Page - Mobile
-![find.html lighthouse report desktop](docs/testing/lighthouse-reports/lighthouse-report-find-mobile.png)
+![find.html lighthouse report mobile](docs/testing/lighthouse-reports/lighthouse-report-find-mobile.png)
 ### 'Find Us' Page - Desktop
 ![find.html lighthouse report desktop](docs/testing/lighthouse-reports/lighthouse-report-find-desktop.png)
+### 404 Error Page - Mobile
+![404.html lighthouse report mobile](docs/testing/lighthouse-reports/lighthouse-report-404-mobile.png)
+### 404 Error Page - Desktop
+![find.html lighthouse report desktop](docs/testing/lighthouse-reports/lighthouse-report-404-desktop.png)
 
 ## Bugs Encountered
 ### Fixed
