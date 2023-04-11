@@ -580,10 +580,10 @@ vertically and set icon colour */
     color: #e3b26a;
 }
 
-/* 404 error page */
+/* 404 error page and contact thank you page */
 /* Style rule to set text alignment to centred, add bottom margin to add space 
 under content and set line height to separate lines of text */
-.error-text {
+.error-text, .thank-you-text {
     text-align: center;
     margin-bottom: 12px;
     line-height: 4ch;
