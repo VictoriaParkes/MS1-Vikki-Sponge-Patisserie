@@ -209,7 +209,9 @@ CSS - to add style to the website.
 
 [The W3C Markup Validation Service](https://validator.w3.org/) - Used to validate HTML files.
 
-[The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - Used to validate the CSS file. 
+[The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - Used to validate the CSS file.
+
+[PageSpeed Insights](https://pagespeed.web.dev/) - Used to generate lighthouse report for 404 error page as lighthouse was unable to load the page when used in Chrome Developer Tools.
 
 ---
 
