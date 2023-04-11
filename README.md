@@ -3,10 +3,10 @@
 ![Mock-up Screenshots](docs/mockup-screenshots.png)
 Vikki Sponge Patisserie is a bakery and cafe providing fresh cakes and drinks available for purchase to eat in the café or takeaway. The bakery also provides a range of celebration cakes available to order and a custom cake service.
 
-
 The website is designed to be a responsive website that can be accessed and easily viewed on a range of screen sizes. The sites primary audience will be customers interested in learning more about the bakery before visiting or making an enquiry about making an order. It will provide information about the business and the variety of products available for purchase.
 
 [The deployed website can be found here](https://victoriaparkes.github.io/MS1-Vikki-Sponge-Patisserie/)
+
 # Contents
 1. [User Experience (UX)](#1-user-experience-ux)
     - [User Stories](#user-stories)
@@ -73,7 +73,6 @@ As the business owner I would like:
 ## Current Features
 The website has four pages (a 'Home' page, a 'Gallery' page, a 'Contact Us' page and a 'Find Us' page) which are all easily accessed via the navigation menu. 
 
-
 All pages feature:
 - A responsive header with:
     - A logo which is a link to the 'Home' page allowing users to easily navigate to the 'Home' page from any other page.
@@ -81,21 +80,17 @@ All pages feature:
     - The navigation menu with links to each page which allows users to easily navigate from page to page across all devices without having to navigate backwards to previously visited pages.
     - A different background image for each page to provide visual interest that is relevant to the page content. The background images are responsive to screen width to ensure the focal point is centred and the image fits well on all screen sizes.
 
-
 - A footer with:
     - A responsive form used to sign up to a newsletter containing input fields in which the user is required to enter their name and email address in order to submit the form. The user submits this information using the 'sign up' submit button. Signing up to a newsletter allows the business to provide its customers with any news, updates or special offers.
     - Social media icon links to Facebook, Twitter and Instagram which open in a new browser tab, allowing customers to view and participate in any activity on social media platforms.
-
 
 The 'Home' page features:
 - Information about the bakery and café, briefly detailing the services available to customers in store and information about the custom cake service provided.
 - A review section displaying customer 5 star ratings using star icons and their review of the bakery.
 
-
 The 'Gallery' page features:
 - Images of a selection of products available to purchase at the bakery and examples of custom celebration cakes created for previous customers. These images promote the products available at the bakery and give the user an idea of what is offered.
 - An embedded YouTube video of a celebration cake being decorated as a demonstration of the skills the bakers at the company possess.
-
 
 The 'Contact Us' page features:
 - Different means of contacting the bakery giving the users the choice of different options.
@@ -109,16 +104,16 @@ The 'Contact Us' page features:
         - A text area input field in which the user is required to enter their message to the bakery in order to submit the form.
         - The user submits the form using the submit button located under the message input field.
 
-
 The 'Find Us' page features:
 - The address of the bakery to inform users of the business location.
 - The open times of the bakery to inform users of the business hours.
 - A google map iframe to allow users to more easily find the bakery.
 
+In addition to the pages for the main content of the website, a custom 404 error page was also created. This page informs the user that an error has occurred when the page they intended to view cannot be reached and it's design is consistent with the rest of the website.
 
 ## Future Features
-- Add a thank you page or pop up message to thank the user for getting in touch via contact form upon successful submission.
-- Add a custom 404 error page that adds personality that reflects the business, to give users a friendly apology for the error.
+- A thank you page or pop up message to thank the user for getting in touch via contact form upon successful submission.
+- An online ordering service allowing users to order and pay for cakes online to be collected from the bakery or delivered.
 
 ---
 
@@ -127,27 +122,21 @@ The 'Find Us' page features:
 ## Structure
 The website comprises four pages, all of which feature the header at the top of the page and the footer at the bottom of the page.
 
-
 - The header is fully responsive, the position of the elements is adjusted depending on screen size.
     - For screens over 992px wide the logo and cover text are displayed on the top left of the screen, the navigation menu is displayed across the whole width at the top of the page with the links displayed horizontally on the right, with the background image also displayed across the whole width of the page below the navigation menu.
     - For screens up to 992px wide the logo and cover text container is displayed at the top, across the whole width of the page with the text horizontally centred. The navigation menu is displayed immediately below, across the whole width of the page, with the navigation links horizontally centred. The background image is displayed below the navigation menu, across the whole width of the page.
     - For screens up to 600px wide the logo and cover text are displayed as for screens up to 992px. The navigation menu displayed below across the whole width of the page with the navigation links stacked and horizontally centred. The background image is displayed below the navigation menu as for screens up to 992px wide.
     - For visual feedback, the navigation link for the current page and any link the cursor is positioned over is displayed in a different font with an underline.
 
-
 - The footer is fully responsive and includes the newsletter sign up form displayed horizontally centred with the container displayed across the whole width of the page, and the social media links displayed as icons positioned horizontally in a bar below the newsletter sign up form.
     - The height of the newsletter container adjusts to ensure the newsletter form is always displayed within the boundaries of the container and the newsletter inputs respond to screen width to remain fully displayed on the page.
     - The social media links remain displayed horizontally in a row with the space between the links adjusting dependant on screen width to maintain balance on the page.
 
-
 -  The content of the 'Home' page is displayed in columns on screens over 992px wide. Information about the business is displayed in two columns with an accompanying image below each section of text on screens over 992px wide, below this the reviews are displayed in three columns. On screens up to 992px wide the content is displayed stacked vertically.
-
 
 - The photos on the 'Gallery' page are displayed in a responsive column format to ensure appropriate image size and pleasing layout. On screens over 992px wide the photos are displayed in four columns, on screens up to 992px wide the photos are displayed in three columns, on screens up to 768px wide the photos are displayed in two columns and on screens up to 600px wide the photos are displayed in one column. The video is positioned centrally below the photo gallery and the size of the video is responsive to screen width to ensure the video is an appropriate size for viewing and is not larger than the viewport.
 
-
 - The content of the 'Contact Us' page is displayed with headings positioned centrally on the page and the contact information and contact form displayed in a responsive column format below for consistency in style. On screens over 992px wide two columns are displayed and screens up to 992px the content is stacked to ensure appropriate sizing of the elements for good usability.
-
 
 - The content of the 'Find Us' page is displayed in the same style as the 'Contact Us' page for consistency in style. The heading is positioned centrally with the image and information displayed below in two columns on screens over 992px wide and stacked on screens up to 992px wide. Below the this a google map is embedded which is displayed across the whole width of the page.
 
@@ -173,7 +162,6 @@ The colour palette was created using [Coolors](https://coolors.co/).
 
 ## Imagery
 The images used in the website were chosen to reflect the content of the pages and the information they accompany. They are intended to promote the products and services provided by the business and entice users to become customers.
-
 
 The 'Gallery' page images were selected for the close up format and the dark background of the images to ensure the focus is on the products and provide consistent style in the gallery. These images are displayed with a ratio of 1:1 to provide a clean layout across all sizes of device.
 
@@ -257,6 +245,10 @@ The W3C validator service was used to validate the HTML on all pages of the webs
 ['Find Us' page initial validation report](docs/testing/validator-screenshots/find-html-validator-error-warning.png)
 
 ['Find Us' page final validation report](docs/testing/validator-screenshots/find-html-validator-passed.png)
+
+## 404 Error Page
+['Find Us' page final validation report](docs/testing/validator-screenshots/404-html-validator-passed.png)
+
 ## W3C CSS Validator Testing
 
 The W3C validator service was used to validate the CSS in the stylesheet. All errors and warnings flagged by the validator service were addressed and the file was resubmitted for validation.
@@ -285,11 +277,6 @@ Final Lighthouse reports are as follows:
 ![find.html lighthouse report desktop](docs/testing/lighthouse-reports/lighthouse-report-find-mobile.png)
 ### 'Find Us' Page - Desktop
 ![find.html lighthouse report desktop](docs/testing/lighthouse-reports/lighthouse-report-find-desktop.png)
-
-
-
-
-
 
 ## Bugs Encountered
 ### Fixed
@@ -345,7 +332,7 @@ The steps to fork the repository are as follows:
 6. Type git clone, and then paste the URL you copied earlier.
 7. Press Enter. Your local clone will be created.
 
-For more details about forking and cloning a repository, please refer to [GitHub Docs](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
+For more details about forking and cloning a repository, please refer to [GitHub documentation](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
 
 ---
 
@@ -353,13 +340,14 @@ For more details about forking and cloning a repository, please refer to [GitHub
 ## Code
 [W3 Schools](https://www.w3schools.com/) and lessons from [Code Institute's Full Stack Developer Course](https://codeinstitute.net/full-stack-software-development-diploma/) were frequently referred to in the development of this website. Code for the header, footer and gallery was sourced from the 'Love-Running' project.
 
-The README.md file was created using a [markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#t) as reference.
+The 404 error page was created using [GitHub documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site).
 
+The README.md file was created using a [markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#t) as reference.
 
 ## Content
 The content of the website was written by Victoria Parkes.
 
-The local development section of this document was written using [GitHub Docs](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
+The local development section of this document was written using [GitHub documentation](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
 
 ## Media
 All icons were sourced from [Font Awesome](https://fontawesome.com/).
