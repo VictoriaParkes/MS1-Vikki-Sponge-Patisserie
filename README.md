@@ -109,10 +109,12 @@ The 'Find Us' page features:
 - The open times of the bakery to inform users of the business hours.
 - A google map iframe to allow users to more easily find the bakery.
 
-In addition to the pages for the main content of the website, a custom 404 error page was also created. This page informs the user that an error has occurred when the page they intended to view cannot be reached and it's design is consistent with the rest of the website.
+In addition to the pages for the main content of the website, a custom 404 error page and two thank you message pages were also created.
+- The 404 error page informs the user that an error has occurred when the page they intended to view cannot be reached.
+- On successful submission of the contact form a page containing a message thanking the user for contacting the business is displayed.
+- On successful submission of the newsletter sign up form a page containing a message thanking the user for signing up to the newsletter is displayed.
 
 ## Future Features
-- A thank you page or pop up message to thank the user for getting in touch via contact form upon successful submission.
 - An online ordering service allowing users to order and pay for cakes online to be collected from the bakery or delivered.
 
 ---
@@ -139,6 +141,8 @@ The website comprises four pages, all of which feature the header at the top of 
 - The content of the 'Contact Us' page is displayed with headings positioned centrally on the page and the contact information and contact form displayed in a responsive column format below for consistency in style. On screens over 992px wide two columns are displayed and screens up to 992px the content is stacked to ensure appropriate sizing of the elements for good usability.
 
 - The content of the 'Find Us' page is displayed in the same style as the 'Contact Us' page for consistency in style. The heading is positioned centrally with the image and information displayed below in two columns on screens over 992px wide and stacked on screens up to 992px wide. Below the this a google map is embedded which is displayed across the whole width of the page.
+
+- The content of the 404 page and the thank you pages is includes a header and a short sentence aligned in the centre of the page. These pages have a clean and simple design to give the user the necessary information quickly and without distraction. The header and footer are present on these pages enabling the user to navigate to any part of the website with ease.
 
 ## Wireframes
 - ['Home' Page Wireframe](docs/wireframes/home-wireframe.png)
@@ -295,6 +299,7 @@ Final Lighthouse reports are as follows:
 5. When form input fields were clicked on the focus style rule transition from a 1px border to a 2px border caused layout shift to occur. This issue was fixed by setting a definitive height for the input fields.
 6. Elements in columns that were intended to be displayed next to each other at the same height on the page were displayed at different heights on the page. This issue was fixed by utilising a flex container and aligning elements at the bottom of the container to ensure desired positioning.
 7. Form input fields were given a white background colour to ensure consistency as the select 'event type' input displayed with a grey background when viewed using Firefox.
+8. When submitting the contact and newsletter sign up forms a 502 bad gateway error was received. The html initially used for the forms was ```<form action="https://formdump.codeinstitute.net/" method="post" class="sign-up-form">```. However ```https://formdump.codeinstitute.net/``` was not functioning as expected. The solution used was to change the contact form html to ```<form action="contact-thank-you.html" method="GET" class="contact-form">``` and the newsletter html to ```<form action="newsletter-thank-you.html" method="GET" class="sign-up-form">```. This solution sends the user to a webpage thanking them for contacting the business or signing up for the newsletter when the respective form is successfully submitted. However the attribute ```method="GET"``` results in the inputted information being sent in the URL which is not the preferred  method as this can present information security issues.
 
 ### Unfixed
 1. Generating Lighthouse reports to test the performance, accessibility, best practices and SEO of the website highlighted that the images served could be more appropriatly sized to save cellular data and improve loading times on mobile devices.
