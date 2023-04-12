@@ -379,6 +379,7 @@ Photographs were sourced from:
 
 - [Unsplash](https://unsplash.com/)
     - [Annie Spratt](https://unsplash.com/@anniespratt)
+    - [Roseanna Smith](https://unsplash.com/@roseannasmith)
 
 The decorative element was sourced from [Rawpixel](https://www.rawpixel.com/).
 
