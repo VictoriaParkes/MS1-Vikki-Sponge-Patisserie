@@ -257,11 +257,18 @@ The W3C validator service was used to validate the HTML on all pages of the webs
 ## 404 Error Page
 [404 Error page validation report](docs/testing/validator-screenshots/404-html-validator-passed.png)
 
+## Contact Thank You Page
+[Contact Thank You page validation report](docs/testing/validator-screenshots/contact-thank-you-html-validator-passed.png)
+
+## Newsletter Thank You Page
+[Newsletter Thank You page validation report](docs/testing/validator-screenshots/newsletter-thank-you-html-validator-passed.png)
+
 ## W3C CSS Validator Testing
 
 The W3C validator service was used to validate the CSS in the stylesheet. All errors and warnings flagged by the validator service were addressed and the file was resubmitted for validation.
 
 [CSS initial validation report](docs/testing/validator-screenshots/css-validator-ratio-value-error.png)
+
 [CSS final validation report](docs/testing/validator-screenshots/css-validator-passed.png)
 
 ## Lighthouse Reports
