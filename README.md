@@ -288,7 +288,15 @@ Final Lighthouse reports are as follows:
 ### 404 Error Page - Mobile
 ![404.html lighthouse report mobile](docs/testing/lighthouse-reports/lighthouse-report-404-mobile.png)
 ### 404 Error Page - Desktop
-![find.html lighthouse report desktop](docs/testing/lighthouse-reports/lighthouse-report-404-desktop.png)
+![404.html lighthouse report desktop](docs/testing/lighthouse-reports/lighthouse-report-404-desktop.png)
+### Contact Thank You Page - Mobile
+![contact-thank-you.html lighthouse report mobile](docs/testing/lighthouse-reports/lighthouse-report-contact-thank-you-mobile.png)
+### Contact Thank You Page - Desktop
+![contact-thank-you.html lighthouse report desktop](docs/testing/lighthouse-reports/lighthouse-report-contact-thank-you-desktop.png)
+### Newsletter Thank You Page - Mobile
+![newsletter-thank-you.html lighthouse report mobile](docs/testing/lighthouse-reports/lighthouse-report-newsletter-thank-you-mobile.png)
+### Newsletter Thank You Page - Desktop
+![newsletter-thank-you.html lighthouse report desktop](docs/testing/lighthouse-reports/lighthouse-report-newsletter-thank-you-desktop.png)
 
 ## Bugs Encountered
 ### Fixed
