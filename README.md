@@ -272,7 +272,7 @@ The W3C validator service was used to validate the CSS in the stylesheet. All er
 [CSS final validation report](docs/testing/validator-screenshots/css-validator-passed.png)
 
 ## Lighthouse Reports
-I frequently used Lighthouse in the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website during the development of the website. Images were converted to webp format as suggested in a Lightouse report performed after implementing the photo gallery feature and compressed to improve performance.
+I frequently used Lighthouse in the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website during the development of the website. Images were converted to webp format as suggested in a Lighthouse report performed after implementing the photo gallery feature and compressed to improve performance.
 
 Final Lighthouse reports are as follows:
 
@@ -317,7 +317,7 @@ Final Lighthouse reports are as follows:
 8. When submitting the contact and newsletter sign up forms a 502 bad gateway error was received. The html initially used for the forms was ```<form action="https://formdump.codeinstitute.net/" method="post" class="sign-up-form">```. However ```https://formdump.codeinstitute.net/``` was not functioning as expected. The solution used was to change the contact form html to ```<form action="contact-thank-you.html" method="GET" class="contact-form">``` and the newsletter html to ```<form action="newsletter-thank-you.html" method="GET" class="sign-up-form">```. This solution sends the user to a webpage thanking them for contacting the business or signing up for the newsletter when the respective form is successfully submitted. However the attribute ```method="GET"``` results in the inputted information being sent in the URL which is not the preferred  method as this can present information security issues.
 
 ### Unfixed
-1. Generating Lighthouse reports to test the performance, accessibility, best practices and SEO of the website highlighted that the images served could be more appropriatly sized to save cellular data and improve loading times on mobile devices.
+1. Generating Lighthouse reports to test the performance, accessibility, best practices and SEO of the website highlighted that the images served could be more appropriately sized to save cellular data and improve loading times on mobile devices.
 
 ---
 
