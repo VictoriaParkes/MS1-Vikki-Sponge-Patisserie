@@ -80,17 +80,28 @@ All pages feature:
     - The navigation menu with links to each page which allows users to easily navigate from page to page across all devices without having to navigate backwards to previously visited pages.
     - A different background image for each page to provide visual interest that is relevant to the page content. The background images are responsive to screen width to ensure the focal point is centred and the image fits well on all screen sizes.
 
+![Header](docs/features/responsive-header.png)
+
 - A footer with:
     - A responsive form used to sign up to a newsletter containing input fields in which the user is required to enter their name and email address in order to submit the form. The user submits this information using the 'sign up' submit button. Signing up to a newsletter allows the business to provide its customers with any news, updates or special offers.
     - Social media icon links to Facebook, Twitter and Instagram which open in a new browser tab, allowing customers to view and participate in any activity on social media platforms.
+
+![Footer](docs/features/footer.png)
 
 The 'Home' page features:
 - Information about the bakery and café, briefly detailing the services available to customers in store and information about the custom cake service provided.
 - A review section displaying customer 5 star ratings using star icons and their review of the bakery.
 
+!['Home' page features](docs/features/index-features.png)
+
 The 'Gallery' page features:
 - Images of a selection of products available to purchase at the bakery and examples of custom celebration cakes created for previous customers. These images promote the products available at the bakery and give the user an idea of what is offered.
+
+![Photo gallery](docs/features/photo-gallery.png)
+
 - An embedded YouTube video of a celebration cake being decorated as a demonstration of the skills the bakers at the company possess.
+
+![Demonstration video](docs/features/demonstration-video.png)
 
 The 'Contact Us' page features:
 - Different means of contacting the bakery giving the users the choice of different options.
@@ -104,15 +115,27 @@ The 'Contact Us' page features:
         - A text area input field in which the user is required to enter their message to the bakery in order to submit the form.
         - The user submits the form using the submit button located under the message input field.
 
+!['Contact Us' page features](docs/features/contact-features.png)
+
 The 'Find Us' page features:
 - The address of the bakery to inform users of the business location.
 - The open times of the bakery to inform users of the business hours.
 - A google map iframe to allow users to more easily find the bakery.
 
+!['Find Us' page features](docs/features/find-features.png)
+
 In addition to the pages for the main content of the website, a custom 404 error page and two thank you message pages were also created.
 - The 404 error page informs the user that an error has occurred when the page they intended to view cannot be reached.
+
+![404 page](docs/features/404-page.png)
+
 - On successful submission of the contact form a page containing a message thanking the user for contacting the business is displayed.
+
+![Contact thank you page](docs/features/contact-thank-you.png)
+
 - On successful submission of the newsletter sign up form a page containing a message thanking the user for signing up to the newsletter is displayed.
+
+![Newsletter thank you page](docs/features/newsletter-thank-you.png)
 
 ## Future Features
 - An online ordering service allowing users to order and pay for cakes online to be collected from the bakery or delivered.
