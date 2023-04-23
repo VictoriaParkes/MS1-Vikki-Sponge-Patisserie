@@ -262,20 +262,36 @@ The W3C validator service was used to validate the HTML on all pages of the webs
 
 ['Home' page final validation report](docs/testing/validator-screenshots/index-html-validator-passed.png)
 
+Fixes implemented:
+- Used ```<div>``` tag to surround social media links instead of ```<section>``` tag because a heading is not used. This change was implemented on all pages.
+
 ## 'Gallery' Page
 ['Gallery' page initial validation report](docs/testing/validator-screenshots/gallery-html-validator-error-warning.png)
 
 ['Gallery' page final validation report](docs/testing/validator-screenshots/gallery-html-validator-passed.png)
+
+Fixes implemented:
+- Added an identifying heading to the photo gallery section.
+- Removed the frameborder attribute on the video iframe HTML element.
 
 ## 'Contact Us' Page
 ['Contact Us' page initial validation report](docs/testing/validator-screenshots/contact-html-validator-error-warning.png)
 
 ['Contact Us' page final validation report](docs/testing/validator-screenshots/contact-html-validator-passed.png)
 
+Fixes implemented:
+- Replaced contact details aria-labels with title HTML attributes.
+- Changed input id and name HTML attributes to avoid duplicates.
+- Removed contact form date input placeholder.
+
 ## 'Find Us' Page
 ['Find Us' page initial validation report](docs/testing/validator-screenshots/find-html-validator-error-warning.png)
 
 ['Find Us' page final validation report](docs/testing/validator-screenshots/find-html-validator-passed.png)
+
+Fixes implemented:
+Removed duplicate id attribute.
+Replaced Google maps ```<section>``` tag with ```<div>``` tag because a heading is not used.
 
 ## 404 Error Page
 [404 Error page validation report](docs/testing/validator-screenshots/404-html-validator-passed.png)
@@ -293,6 +309,9 @@ The W3C validator service was used to validate the CSS in the stylesheet. All er
 [CSS initial validation report](docs/testing/validator-screenshots/css-validator-ratio-value-error.png)
 
 [CSS final validation report](docs/testing/validator-screenshots/css-validator-passed.png)
+
+Fixes Implemented:
+- Adjusted format of the value used for aspect-ratio because "1" is not a valid aspect-ratio value.
 
 ## Lighthouse Reports
 I frequently used Lighthouse in the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website during the development of the website. Images were converted to webp format as suggested in a Lighthouse report performed after implementing the photo gallery feature and compressed to improve performance.
