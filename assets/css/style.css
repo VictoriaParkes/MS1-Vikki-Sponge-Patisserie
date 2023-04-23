@@ -769,6 +769,7 @@ under content and set line height to separate lines of text */
 /* Devices up to 600px */
 @media screen and (max-width: 600px) {
 
+    /* Style rule to remove cover text elements */
     .cover-text {
         display: none;
     }
